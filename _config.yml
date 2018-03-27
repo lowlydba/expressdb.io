@@ -4,8 +4,8 @@
 # baseurl is the website's URL without the hostname
 
 # If you are building a simple GitHub user page (http://username.github.io) then use these settings:
-url: "http://lowlydba.github.io/expressdb"
-baseurl: "/expressdb"
+url: "http://expressdb.io"
+baseurl: "/"
 
 # If you are building a GitHub project page then use these settings:
 #url: "http://username.github.io/projectname"
@@ -17,7 +17,7 @@ baseurl: "/expressdb"
 title: Express DB
 
 # Short description of your site
-description: A guide for SQL Server Express
+description: Comprehensive Guides for SQL Server Express
 
 # --- Navigation bar options --- #
 
@@ -25,17 +25,13 @@ description: A guide for SQL Server Express
 navbar-links:
   About Me: "aboutme"
   Contact: "contact"
-  Resources:
-    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
-    - Learn markdown: "http://www.markdowntutorial.com/"
-    - GitHub Pages: "https://pages.github.com/"
   Guides:
-    - Feature Comparison 
-    - Size Limitations
-    - Hardware Limitations
-    - Automating Installation
-    - Best Practices
-    - Maintenance
+    - Feature Comparison: "http://expressdb.io/sql-server-express-feature-comparison"
+    - Size Limitations: "http://expressdb.io/sql-server-express-size-limit"
+    - Hardware Limitations: "http://expressdb.io/sql-server-express-cpu-memory-limit"
+    - Automating Installation: "http://expressdb.io/sql-server-express-automate-install"
+    - Best Practices: "http://expressdb.io/sql-server-express-best-practice"
+    - Maintenance: "http://expressdb.io/sql-server-express-maintenance-no-sql-agent"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
