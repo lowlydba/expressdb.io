@@ -8,23 +8,25 @@ subtitle: Need more SQL Express help?
   <!-- Replace these inputs with your own. Make sure they have a "name" attribute! -->
 	<div class="form-group">
 		<label>Your Email</label>
+		<br />
 		<input type="email" name="email" placeholder="you@gmail.com" />
 	</div>
 	<div class="form-group">
-		<label>Express Version</label>
+		<label>SQL Server Version</label>
+		<br />
 		<select name="version" required="">
-			<option value="complicated">Its complicated</option>
+			<option value="complicated">Its complicated...</option>
 			<option value="2008">SQL Express 2008</option>
 			<option value="2012">SQL Express 2012</option>
 			<option value="2014">SQL Express 2014</option>
 			<option value="2016">SQL Express 2016</option>
 			<option value="2017">SQL Express 2017</option>
 		</select>
-		::after
 	</div>
 	<div class="form-group">
 		<label>Your problem(s)</label>
-		<input type="text" name="message" placeholder="I need help with ..." />
+		<br />
+		<textarea cols="55" rows="6" placeholder="I need help with..."></textarea>
 	</div>
   <br />
   <button type="submit" class="pageclip-form__submit--dark-loader">
