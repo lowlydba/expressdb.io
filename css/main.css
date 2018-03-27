@@ -362,8 +362,8 @@ footer .theme-by {
 }
 .post-image {
   float: right;
-  height: 192px;
-  width: 192px;
+  height: 375px;
+  width: 360px;
   margin-top: -35px;
   /*filter: grayscale(90%) ; */
 }
