@@ -14,7 +14,7 @@ description: Comprehensive Guides for SQL Server Express
 
 # List of links in the navigation bar
 navbar-links:
-  Guides:
+  SQL Express Guides:
     - Express vs Standard Edition: "http://expressdb.io/sql-server-express-feature-comparison"
     - Which SQL Express Version to Use: ""
   Limitations:
@@ -124,7 +124,7 @@ url-pretty: "expressdb.io"
 
 # Excerpt Word Length
 # Truncates the excerpt to the specified number of words on the index page
-excerpt_length: 600
+excerpt_length: 1000
 
 # Character used to separate site title and description in HTML document title
 # and RSS feed title
