@@ -10,6 +10,9 @@
   {% endfor %}
 {% endif %}
 
+<!-- pageclip script -->
+<script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
+
 {% if page.js %}
   {% for js in page.js %}
 	<script src="{{ js | prepend: site.baseurl | replace: '//', '/' }}"></script>
