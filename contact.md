@@ -12,7 +12,7 @@ subtitle: Need more SQL Express help?
 <form action="https://send.pageclip.co/4VbMDoV02C8aN7vFEjebO1Wbwrl0wRny/Contact" class="pageclip-form" method="post">
   <!-- Replace these inputs with your own. Make sure they have a "name" attribute! -->
 
-  <input type="email" name="email" value="me@gmail.com />
+  <input type="email" name="email" value="me@gmail.com" />
 	<br />
   <input type="text" name="subject" value="A contact subject" />
 	<br />
