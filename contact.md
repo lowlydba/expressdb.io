@@ -13,11 +13,11 @@ subtitle: Need more SQL Express help?
   <!-- Replace these inputs with your own. Make sure they have a "name" attribute! -->
 
   <input type="email" name="email" value="me@gmail.com />
-	<br/>
+	<br />
   <input type="text" name="subject" value="A contact subject" />
-	<br/>
+	<br />
   <input type="text" name="body" value="I need help with ..." />
-  
+  <br />
   <button type="submit" class="pageclip-form__submit">
     <span>Send</span>
   </button>
