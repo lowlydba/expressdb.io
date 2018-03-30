@@ -1,6 +1,6 @@
 ---
-layout: post
-title: Comparison of SQL Server editions and versions with SQL Express.
+layout: page
+title:  SQL Server Express vs Standard vs Enterprise
 ---
 
 # Introduction

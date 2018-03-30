@@ -1,3 +1,8 @@
+---
+layout: post
+title: Comparison of SQL Server editions and versions with SQL Express.
+---
+
 # Introduction
 
 The most well known differences between SQL Express and other editions are the
