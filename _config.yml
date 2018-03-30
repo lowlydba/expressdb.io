@@ -15,7 +15,7 @@ description: Comprehensive Guides for SQL Server Express
 # List of links in the navigation bar
 navbar-links:
   SQL Express Guides:
-    - What is SQL Server Express?: ""
+    - What is SQL Server Express?: "/what-is-sql-server-express"
     - SQL Express vs Standard vs Enterprise: "http://expressdb.io/sql-server-express-feature-comparison"
     - Which SQL Express Version to Use: ""
     - Which Management Studio to Use: ""
