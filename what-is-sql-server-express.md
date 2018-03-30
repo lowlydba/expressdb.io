@@ -3,7 +3,7 @@ layout: page
 title:  What is SQL Server Express?
 ---
 
-According to Microsoft, SQL Server Express:
+According to [Microsoft](https://docs.microsoft.com/en-us/sql/sql-server/editions-and-components-of-sql-server-2017), SQL Server Express:
 > ... is the entry-level, free database and is ideal for learning and building desktop and small
 server data-driven applications. It is the best choice for independent software vendors, developers,
 and hobbyists building client applications. If you need more advanced database features, SQL Server
@@ -20,6 +20,10 @@ such as:
 * Maximum individual database size of 10GB
 * No SQL Agent
 * Limited RAM support (< 2GB on all versions)
+
+Due to these limitations, they aren't giving away the farm by letting people play with the tool for free.
+It also helps to encourage smaller businesses and students to use the Microsoft ecosystem and learn
+how to use their tools with very low upfront costs involved.
 
 That isn't to say that is isn't a useful free product, though. Many software vendors use it as
 the database of choice when they need to bundle a database with their product but don't have a need
@@ -42,3 +46,4 @@ Here are a few reasons many choose Express over open source alternatives:
   * ...and so much more
 * The option to easily upgrade to a more robust version is always easily
 * With every new version, Microsoft adds more features to SQL Express that were previously unavailable
+* SQL Server Management Studio is a top of the line interface and is also free
