@@ -16,7 +16,7 @@ description: Comprehensive Guides for SQL Server Express
 navbar-links:
   SQL Express Guides:
     - What is SQL Server Express?: ""
-    - SQL Express vs Other Editions: "http://expressdb.io/sql-server-express-feature-comparison"
+    - SQL Express vs Standard vs Enterprise: "http://expressdb.io/sql-server-express-feature-comparison"
     - Which SQL Express Version to Use: ""
     - Which Management Studio to Use: ""
   Limitations:
@@ -106,7 +106,7 @@ url-pretty: "expressdb.io"
 # --- Web Statistics Section --- #
 
 # Fill in your Google Analytics ID to track your website using GA
-#google_analytics: ""
+google_analytics: "UA-116662570-1"
 
 # Google Tag Manager ID
 #gtm: ""
