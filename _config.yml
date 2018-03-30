@@ -15,8 +15,10 @@ description: Comprehensive Guides for SQL Server Express
 # List of links in the navigation bar
 navbar-links:
   SQL Express Guides:
-    - Express vs Standard Edition: "http://expressdb.io/sql-server-express-feature-comparison"
+    - What is SQL Server Express?: ""
+    - SQL Express vs Other Editions: "http://expressdb.io/sql-server-express-feature-comparison"
     - Which SQL Express Version to Use: ""
+    - Which Management Studio to Use: ""
   Limitations:
     - Size Limitations: "http://expressdb.io/sql-server-express-size-limit"
     - Hardware Limitations: "http://expressdb.io/sql-server-express-cpu-memory-limit"
@@ -64,7 +66,7 @@ footer-link-col: "#404040"
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: John McCall
+  name: Express Databases, LLC
 
 # Select your active Social Network Links.
 # Uncomment the links you want to show in the footer and add your information to each link.
