@@ -17,18 +17,18 @@ navbar-links:
   SQL Express Guides:
     - What is SQL Server Express?: "http://expressdb.io/what-is-sql-server-express"
     - SQL Express vs Standard vs Enterprise: "http://expressdb.io/sql-server-express-feature-comparison"
-    - Which SQL Express Version to Use: ""
+    - Which SQL Express Version to Use: "http://expressdb.io/which-sql-express-version-to-use"
     - Which Management Studio to Use: ""
   Limitations:
-    - Size Limitations: "http://expressdb.io/sql-server-express-size-limit"
-    - Hardware Limitations: "http://expressdb.io/sql-server-express-cpu-memory-limit"
+    - Size Limitations: ""
+    - Hardware Limitations: ""
   Best Practices: 
-    - Backups: "http://expressdb.io/sql-server-express-best-practice"
-    - Maintenance: "http://expressdb.io/sql-server-express-maintenance-no-sql-agent"
+    - Backups: ""
+    - Maintenance: ""
     - Security: ""
   Automation:
     - How to Replace SQL Agent: ""
-    - How to Automate Installation: "http://expressdb.io/sql-server-express-automate-install"
+    - How to Automate Installation: ""
     
     
   Contact: "contact"
