@@ -7,7 +7,7 @@ layout: null
 /* --- General --- */
 
 body {
-  font-family: 'Lora', 'Times New Roman', serif;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 18px;
   color: #404040;
   position: relative;
@@ -49,6 +49,9 @@ hr.small {
 
 .main-content {
   padding-top: 80px;
+}
+div .form-group {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 @media only screen and (min-width: 768px) {
   .main-content {
@@ -240,7 +243,7 @@ img {
 }
 @media only screen and (min-width: 768px) {
   .navbar-custom .nav .navlinks-container {
-    text-align: center;
+    text-align: left;
   }
   .navbar-custom .nav .navlinks-container:hover {
     background: rgba(0, 0, 0, 0.1);
