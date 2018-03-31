@@ -25,8 +25,10 @@ pursuing the latest version possible when choosing which SQL Express to use.
 
 ## Compatibility Mode
 Even if your application requires an older version of SQL Server, using the latest version
-and putting the database into compatibility mode. This allows behaviors of the database to
-be compatible with older versions of SQL Server.
+and putting the database into compatibility mode may be a good option to get the
+best of both worlds. This mode allows the behaviors of the database to
+be compatible with older versions of SQL Server, but keeps server level benefits of newer versions,
+like higher RAM usage, available. 
 
 The options for which levels are available will depend on the version:
 
