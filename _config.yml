@@ -18,7 +18,7 @@ navbar-links:
     - What is SQL Server Express?: "http://expressdb.io/what-is-sql-server-express"
     - SQL Express vs Standard vs Enterprise: "http://expressdb.io/sql-server-express-feature-comparison"
     - Which SQL Express Version to Use: "http://expressdb.io/which-sql-express-version-to-use"
-    - Which Management Studio to Use: ""
+    - Which Management Studio to Use: "http://expressdb.io/which-sql-server-management-studio-version"
   Limitations:
     - Size Limitations: ""
     - Hardware Limitations: ""
