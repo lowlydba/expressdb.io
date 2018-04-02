@@ -5,10 +5,10 @@ url: "http://expressdb.io"
 baseurl: "/"
 
 # Name of website
-title: expressdb.io
+title: "expressdb.io"
 
 # Short description of your site
-description: Comprehensive Guides for SQL Server Express
+description: "Comprehensive Guides for SQL Server Express"
 
 # --- Navigation bar options --- #
 
@@ -38,7 +38,7 @@ navbar-links:
 
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
- title-img: "http://expressdb.io/img/logo.png"
+ title-img: http://expressdb.io/img/logo.png
 
 # --- Background colour/image options --- #
 
