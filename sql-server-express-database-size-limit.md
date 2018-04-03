@@ -15,6 +15,8 @@ of use it is not uncommon for a database to hit the ceiling on its size. When SQ
 Server Express is bundled with software, this can result in customer support calls and
 performance degradation for end users.
 
+![SQL Server Express](http://expressdb.io/img/sql-express.png)
+
 ## How to Work Around SQL Server Express's Data Limit
 
 ### Design Smart
@@ -94,8 +96,6 @@ If a database contains data for all customers across the United States, but the 
 split the data across them.
 
 The downside to this approach is that there are now N number of identical databases to manage when it comes to upgrades, maintenance, and backups.
-
-![SQL Server Express](http://expressdb.io/img/sql-express.png)
 
 #### Vertical Partitioning
 
