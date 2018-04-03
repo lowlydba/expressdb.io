@@ -14,7 +14,7 @@ Even if an application doesn't require storing 10GB of data immediately, over ye
 of use it is not uncommon for a database to hit the ceiling on its size. When SQL
 Server Express is bundled with software, this can result in customer support calls and
 performance degradation for end users.
-<div style="align:middle">
+<div style="margin-left: auto; margin-right: auto;">
 <img src="http://expressdb.io/img/sql-express.png" />
 </div>
 ## How to Work Around SQL Server Express's Data Limit
