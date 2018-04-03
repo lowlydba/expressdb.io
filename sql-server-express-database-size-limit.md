@@ -15,7 +15,7 @@ of use it is not uncommon for a database to hit the ceiling on its size. When SQ
 Server Express is bundled with software, this can result in customer support calls and
 performance degradation for end users.
 <div style="align:middle">
-![SQL Server Express](http://expressdb.io/img/sql-express.png)
+<img src="http://expressdb.io/img/sql-express.png" />
 </div>
 ## How to Work Around SQL Server Express's Data Limit
 
