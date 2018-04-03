@@ -776,3 +776,7 @@ td.gutter {
   font-style: italic;
   font-size: 16px;
 }
+
+table {
+  font-size: 14px;
+}

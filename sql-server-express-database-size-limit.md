@@ -50,9 +50,9 @@ There are many options for date, time, and datetime values, so assess what makes
 | Data Type | Accuracy | Size | Compatibility | Example |
 | --------- | -------- | ---- | ------------- | ------- |
 | [`DATE`](https://docs.microsoft.com/en-us/sql/t-sql/data-types/date-transact-sql) |  One day | 3 bytes | 2008+ | 2018-04-02
-| [`DATETIME`](https://docs.microsoft.com/en-us/sql/t-sql/data-types/datetime-transact-sql) | 	Rounded to increments of .000, .003, or .007 seconds | 8 bytes | 2008+ | 2018-04-02 12:35:29.123
-| [`DATETIME2`](https://docs.microsoft.com/en-us/sql/t-sql/data-types/datetime2-transact-sql) | 100 nanoseconds | 6 bytes for precisions less than 3; 7 bytes for precisions 3 and 4. All other precisions require 8 bytes. | 2008+ | 2018-04-02 12:35:29.1234567
-| [`DATETIMEOFFSET`](https://docs.microsoft.com/en-us/sql/t-sql/data-types/datetimeoffset-transact-sql) | 100 nanoseconds (incl. timezone offset) | 8-10 bytes | 2008+ | 2018-04-02 12:35:29.1234567 +12:15
+| [`DATETIME`](https://docs.microsoft.com/en-us/sql/t-sql/data-types/datetime-transact-sql) | 	Rounded to increments of .000, .003, .007 sec | 8 bytes | 2008+ | 2018-04-02 12:35:29.123
+| [`DATETIME2`](https://docs.microsoft.com/en-us/sql/t-sql/data-types/datetime2-transact-sql) | 100 nanoseconds | 6 bytes for precisions < 3; 7 bytes for precisions 3 & 4. All others are 8 bytes | 2008+ | 2018-04-02 12:35:29.1234567
+| [`DATETIMEOFFSET`](https://docs.microsoft.com/en-us/sql/t-sql/data-types/datetimeoffset-transact-sql) | 100 nanoseconds | 8-10 bytes | 2008+ | 2018-04-02 12:35:29.1234567 +12:15
 | [`SMALLDATETIME`](https://docs.microsoft.com/en-us/sql/t-sql/data-types/smalldatetime-transact-sql) | One minute | 4 bytes | 2008+ |  2018-04-02 12:35:00
 | [`TIME`](https://docs.microsoft.com/en-us/sql/t-sql/data-types/time-transact-sql) | Varies | 3-5 bytes | 2008+ | 12:35:29.1234567
 
