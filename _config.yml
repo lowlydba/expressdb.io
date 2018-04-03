@@ -38,7 +38,7 @@ navbar-links:
 
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
-# title-img: http://expressdb.io/what-is-sql-server-express
+# title-img: http://expressdb.io/img/logo.png
 
 # --- Background colour/image options --- #
 
