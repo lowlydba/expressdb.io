@@ -94,7 +94,7 @@ EXECUTE dbo.DatabaseBackup
 @CleanupMode = 'AFTER_BACKUP',
 @Verify = 'Y'
 ```
-<br/><br/>
+<br/>
 #### Highly Transactional / Low RTO SQL Server Express Backup Schedule
 
 ```sql
@@ -131,7 +131,7 @@ EXECUTE dbo.DatabaseBackup
 @CleanupMode = 'AFTER_BACKUP',
 @Verify = 'Y'
 ```
-<br/><br/>
+<br/>
 #### Simple SQL Server Express Backup Schedule
 ```sql
 /* Daily Full Backup with Simple Recovery Mode*/
@@ -145,7 +145,7 @@ EXECUTE dbo.DatabaseBackup
 @CleanupMode = 'AFTER_BACKUP',
 @Verify = 'Y'
 ```
-<br/><br/>
+<br/>
 
 # Scheduling
 
