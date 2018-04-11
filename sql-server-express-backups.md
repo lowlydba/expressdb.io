@@ -15,12 +15,12 @@ Most databases on an Express instance probably fall under one of the following:
 * Backups matter on a controlled server
 * Backups matter on a customer's server
 
-## Option 1: Don't Backup At All
+### Option 1: Don't Backup At All
 
 If you're using SQL Server Express for educational purposes, local development,
 unit testing, etc. then you're almost certainly in the first option. Don't sweat it. You can probably afford to keep your entire database in scripts to rebuild on the fly and don't need a formal backup. This makes the case for using a fully source controlled database an easy one as well. Life is good, isn't it?
 
-## Option 2: Backup As Needed
+### Option 2: Backup As Needed
 
 If you're in the second camp and *do* actually care about backups, things can still be pretty easy - you just need to answer the
 RPO and RTO questions and figure out what combination of [full](https://docs.microsoft.com/en-us/sql/relational-databases/backup-restore/full-file-backups-sql-server), [differential](https://docs.microsoft.com/en-us/sql/relational-databases/backup-restore/differential-backups-sql-server), and [transactional log](https://docs.microsoft.com/en-us/sql/relational-databases/backup-restore/transaction-log-backups-sql-server) backups best fit your needs and when to schedule them. A normal database (far larger than 10GB) might typically have the following backup schedule:
@@ -41,7 +41,7 @@ Conversely, if the data isn't changing very often, an even simpler route is to t
 
 * Daily full backup
 
-## Option 3: Backup for Customers
+### Option 3: Backup for Customers
 
 This one is the trickiest. While customers will most likely have the ability to change the backup plans set in place by default for an application, many will never choose to change them due to support agreements or lack of domain knowledge. If an application crashes, even because of a database related issue, it will reflect poorly on the software product, not Microsoft. Having at least a light backup plan in place by default allows the customer to recover some of their lost data even if they didn't have the know-how to set it up for themselves.
 
@@ -94,7 +94,7 @@ EXECUTE dbo.DatabaseBackup
 @CleanupMode = 'AFTER_BACKUP',
 @Verify = 'Y'
 ```
-
+<br/><br/>
 #### Highly Transactional / Low RTO SQL Server Express Backup Schedule
 
 ```sql
@@ -131,7 +131,7 @@ EXECUTE dbo.DatabaseBackup
 @CleanupMode = 'AFTER_BACKUP',
 @Verify = 'Y'
 ```
-
+<br/><br/>
 #### Simple SQL Server Express Backup Schedule
 ```sql
 /* Daily Full Backup with Simple Recovery Mode*/
@@ -145,7 +145,7 @@ EXECUTE dbo.DatabaseBackup
 @CleanupMode = 'AFTER_BACKUP',
 @Verify = 'Y'
 ```
-
+<br/><br/>
 
 # Scheduling
 
