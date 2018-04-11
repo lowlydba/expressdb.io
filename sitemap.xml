@@ -9,47 +9,52 @@
 
 <url>
   <loc>http://expressdb.io/</loc>
-  <lastmod>2018-04-03T21:39:43+00:00</lastmod>
+  <lastmod>2018-04-11T00:30:30+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>http://expressdb.io/what-is-sql-server-express/</loc>
-  <lastmod>2018-04-03T21:39:43+00:00</lastmod>
+  <lastmod>2018-04-11T00:30:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://expressdb.io/sql-server-express-feature-comparison/</loc>
-  <lastmod>2018-04-03T21:39:43+00:00</lastmod>
+  <lastmod>2018-04-11T00:30:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://expressdb.io/which-sql-express-version-to-use/</loc>
-  <lastmod>2018-04-03T21:39:43+00:00</lastmod>
+  <lastmod>2018-04-11T00:30:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://expressdb.io/which-sql-server-management-studio-version/</loc>
-  <lastmod>2018-04-03T21:39:43+00:00</lastmod>
+  <lastmod>2018-04-11T00:30:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://expressdb.io/sql-server-express-database-size-limit/</loc>
-  <lastmod>2018-04-03T21:39:43+00:00</lastmod>
+  <lastmod>2018-04-11T00:30:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://expressdb.io/sql-server-express-hardware-limitations/</loc>
-  <lastmod>2018-04-03T21:39:43+00:00</lastmod>
+  <lastmod>2018-04-11T00:30:30+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://expressdb.io/sql-server-express-backups/</loc>
+  <lastmod>2018-04-11T00:30:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://expressdb.io/contact/</loc>
-  <lastmod>2018-04-03T21:39:43+00:00</lastmod>
+  <lastmod>2018-04-11T00:30:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://expressdb.io/2018-03-27-sql-server-express-guide-welcome/</loc>
-  <lastmod>2018-04-03T21:39:43+00:00</lastmod>
+  <lastmod>2018-04-11T00:30:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
