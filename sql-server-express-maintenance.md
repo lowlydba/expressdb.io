@@ -76,7 +76,7 @@ EXECUTE dbo.IndexOptimize
 @Indexes = 'ALL_INDEXES',
 @LogToTable = 'Y'
 ```
-
+<br/>
 ##### Fragmentation
 Since taking an index offline for a rebuild isn't ideal, 80% makes sure that scenario isn't
 occurring too often.
@@ -95,7 +95,7 @@ statistics were updated. If the table hasn't changed, then there is no reason to
 the statistics and it is skipped. This is especially helpful for archive tables or enum tables that
 hardly or ever change, but may take up significant time to do statistics samplings on.
 
-#### Logging
+##### Logging
 Logging to the built-in table is extremely useful when tracking down a failed index job or
 to analyze a growing trend in job runtime. It doesn't cost much to log each action,
 but is key when hunting down problems with maintenance jobs.
