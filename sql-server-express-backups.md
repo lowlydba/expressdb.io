@@ -3,7 +3,7 @@ layout: page
 title:  Backing up SQL Server Express
 ---
 
-# What Are the Requirements?
+## What Are the Requirements?
 
 When deciding how to backup a database, the two major factors that
 are often used are RPO - [Recovery Point Object](https://en.wikipedia.org/wiki/Recovery_point_objective) - and RTO - [Recovery Time Object](https://en.wikipedia.org/wiki/Recovery_time_objective). That is, how much data can you afford to lose and how long can you afford to spend recovering when disaster strikes.

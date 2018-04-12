@@ -4,14 +4,14 @@ title:  Replace SQL Agent
 subtitle: Three alternatives to SQL Agent for Job Scheduling
 ---
 
-# The SQL Agent Replacements
+## The SQL Agent Replacements
 
 * [JAMS](#jams)
 * [Windows Task Scheduler](#windowstaskscheduler)
 *
 
 
-# JAMS
+## JAMS
 
 JAMS is a job scheduler application that allows advanced programming, configuring,
 and execution of jobs and workflows on a Windows computer. The software is used
@@ -33,12 +33,12 @@ to receive a download link to the free Community Edition of JAMS.
 
 50 jobs / day
 
-## How to
+### How to
 up
 
-## Maintenance Jobs in JAMS
+### Maintenance Jobs in JAMS
 
-## Backup jobs in JAMS
+### Backup jobs in JAMS
 
 
 

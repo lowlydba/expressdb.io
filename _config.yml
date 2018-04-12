@@ -24,7 +24,7 @@ navbar-links:
     - Hardware Limitations: "http://expressdb.io/sql-server-express-hardware-limitations"
   Best Practices: 
     - Backups: "http://expressdb.io/sql-server-express-backups"
-    - Maintenance: ""
+    - Maintenance: "http://expressdb.io/sql-server-express-maintenance"
     - Security: ""
   Automation:
     - How to Replace SQL Agent: "http://expressdb.io/replace-sql-agent-on-sql-server-express"
