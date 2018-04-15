@@ -76,7 +76,7 @@ EXECUTE dbo.IndexOptimize
 @Indexes = 'ALL_INDEXES',
 @LogToTable = 'Y'
 ```
-<br/>
+
 ##### Fragmentation
 Since taking an index offline for a rebuild isn't ideal, 80% makes sure that scenario isn't
 occurring too often.

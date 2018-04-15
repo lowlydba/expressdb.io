@@ -22,12 +22,13 @@ navbar-links:
   Limitations:
     - Size Limitations: "http://expressdb.io/sql-server-express-database-size-limit/"
     - Hardware Limitations: "http://expressdb.io/sql-server-express-hardware-limitations"
+    #- Feature Limitations: 
   Best Practices: 
     - Backups: "http://expressdb.io/sql-server-express-backups"
     - Maintenance: "http://expressdb.io/sql-server-express-maintenance"
-    - Security: ""
+    #- Security: ""
   Automation:
-    - How to Replace SQL Agent: "http://expressdb.io/replace-sql-agent-on-sql-server-express"
+   # - How to Replace SQL Agent: # "http://expressdb.io/replace-sql-agent-on-sql-server-express"
     - How to Automate Installation: ""
     
     
