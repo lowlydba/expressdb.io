@@ -42,12 +42,7 @@ Just as [Ola Hallengrens free scripts](https://ola.hallengren.com/sql-server-bac
 
 By default, Ola's scripts use the following settings:
 
-```sql
-@FragmentationMedium nvarchar(max) = 'INDEX_REORGANIZE,INDEX_REBUILD_ONLINE,INDEX_REBUILD_OFFLINE',
-@FragmentationHigh nvarchar(max) = 'INDEX_REBUILD_ONLINE,INDEX_REBUILD_OFFLINE',
-@FragmentationLevel1 int = 5,
-@FragmentationLevel2 int = 30,
-```
+{% gist 6a4d87e551c59cac9c20ec2cf159c820 %}
 
 These translate to nothing being done to an index that is less than 5% fragmented;
 an attempt to reorganize, rebuild online, and rebuild offline (in that order) indexes fragmented more
@@ -61,21 +56,7 @@ These numbers are based off of Microsoft's BOL article [Reorganize and Rebuild I
 A more modern take is setting the first fragmentation level to 30% and the second level to 80%. Some even
 prefer to go higher (see further reading at the bottom). Adjusting Ola's defaults, by taking into consideration the lack of an online rebuild option and taking advantage of a few extra settings results in the following recommended script:
 
-```sql
-EXECUTE dbo.IndexOptimize
-@Databases = 'USER_DATABASES',
-@FragmentationLow = NULL,
-@FragmentationMedium = 'INDEX_REORGANIZE,INDEX_REBUILD_OFFLINE',
-@FragmentationHigh = 'INDEX_REBUILD_OFFLINE',
-@FragmentationLevel1 = 30,
-@FragmentationLevel2 = 80,
-@SortInTempdb = 'Y',
-@FillFactor = 100,
-@UpdateStatistics = 'Y',
-@OnlyModifiedStatistics = 'Y',
-@Indexes = 'ALL_INDEXES',
-@LogToTable = 'Y'
-```
+{% gist 361f06071af031c84f122ea9b7cde2e4 %}
 
 ##### Fragmentation
 Since taking an index offline for a rebuild isn't ideal, 80% makes sure that scenario isn't

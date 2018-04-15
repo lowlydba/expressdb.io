@@ -60,91 +60,17 @@ and cleaning up old backup files to prevent disks from filling up.
 
 #### SQL Server Express Standard Backup Schedule
 
-```sql
-/* Weekly Full Backup */
-EXECUTE dbo.DatabaseBackup
-@Databases = 'USER_DATABASES',
-@Directory = 'C:\Backup',
-@BackupType = 'FULL',
-@Compess = 'Y',
-@LogToTable = 'Y',
-@CleanupTime = 336, --14 days
-@CleanupMode = 'AFTER_BACKUP',
-@Verify = 'Y'
+{% gist 8837831781849f5a1be0c9a5d262defa %}
 
-/* Daily Differential Backup */
-EXECUTE dbo.DatabaseBackup
-@Databases = 'USER_DATABASES',
-@Directory = 'C:\Backup',
-@BackupType = 'DIFF',
-@Compess = 'Y',
-@LogToTable = 'Y',
-@CleanupTime = 168, --7 days
-@CleanupMode = 'AFTER_BACKUP',
-@Verify = 'Y'
-
-/* 15 Minute Tran Log Backup */
-EXECUTE dbo.DatabaseBackup
-@Databases = 'USER_DATABASES',
-@Directory = 'C:\Backup',
-@BackupType = 'LOG',
-@Compess = 'Y',
-@LogToTable = 'Y',
-@CleanupTime = 168, --7 days
-@CleanupMode = 'AFTER_BACKUP',
-@Verify = 'Y'
-```
 <br/>
 #### Highly Transactional / Low RTO SQL Server Express Backup Schedule
 
-```sql
-/* Daily Full Backup */
-EXECUTE dbo.DatabaseBackup
-@Databases = 'USER_DATABASES',
-@Directory = 'C:\Backup',
-@BackupType = 'FULL',
-@Compess = 'Y',
-@LogToTable = 'Y',
-@CleanupTime = 48, --3 days
-@CleanupMode = 'AFTER_BACKUP',
-@Verify = 'Y'
+{% gist c792487b90e6966e1aef3e7f0dabbb2c %}
 
-/* 12 Hour Differential Backup */
-EXECUTE dbo.DatabaseBackup
-@Databases = 'USER_DATABASES',
-@Directory = 'C:\Backup',
-@BackupType = 'DIFF',
-@Compess = 'Y',
-@LogToTable = 'Y',
-@CleanupTime = 24, --1 day
-@CleanupMode = 'AFTER_BACKUP',
-@Verify = 'Y'
-
-/* 15 Minute Tran Log Backup */
-EXECUTE dbo.DatabaseBackup
-@Databases = 'USER_DATABASES',
-@Directory = 'C:\Backup',
-@BackupType = 'LOG',
-@Compess = 'Y',
-@LogToTable = 'Y',
-@CleanupTime = 12, --12 hours
-@CleanupMode = 'AFTER_BACKUP',
-@Verify = 'Y'
-```
 <br/>
 #### Simple SQL Server Express Backup Schedule
-```sql
-/* Daily Full Backup with Simple Recovery Mode*/
-EXECUTE dbo.DatabaseBackup
-@Databases = 'USER_DATABASES',
-@Directory = 'C:\Backup',
-@BackupType = 'FULL',
-@Compess = 'Y',
-@LogToTable = 'Y',
-@CleanupTime = 72, --3 days
-@CleanupMode = 'AFTER_BACKUP',
-@Verify = 'Y'
-```
+
+{% gist 0f2d00d45617d7a205e90a355e9426ae %}
 <br/>
 
 # Scheduling
