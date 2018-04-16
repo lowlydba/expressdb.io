@@ -31,20 +31,21 @@ Using a configuration file makes it easy to store, maintain, and customize the v
 * [SQL Server Express 2008, 2012, 2014 Unattended Install](#2008-2012-2014-unattended-install) (Windows)
 * [SQL Server Express 2016/2017 Unattended Install](#2016-2017-unattended-install) (Windows)
 * SQL Server Express 2017 Unattended Install (Linux) *Coming soon*
+<br/>
 
 ## 2016/2017 Unattended Install
 
 The newest versions of SQL Server Express have a configuration file that is
 very similar to prior versions, with the addition of two new optional parameters:
 
-##### SQLTEMPDBFILESIZE
+#### SQLTEMPDBFILESIZE
 This parameter allows the default size of all new tempdb data files to be specified
 at the time of installation. While the default for SQL Server Express is a paltry 4MB and
 all other versions are set to 8MB, customizing this value reduces the number of
 post-install steps required since most servers will require more than a few MB of
 space for the tempdb.
 
-##### SQLTEMPDBLOGFILESIZE=4
+#### SQLTEMPDBLOGFILESIZE
 Similar to the above, the size of the tempdb log can also now be specified during
 the installation process. The defaults of 4MB and 8MB are the same, so most people
 will want to specify a larger value.
