@@ -29,7 +29,7 @@ navbar-links:
     #- Security: ""
   Automation:
    # - How to Replace SQL Agent: # "http://expressdb.io/replace-sql-agent-on-sql-server-express"
-    - Unattended Installation: ""
+    - Unattended Installation: "http://expressdb.io/sql-express-unattended-install"
     
     
   Contact: "contact"
