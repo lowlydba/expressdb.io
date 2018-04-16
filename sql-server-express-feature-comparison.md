@@ -2,6 +2,7 @@
 layout: page
 title:  SQL Server Express vs Standard vs Enterprise
 subtitle: What features come in each version of SQL Server?
+comments: true
 ---
 
 # Introduction

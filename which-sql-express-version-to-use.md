@@ -1,6 +1,7 @@
 ---
 layout: page
 title:  Which SQL Express version to use?
+comments: true
 ---
 
 In most cases, the answer to 'Which SQL Server Express Version?' is simple: the latest version you can. Since Microsoft adds

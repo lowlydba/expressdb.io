@@ -1,6 +1,7 @@
 ---
 layout: page
 title:  What is SQL Server Express?
+comments: true
 ---
 
 According to [Microsoft](https://docs.microsoft.com/en-us/sql/sql-server/editions-and-components-of-sql-server-2017), SQL Server Express:

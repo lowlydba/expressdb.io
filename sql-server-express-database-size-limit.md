@@ -1,6 +1,7 @@
 ---
 layout: page
 title:  SQL Server Express Database Size Limitations
+comments: true
 ---
 
 One of the reasons Microsoft is able to give SQL Server Express away for free is

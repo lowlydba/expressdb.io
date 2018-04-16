@@ -2,6 +2,7 @@
 layout: page
 title:  Which SQL Server Management Studio Version to Use?
 subtitle: SQL Server Management Studio 17
+comments: true
 ---
 
 Until recently, which version of Management studio you used would

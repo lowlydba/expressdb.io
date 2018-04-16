@@ -2,6 +2,7 @@
 layout: page
 title:  SQL Server Express Hardware limitations
 subtitle: How to Deal with Restricted RAM and CPU
+comments: true
 ---
 
 Some of the major restrictions for SQL Server Express are the caps

@@ -1,6 +1,7 @@
 ---
 layout: page
 title:  How to Setup Maintenance Plans for SQL Server Express
+comments: true
 ---
 
 ## What goes into a Maintenance Plan?

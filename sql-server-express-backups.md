@@ -1,6 +1,7 @@
 ---
 layout: page
 title:  Backing up SQL Server Express
+comments: true
 ---
 
 ## What Are the Requirements?
