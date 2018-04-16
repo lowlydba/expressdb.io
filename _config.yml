@@ -30,9 +30,9 @@ navbar-links:
   Automation:
    # - How to Replace SQL Agent: # "http://expressdb.io/replace-sql-agent-on-sql-server-express"
     - Unattended Installation: "http://expressdb.io/sql-express-unattended-install"
-    
-    
-  Contact: "contact"
+  About: 
+    #-Author : ""
+    - Contact: "http://expressdb.io/contact/"
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
 # avatar: "/img/avatar-icon.png"
