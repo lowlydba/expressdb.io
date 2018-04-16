@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title:  Unattended Install of SQL Server Express
 comments: true
 ---
