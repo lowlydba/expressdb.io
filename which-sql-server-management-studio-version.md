@@ -22,8 +22,12 @@ even when working with older servers.
 As of writing, the latest version of SQL Server Management Studio is 17.6. The latest
 version will always be available at the [Download SQL Server Management Studio](https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms) page.
 
+The version 17 releases are the first SSMS products to be based off of Visual Studio 2015,
+which bring a modernized user interface and icon set, much more stability, and faster
+startup times. 
+
 Regardless of the edition being used, SQL Server Management Studio only comes in one flavor
 and boasts backwards compatibility with almost all features from versions 2008 to 2017, including SQL Azure support. For this reason, it is highly recommended to use the newest version possible to take advantage of new features and more stability through code fixes that are being continually released.
 
 So even when working with older SQL Server versions, upgrading SQL Server Management Studio
-to the a 17.x version is both supported and recommended. 
+to the a 17.x version is both supported and recommended.
