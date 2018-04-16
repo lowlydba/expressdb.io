@@ -9,13 +9,13 @@ subtitle: Need more SQL Express help?
 	<div class="form-group">
 		<label>Your Email</label>
 		<br />
-		<input required type="email" name="email" placeholder="you@gmail.com" />
+		<input required type="email" name="email" placeholder="" />
 	</div>
 	<div class="form-group">
 		<label>SQL Server Version</label>
 		<br />
 		<select name="version" required="">
-			<option value="complicated">Its complicated...</option>
+			<option value="complicated">It's complicated...</option>
 			<option value="2008">SQL Express 2008</option>
 			<option value="2012">SQL Express 2012</option>
 			<option value="2014">SQL Express 2014</option>
