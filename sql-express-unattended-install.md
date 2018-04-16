@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title:  Unattended Install of SQL Server Express
 comments: true
 ---
@@ -35,7 +35,7 @@ compared to other versions like Standard and Enterprise. Some of the parameters
 behave slightly differently, do not apply, and come with different default values.
 These examples take those factors into account by having all mandatory fields
 present and optional settings commented out to provide a generic template that can
-be customized as needed. 
+be customized as needed.
 
 * [SQL Server Express 2008, 2012, 2014 Unattended Install](#2008-2012-2014-unattended-install) (Windows)
 * [SQL Server Express 2016/2017 Unattended Install](#2016-2017-unattended-install) (Windows)
