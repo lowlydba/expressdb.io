@@ -4,7 +4,7 @@ title:  Backing up SQL Server Express
 comments: true
 date: 2018-04-05
 author: John McCall
-tags: sql-server-express backups ola-hallengren
+tags: [sql-server-express, backups, ola-hallengren]
 ---
 
 ## What Are the Requirements?
