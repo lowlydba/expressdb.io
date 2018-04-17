@@ -5,8 +5,9 @@ title: About the Author
 <div style="float: right; padding: 30px; overflow: hidden">
 
 <img style="display: block" src="../img/sql-server-affiliations.png">
+<br/>
 <a href="https://dba.stackexchange.com/users/45616/lowlydba">
-<img style="display: block;" src="https://dba.stackexchange.com/users/flair/45616.png?theme=clean"  width="208" height="58" alt="profile for LowlyDBA at Database Administrators Stack Exchange, Q&amp;A for database professionals who wish to improve their database skills and learn from others in the community" title="profile for LowlyDBA at Database Administrators Stack Exchange, Q&amp;A for database professionals who wish to improve their database skills and learn from others in the community">
+<img style="display: block; margin: auto" src="https://dba.stackexchange.com/users/flair/45616.png?theme=clean"  width="208" height="58" alt="profile for LowlyDBA at Database Administrators Stack Exchange, Q&amp;A for database professionals who wish to improve their database skills and learn from others in the community" title="profile for LowlyDBA at Database Administrators Stack Exchange, Q&amp;A for database professionals who wish to improve their database skills and learn from others in the community">
 </a>
 
 </div>
