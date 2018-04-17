@@ -1,8 +1,11 @@
 ---
-layout: page
+layout: post
 title:  Which SQL Server Management Studio Version to Use?
 subtitle: SQL Server Management Studio 17
 comments: true
+date: 2018-04-12
+author: John McCall
+tags: [sql server express, ssms, sql server management studio]
 ---
 
 Until recently, which version of Management studio you used would
@@ -24,7 +27,7 @@ version will always be available at the [Download SQL Server Management Studio](
 
 The version 17 releases are the first SSMS products to be based off of Visual Studio 2015,
 which bring a modernized user interface and icon set, much more stability, and faster
-startup times. 
+startup times.
 
 Regardless of the edition being used, SQL Server Management Studio only comes in one flavor
 and boasts backwards compatibility with almost all features from versions 2008 to 2017, including SQL Azure support. For this reason, it is highly recommended to use the newest version possible to take advantage of new features and more stability through code fixes that are being continually released.

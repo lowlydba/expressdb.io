@@ -1,7 +1,10 @@
 ---
-layout: page
+layout: post
 title:  What is SQL Server Express?
 comments: true
+date: 2018-03-29
+author: John McCall
+tags: [sql server express, express 101]
 ---
 
 According to [Microsoft](https://docs.microsoft.com/en-us/sql/sql-server/editions-and-components-of-sql-server-2017), SQL Server Express:

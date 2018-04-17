@@ -1,8 +1,11 @@
 ---
-layout: page
+layout: post
 title:  SQL Server Express Hardware limitations
 subtitle: How to Deal with Restricted RAM and CPU
 comments: true
+date: 2018-03-26
+author: John McCall
+tags: [sql server express, hardware, ram, cpu]
 ---
 
 Some of the major restrictions for SQL Server Express are the caps

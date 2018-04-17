@@ -2,6 +2,7 @@
 layout: page
 title: About the Author
 tags: John McCall, LowlyDBA
+Author: John McCall
 ---
 
 

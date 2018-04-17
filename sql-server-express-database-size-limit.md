@@ -1,7 +1,10 @@
 ---
-layout: page
+layout: post
 title:  SQL Server Express Database Size Limitations
 comments: true
+date: 2018-03-26
+author: John McCall
+tags: [sql server express, size limit, 10gb ]
 ---
 
 One of the reasons Microsoft is able to give SQL Server Express away for free is
