@@ -59,17 +59,17 @@ and cleaning up old backup files to prevent disks from filling up.
 
 *Each backup should customize the options as needed based on requirements. The below are meant as guides and should not be used on production environments without additional testing and customization.*
 
-#### SQL Server Express Standard Backup Schedule
+### SQL Server Express Standard Backup Schedule
 
 {% gist 8837831781849f5a1be0c9a5d262defa %}
 
 <br/>
-#### Highly Transactional / Low RTO SQL Server Express Backup Schedule
+### Highly Transactional / Low RTO SQL Server Express Backup Schedule
 
 {% gist c792487b90e6966e1aef3e7f0dabbb2c %}
 
 <br/>
-#### Simple SQL Server Express Backup Schedule
+### Simple SQL Server Express Backup Schedule
 
 {% gist 0f2d00d45617d7a205e90a355e9426ae %}
 <br/>

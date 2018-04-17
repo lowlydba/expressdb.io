@@ -77,7 +77,7 @@ It may be tempting to consider the [`FLOAT` or `REAL`](https://docs.microsoft.co
 #### Strings and VARCHARs
 
 Another easy way to slim down a database is choosing the right character data type format.
-[`NVARCHAR`](https://docs.microsoft.com/en-us/sql/t-sql/data-types/nchar-and-nvarchar-transact-sql) and `NCHAR` store Unicode data, and are thus must-haves for storing any multilingual or localized data. Conversely, [`VARCHAR`](https://docs.microsoft.com/en-us/sql/t-sql/data-types/char-and-varchar-transact-sql) and `CHAR` store non-Unicode data and only take 1 byte for every 2 bytes that `NVARCHAR` takes up. This can effectively cut a table's size in half if is comprised mostly of text.
+[`NVARCHAR`](https://docs.microsoft.com/en-us/sql/t-sql/data-types/nchar-and-nvarchar-transact-sql) and `NCHAR` store Unicode data, and are thus must-haves for storing any multilingual or localized data. Conversely, [`VARCHAR`](https://docs.microsoft.com/en-us/sql/t-sql/data-types/char-and-varchar-transact-sql) and `CHAR` store non-Unicode data and only take 1 byte for every 2 bytes that `NVARCHAR` takes up. This can effectively cut a table's size in half if it is comprised mostly of a large string column, like a comment or note field.
 
 So, a simple "Hello" in `NVARCHAR` will be 10 bytes but only 5 in `VARCHAR`. The difference can be huge for not only performance, but also storage, when strings are properly typed.
 
