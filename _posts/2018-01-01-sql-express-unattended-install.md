@@ -5,7 +5,7 @@ comments: true
 date: 2018-04-15
 author: John McCall
 tags: [sql server express, unattended install, install by config]
-permalink: /:sql-express-unattended-install
+permalink: /:sql-express-unattended-install-2
 ---
 
 ## How Does Unattended Install Work?
