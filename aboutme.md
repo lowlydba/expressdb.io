@@ -1,8 +1,15 @@
 ---
-layout: post
+layout: page
 title: About the Author
-image: img/sql-server-affiliations.png
 ---
+<div style="float: right; padding: 30px; overflow: hidden">
+
+<img style="display: block" src="img/sql-server-affiliations.png">
+<a href="https://dba.stackexchange.com/users/45616/lowlydba">
+<img style="display: block;" src="https://dba.stackexchange.com/users/flair/45616.png?theme=clean"  width="208" height="58" alt="profile for LowlyDBA at Database Administrators Stack Exchange, Q&amp;A for database professionals who wish to improve their database skills and learn from others in the community" title="profile for LowlyDBA at Database Administrators Stack Exchange, Q&amp;A for database professionals who wish to improve their database skills and learn from others in the community">
+</a>
+
+</div>
 
 My name is John McCall, but I often use the handle LowlyDBA on sites like [GitHub](github.com/lowlyDBA), [Stack Overflow](https://dba.stackexchange.com/users/45616/lowlydba), and my personal site
 [lowlydba.com](http://www.lowlydba.com).
