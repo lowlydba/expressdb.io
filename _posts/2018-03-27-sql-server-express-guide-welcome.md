@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Everything you need to get the most out of SQL Server Express
-tags: [welcome, sql server express]
 ---
 
 After years of working as a database administrator, there is one area that never seems to receive enough attention, despite its
