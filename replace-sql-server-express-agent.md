@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: post
 title:  Replace SQL Agent
 subtitle: Three alternatives to SQL Agent for Job Scheduling
+tags: [sql server express, sql agent replacement]
 ---
 
 ## The SQL Agent Replacements
