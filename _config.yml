@@ -159,6 +159,7 @@ defaults:
       comments: false  # add comments to all blog posts
       social-share: true # add social media sharing buttons to all blog posts
       permalink: /:title/
+      author: "John McCall"
   -
     scope:
       path: "" # all files

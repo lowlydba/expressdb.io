@@ -5,7 +5,7 @@ subtitle: What features come in each version of SQL Server?
 comments: true
 date: 2018-03-28
 author: John McCall
-tags: [sql server express, sql editions, express vs standard ]
+tags: [sql server express, sql editions, express vs standard]
 ---
 
 # Introduction

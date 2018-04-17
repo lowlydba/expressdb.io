@@ -3,9 +3,7 @@ layout: post
 title:  Unattended Install of SQL Server Express
 comments: true
 date: 2018-04-15
-author: John McCall
 tags: [sql server express, unattended install, install by config]
-permalink: /:title/
 ---
 
 ## How Does Unattended Install Work?

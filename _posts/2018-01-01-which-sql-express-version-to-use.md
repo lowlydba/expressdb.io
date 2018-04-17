@@ -4,7 +4,7 @@ title:  Which SQL Express version to use?
 comments: true
 date: 2018-03-26
 author: John McCall
-tags: [sql server express, version, ]
+tags: [sql server express, version comparison]
 ---
 
 In most cases, the answer to 'Which SQL Server Express Version?' is simple: the latest version you can. Since Microsoft adds

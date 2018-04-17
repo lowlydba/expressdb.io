@@ -3,7 +3,6 @@ layout: post
 title:  How to Setup Maintenance Plans for SQL Server Express
 comments: true
 date: 2018-04-10
-author: John McCall
 tags: [sql server express, maintenance plan, ola hallengren]
 ---
 
