@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: About the Author
 image: img/sql-server-affiliations.png
 ---
