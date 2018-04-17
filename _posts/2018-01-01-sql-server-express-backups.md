@@ -5,6 +5,7 @@ comments: true
 date: 2018-04-05
 author: John McCall
 tags: [sql server express, backups, ola hallengren]
+permalink: /:title/
 ---
 
 ## What Are the Requirements?

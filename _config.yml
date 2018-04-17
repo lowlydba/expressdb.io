@@ -10,6 +10,9 @@ title: expressdb.io
 # Short description of your site
 description: Comprehensive Guides for SQL Server Express
 
+
+    
+
 # --- Navigation bar options --- #
 
 # List of links in the navigation bar
@@ -155,12 +158,15 @@ defaults:
       layout: "post"
       comments: false  # add comments to all blog posts
       social-share: true # add social media sharing buttons to all blog posts
+      permalink: /:title/
   -
     scope:
       path: "" # all files
     values:
       layout: "page"
       show-avatar: false
+      
+      
 
 # Use tags index page and make tags on each post clickable
 link-tags: true
