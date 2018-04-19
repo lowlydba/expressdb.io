@@ -30,7 +30,7 @@ which bring a modernized user interface and icon set, much more stability, and f
 startup times.
 
 <div>
-<img style="display: block; margin: auto; border: 1px; border-color: gray;" src="../img/new_vs_old_ssms.png" title="New vs Old SQL Server Management Studio" alt="New vs Old SQL Server Management Studio">
+<img style="display: block; margin: auto; border: 1px solid gray;" src="../img/new_vs_old_ssms.png" title="New vs Old SQL Server Management Studio" alt="New vs Old SQL Server Management Studio">
 <p style="text-align: center; font-style: italic;">Left: Management Studio 17, Right: Management Studio 16</p>
 </div>
 
