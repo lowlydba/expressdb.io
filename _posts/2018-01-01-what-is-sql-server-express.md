@@ -11,9 +11,7 @@ According to [Microsoft](https://docs.microsoft.com/en-us/sql/sql-server/edition
 > ... is the entry-level, free database and is ideal for learning and building desktop and small
 server data-driven applications. It is the best choice for independent software vendors, developers,
 and hobbyists building client applications. If you need more advanced database features, SQL Server
-Express can be seamlessly upgraded to other higher end versions of SQL Server. SQL Server Express
-LocalDB, a lightweight version of Express that has all of its programmability features, yet runs in
- user mode and has a fast, zero-configuration installation and a short list of prerequisites.
+Express can be seamlessly upgraded to other higher end versions of SQL Server.
 
 ## Why is SQL Server Express Free?
 

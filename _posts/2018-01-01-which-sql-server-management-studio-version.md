@@ -29,6 +29,11 @@ The version 17 releases are the first SSMS products to be based off of Visual St
 which bring a modernized user interface and icon set, much more stability, and faster
 startup times.
 
+<div>
+<img style="display: block; margin: auto;" src="../img/new_vs_old_ssms.png" title="New vs Old SQL Server Management Studio" alt="New vs Old SQL Server Management Studio">
+<p style="text-align: center;">*Left: Management Studio 17, Right: Management Studio 16*</p>
+</div>
+
 Regardless of the edition being used, SQL Server Management Studio only comes in one flavor
 and boasts backwards compatibility with almost all features from versions 2008 to 2017, including SQL Azure support. For this reason, it is highly recommended to use the newest version possible to take advantage of new features and more stability through code fixes that are being continually released.
 
