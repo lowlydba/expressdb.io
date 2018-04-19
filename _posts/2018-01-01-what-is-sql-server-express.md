@@ -35,7 +35,7 @@ the roof.
 
 ## What About Open Source Databases?
 
-Yes, those *are* free as well. And some of them, like Postgres, are really great.
+Yes, those *are* free as well. And some of them, like [PostgreSQL](https://www.postgresql.org/), are really great.
 
 Here are a few reasons many choose Express over open source alternatives:
 
