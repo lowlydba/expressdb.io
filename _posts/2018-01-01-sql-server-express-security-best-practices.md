@@ -35,7 +35,7 @@ to be completed:
       </div>
 
 2. Expand "SQL Server Network Configuration"
-3. Select "Protocols for MSSQLSERVER" (might also be SQLEXPRESS or a custom instance name)
+3. Select "Protocols for MSSQLSERVER" (or a custom instance name)
 4. On the right pane, right click "TCP/IP" and choose "Properties"
 
       <div>
