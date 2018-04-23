@@ -6,7 +6,7 @@ Author: John McCall
 ---
 
 
-My name is John McCall, but I often use the handle LowlyDBA on sites like [GitHub](github.com/lowlyDBA), [Stack Overflow](https://dba.stackexchange.com/users/45616/lowlydba), and my personal site
+My name is John McCall, but I often use the handle LowlyDBA on sites like [GitHub](http://github.com/lowlyDBA), [Stack Overflow](https://dba.stackexchange.com/users/45616/lowlydba), and my personal site
 [lowlydba.com](http://www.lowlydba.com).
 
 <div style="float: right; padding: 30px; overflow: hidden">
