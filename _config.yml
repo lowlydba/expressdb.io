@@ -30,7 +30,7 @@ navbar-links:
   Best Practices: 
     - Backups: "http://expressdb.io/sql-server-express-backups"
     - Maintenance: "http://expressdb.io/sql-server-express-maintenance"
-    #- Security: ""
+    - Security: "http://expressdb.io/sql-server-express-security-best-practices"
   Automation:
    # - How to Replace SQL Agent: # "http://expressdb.io/replace-sql-agent-on-sql-server-express"
     - Unattended Installation: "http://expressdb.io/sql-server-express-unattended-install"
