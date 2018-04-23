@@ -28,43 +28,54 @@ If the Express instance needs to be available on a network, however, the followi
 to be completed:
 
 1. Open SQL Server Configuration Manager
-<div>
-<br/>
-<img style="display: block; border: 1px solid gray;" src="../img/sql_configuration_manager_1.PNG" title="SQL Server Express Configuration Manager" alt="SQL Server Express Configuration Manager">
-<br/>
-</div>
+
+      <div>
+      <br/>
+      <img style="display: block; border: 1px solid gray;" src="../img/sql_configuration_manager_1.PNG" title="SQL Server Express Configuration Manager" alt="SQL Server Express Configuration Manager">
+      <br/>
+      </div>
+
 2. Expand "SQL Server Network Configuration"
 3. Select "Protocols for MSSQLSERVER" (might also be SQLEXPRESS or a custom instance name)
 4. On the right pane, right click "TCP/IP" and choose "Properties"
-<div>
-<br/>
-<img style="display: block; border: 1px solid gray;" src="../img/sql_configuration_manager_2.PNG" title="SQL Server Express Configuration Manager" alt="SQL Server Express Configuration Manager">
-<br/>
-</div>
+
+  <div>
+  <br/>
+  <img style="display: block; border: 1px solid gray;" src="../img/sql_configuration_manager_2.PNG" title="SQL Server Express Configuration Manager" alt="SQL Server Express Configuration Manager">
+  <br/>
+  </div>
+
 5. In the "Protocol" tab, make sure "Enabled" is set to **Yes**
-<div>
-<br/>
-<img style="display: block; border: 1px solid gray;" src="../img/sql_configuration_manager_3.PNG" title="SQL Server Express Configuration Manager" alt="SQL Server Express Configuration Manager">
-<br/>
-</div>
+
+  <div>
+  <br/>
+  <img style="display: block; border: 1px solid gray;" src="../img/sql_configuration_manager_3.PNG" title="SQL Server Express Configuration Manager" alt="SQL Server Express Configuration Manager">
+  <br/>
+  </div>
+
 6. In the "IP Addresses" tab, scroll to the bottom of the dialogue to the header "IPAll" and  make sure the TCP Port is set to 1433 and apply all changes.
-<div>
-<br/>
-<img style="display: block; border: 1px solid gray;" src="../img/sql_configuration_manager_4.PNG" title="SQL Server Express Configuration Manager" alt="SQL Server Express Configuration Manager">
-<br/>
-</div>
+
+  <div>
+  <br/>
+  <img style="display: block; border: 1px solid gray;" src="../img/sql_configuration_manager_4.PNG" title="SQL Server Express Configuration Manager" alt="SQL Server Express Configuration Manager">
+  <br/>
+  </div>
+
 7. Open the computer's Services find "SQL Server Browser" right click to open the "Properties" dialogue
-<div>
-<br/>
-<img style="display: block; border: 1px solid gray;" src="../img/sql_configuration_manager_5.PNG" title="SQL Server Express Configuration Manager" alt="SQL Server Express Configuration Manager">
-<br/>
-</div>
+
+  <div>
+  <br/>
+  <img style="display: block; border: 1px solid gray;" src="../img/sql_configuration_manager_5.PNG" title="SQL Server Express Configuration Manager" alt="SQL Server Express Configuration Manager">
+  <br/>
+  </div>
+
 8. Set start to "Automatic" and apply the changes.
-<div>
-<br/>
-<img style="display: block; border: 1px solid gray;" src="../img/sql_configuration_manager_6.PNG" title="SQL Server Express Configuration Manager" alt="SQL Server Express Configuration Manager">
-<br/>
-</div>
+
+  <div>
+  <br/>
+  <img style="display: block; border: 1px solid gray;" src="../img/sql_configuration_manager_6.PNG" title="SQL Server Express Configuration Manager" alt="SQL Server Express Configuration Manager">
+  <br/>
+  </div>
 
 
 ## Further Reading
