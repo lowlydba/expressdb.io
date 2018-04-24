@@ -11,7 +11,7 @@ tags: [sql server express, sql editions, express vs standard]
 # Introduction
 
 The most well known differences between SQL Express and other editions are the
-caps on database size (10GB) and lack of a SQL Agent feature. There are many other
+[caps on database size](http://expressdb.io/sql-server-express-database-size-limit/) (10GB) and [lack of a SQL Agent feature](http://expressdb.io/sql-server-express-replace-sql-agent/). There are many other
 differences though, some of which can be extremely important for some application
 and architecture requirements.
 
