@@ -9,78 +9,88 @@
 
 <url>
   <loc>http://expressdb.io/</loc>
-  <lastmod>2018-04-19T00:40:28+00:00</lastmod>
+  <lastmod>2018-04-24T20:40:56+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>http://expressdb.io/what-is-sql-server-express/</loc>
-  <lastmod>2018-04-19T00:40:28+00:00</lastmod>
+  <lastmod>2018-04-24T20:40:56+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://expressdb.io/sql-server-express-feature-comparison/</loc>
-  <lastmod>2018-04-19T00:40:28+00:00</lastmod>
+  <lastmod>2018-04-24T20:40:56+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://expressdb.io/sql-server-express-vs-localdb/</loc>
-  <lastmod>2018-04-19T00:40:28+00:00</lastmod>
+  <lastmod>2018-04-24T20:40:56+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://expressdb.io/which-sql-server-express-version-to-use/</loc>
-  <lastmod>2018-04-19T00:40:28+00:00</lastmod>
+  <lastmod>2018-04-24T20:40:56+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://expressdb.io/which-sql-server-management-studio-version/</loc>
-  <lastmod>2018-04-19T00:40:28+00:00</lastmod>
+  <lastmod>2018-04-24T20:40:56+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://expressdb.io/sql-server-express-database-size-limit/</loc>
-  <lastmod>2018-04-19T00:40:28+00:00</lastmod>
+  <lastmod>2018-04-24T20:40:56+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://expressdb.io/sql-server-express-hardware-limitations/</loc>
-  <lastmod>2018-04-19T00:40:28+00:00</lastmod>
+  <lastmod>2018-04-24T20:40:56+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://expressdb.io/sql-server-express-backups/</loc>
-  <lastmod>2018-04-19T00:40:28+00:00</lastmod>
+  <lastmod>2018-04-24T20:40:56+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://expressdb.io/sql-server-express-maintenance/</loc>
-  <lastmod>2018-04-19T00:40:28+00:00</lastmod>
+  <lastmod>2018-04-24T20:42:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://expressdb.io/sql-server-express-security-best-practices/</loc>
+  <lastmod>2018-04-24T20:40:56+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://expressdb.io/sql-server-express-unattended-install/</loc>
-  <lastmod>2018-04-19T00:40:28+00:00</lastmod>
+  <lastmod>2018-04-24T20:42:34+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://expressdb.io/about/</loc>
-  <lastmod>2018-04-19T00:40:28+00:00</lastmod>
+  <lastmod>2018-04-24T20:42:34+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://expressdb.io/contact/</loc>
-  <lastmod>2018-04-19T00:40:28+00:00</lastmod>
+  <lastmod>2018-04-24T20:42:34+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://expressdb.io/sql-server-express-guide-welcome/</loc>
-  <lastmod>2018-04-19T00:40:28+00:00</lastmod>
+  <lastmod>2018-04-24T20:42:34+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://expressdb.io/tags/</loc>
-  <lastmod>2018-04-19T00:40:28+00:00</lastmod>
+  <lastmod>2018-04-24T20:42:34+00:00</lastmod>
   <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://expressdb.io/sql-server-express-replace-sql-agent/</loc>
+  <lastmod>2018-04-24T20:42:34+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 
 
