@@ -34,7 +34,7 @@ navbar-links:
     - Maintenance: "http://expressdb.io/sql-server-express-maintenance"
     - Security: "http://expressdb.io/sql-server-express-security-best-practices"
   Automation:
-   # - How to Replace SQL Agent: # "http://expressdb.io/replace-sql-agent-on-sql-server-express"
+    - Replacing SQL Agent: # "http://expressdb.io/sql-server-express-replace-sql-agent/"
     - Unattended Installation: "http://expressdb.io/sql-server-express-unattended-install"
   About: 
     - Author : "http://expressdb.io/about/"
