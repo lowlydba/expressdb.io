@@ -55,6 +55,7 @@ the parameters that are used to create a job when the SQL Agent is available.
 
 8. Insert the `.bat` file created earlier.
       <div>
+      <br/>
       <img style="display: block; border: 1px solid gray;" src="../img/task_scheduler_4.PNG" title="Windows Task Scheduler" alt="Windows Task Scheduler">
       <br/>
       </div>
