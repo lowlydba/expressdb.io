@@ -36,7 +36,6 @@ to be completed:
 2. Expand "SQL Server Network Configuration"
 3. Select "Protocols for MSSQLSERVER" (or a custom instance name)
 4. On the right pane, right click "TCP/IP" and choose "Properties"
-
       <div>
       <img style="display: block; border: 1px solid gray;" src="../img/sql_configuration_manager_2.PNG" title="SQL Server Express Configuration Manager" alt="SQL Server Express Configuration Manager">
       <br/>
