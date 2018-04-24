@@ -28,14 +28,29 @@ the parameters that are used to create a job when the SQL Agent is available.
 
 1. Install [Ola Hallengren's maintenance scripts](https://ola.hallengren.com/sql-server-index-and-statistics-maintenance.html) if they haven't been already. *There may be a message about SQLServerAgent not running when installing these scripts. That is expected since the agent isn't available, but will not affect the installation.*
 2. Create a `.bat` file for the sqlcmd script that will run the maintenance stored procedure:
-
-  {% gist 87d392406b0c52f7cb310a8372af3009 %}
+    {% gist 87d392406b0c52f7cb310a8372af3009 %}
 3. Search for "Task Scheduler" from the start menu to open the scheduler
 4. Right click "Task Scheduler" and select "Create Basic Task"
+      <div>
+      <img style="display: block; border: 1px solid gray;" src="../img/task_scheduler_1.PNG" title="Windows Task Scheduler" alt="Windows Task Scheduler">
+      <br/>
+      </div>
 5. Input a name and description for the task.
+      <div>
+      <img style="display: block; border: 1px solid gray;" src="../img/task_scheduler_2.PNG" title="Windows Task Scheduler" alt="Windows Task Scheduler">
+      <br/>
+      </div>
 6. Pick a weekly schedule or one that works based on the database's usage.
+      <div>
+      <img style="display: block; border: 1px solid gray;" src="../img/task_scheduler_3.PNG" title="Windows Task Scheduler" alt="Windows Task Scheduler">
+      <br/>
+      </div>
 7. Choose "Start a Program" as the action type.
 8. Insert the `.bat` file created earlier.
+      <div>
+      <img style="display: block; border: 1px solid gray;" src="../img/task_scheduler_4.PNG" title="Windows Task Scheduler" alt="Windows Task Scheduler">
+      <br/>
+      </div>
 9. Test run the job to ensure it is working as expected.
 
 Repeat the above steps to handle database backups, DBCC checks, and other database maintenance as needed.
