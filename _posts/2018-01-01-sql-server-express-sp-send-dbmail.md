@@ -17,7 +17,7 @@ most people rely on Management Studio's GUI and the Database Mail feature to do 
 to make sending mail possible. Despite this limitation, the underlying stored procedures located within the msdb database are still fully able to replication the GUI driven setup that Database Mail aids in. This leaves T-SQL as the primary alternative for enabling and configuring SQL Server Express so that `sp_send_dbmail` can be used to send mail out. Adding this functionality with a [replacement for SQL Agent](http://expressdb.io/sql-server-express-replace-sql-agent/) can help mimic much of the functionality that Database Mail and SQL Agent provide on the full featured editions of SQL Server.
 
 While a CLR can also be used to send mail, that route is far more work and increases the complexity of
-sending mail via SQL Server quite a bit. This requires enabling CLRs, which is disabled by default. Enabling CLRs opens the instance up to external code, which may be a security or audit concern and is often allowed in many corporate environments. 
+sending mail via SQL Server quite a bit. This requires enabling CLRs, which is disabled by default. Enabling CLRs opens the instance up to external code, which may be a security or audit concern and is often allowed in many corporate environments.
 
 ## Setting up Mail on SQL Server Express
 
@@ -43,5 +43,5 @@ The stored procedures required are:
 * [sp_send_dbmail](https://docs.microsoft.com/en-us/sql/relational-databases/system-stored-procedures/sp-send-dbmail-transact-sql?view=sql-server-2017)
 
 ### The Code
-
+<br/>
 {% gist a1bf0946427601f7c19b40caca87df9e %}

@@ -23,12 +23,10 @@ navbar-links:
     - SQL Express vs LocalDB: "http://expressdb.io/sql-server-express-vs-localdb"
     - Which SQL Express Version to Use: "http://expressdb.io/which-sql-server-express-version-to-use"
     - Which Management Studio to Use: "http://expressdb.io/which-sql-server-management-studio-version"
-    #-Sending Email with SQL Express: 
   Limitations:
-    - Size Limitations: "http://expressdb.io/sql-server-express-database-size-limit/"
-    - Hardware Limitations: "http://expressdb.io/sql-server-express-hardware-limitations"
-    #- Feature Limitations: 
-    #- 
+    - Size Restrictions: "http://expressdb.io/sql-server-express-database-size-limit/"
+    - Hardware Restrictions: "http://expressdb.io/sql-server-express-hardware-limitations"
+    - Missing Database Mail: "http://expressdb.io/sql-server-express-sp-send-dbmail/"
   Best Practices: 
     - Backups: "http://expressdb.io/sql-server-express-backups"
     - Maintenance: "http://expressdb.io/sql-server-express-maintenance"
