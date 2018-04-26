@@ -5,14 +5,13 @@ comments: true
 date: 2018-04-25
 tags: [sql server express, mail, sp_send_dbmail]
 ---
+
+## Mail without SQL Agent?
 <div style="float: right; padding: 30px; overflow: hidden">
 <br/>
 <img style="display: block;" src="../img/database_mail.png" title="Microsoft Certified Professional" alt="Microsoft Certified Professional">
-*The Database Mail feature as seen other SQL Server editions.*
+<p style="font-style: italic;">The Database Mail feature as seen other SQL Server editions.</p>
 </div>
-## Mail without SQL Agent?
-
-
 While SQL Server Express is still 100% able to send mail using msdb's stored procedures,
 most people rely on Management Studio's GUI to do the initial setup of profiles and accounts
 to make sending mail possible. Using the GUI is only an option as a subset of the SQL Agent, however,
