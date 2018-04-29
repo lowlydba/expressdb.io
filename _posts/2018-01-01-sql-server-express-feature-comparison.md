@@ -31,7 +31,7 @@ and do not represent every feature of SQL Server nor all of the parity between e
 
 ## SQL 2008 R2
 
-The complete listing for SQL 2008 R2 is available from on MSDN 's [Features Supported by the Editions of SQL Server 2008 R2](https://msdn.microsoft.com/en-us/library/cc645993%28v=sql.110%29.aspx?f=255&MSPPError=-2147217396).
+The complete listing for SQL 2008 R2 is available from on MSDN 's [Features Supported by the Editions of SQL Server 2008 R2](https://docs.microsoft.com/es-es/previous-versions/sql/sql-server-2008-r2/cc645993(v=sql.105).
 
 | Feature                                   | Enterprise | Standard                       | Express             | Express w/ Advanced Services
 | ----------------------------------------- |------------| -------------------------------| --------------------
@@ -48,7 +48,8 @@ The complete listing for SQL 2008 R2 is available from on MSDN 's [Features Supp
 | Compression | Yes |No | No | No
 | Resource Governor | Yes |No | No | No
 | In-Memory OLTP | No |No | No | No
-| Auditing |  Yes | No   | No | No
+| Basic Auditing |  Yes | Yes   | Yes | Yes
+| Fine Grained Auditing | Yes | No | No | No
 | Contained Databases|  No | No   | No | No
 | Backup Encryption |  No |No | No | No
 | Change Tracking |  Yes | Yes   | Yes | Yes
@@ -82,7 +83,8 @@ The complete listing for SQL 2012 is available from on MSDN 's [Features Support
 | Compression | Yes |No | No | No
 | Resource Governor | Yes |No | No | No
 | In-Memory OLTP | No |No | No | No
-| Auditing |  Yes | Yes   | Yes | Yes
+| Basic Auditing |  Yes | Yes   | Yes | Yes
+| Fine Grained Auditing | Yes | No | No | No
 | Contained Databases|  Yes | Yes   | Yes | Yes
 | Backup Encryption |  No |No | No | No
 | Change Tracking |  Yes | Yes   | Yes | Yes
