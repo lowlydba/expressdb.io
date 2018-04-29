@@ -29,9 +29,12 @@ and do not represent every feature of SQL Server nor all of the parity between e
 * [2016](#sql-2016)
 * [2017](#sql-2017)
 
+# FAQ
+
+
 ## SQL 2008 R2
 
-The complete listing for SQL 2008 R2 is available from on MSDN 's [Features Supported by the Editions of SQL Server 2008 R2](https://docs.microsoft.com/es-es/previous-versions/sql/sql-server-2008-r2/cc645993(v=sql.105).
+The complete listing for SQL 2008 R2 is available from on MSDN 's [Features Supported by the Editions of SQL Server 2008 R2](https://docs.microsoft.com/es-es/previous-versions/sql/sql-server-2008-r2/cc645993(v=sql.105)).
 
 | Feature                                   | Enterprise | Standard                       | Express             | Express w/ Advanced Services
 | ----------------------------------------- |------------| -------------------------------| --------------------
