@@ -29,8 +29,8 @@ and do not represent every feature of SQL Server nor all of the parity between e
 * [2016](#sql-2016)
 * [2017](#sql-2017)
 
-# FAQ
 
+Also see the [Feature Comparison FAQ](#faq) for clarification on terminology.
 
 ## SQL 2008 R2
 
@@ -212,3 +212,9 @@ The complete listing for SQL 2017 is available from on Microsoft Docs' [Editions
 | Full Text Search | Yes | Yes   | No | Yes
 | CLR Integration |   Yes | Yes   | Yes | Yes
 | Import/Export Wizard |  Yes | Yes   | Yes | Yes
+
+# FAQ
+
+**What is the difference between Basic Auditing and Fine Grained Auditing?**
+
+*These terms are only used in Microsoft feature comparison documents, but not SQL Server documentation, so their use is often unclear to many. Basic auditing refers to [server level audits](https://docs.microsoft.com/en-us/sql/t-sql/statements/create-server-audit-transact-sql?view=sql-server-2017) while fine grained auditing refers to [audits at the database level](https://docs.microsoft.com/en-us/sql/t-sql/statements/create-database-audit-specification-transact-sql?view=sql-server-2017). *
