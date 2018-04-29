@@ -217,4 +217,4 @@ The complete listing for SQL 2017 is available from on Microsoft Docs' [Editions
 
 **What is the difference between Basic Auditing and Fine Grained Auditing?**
 
-*These terms are only used in Microsoft feature comparison documents, but not SQL Server documentation, so their use is often unclear to many. Basic auditing refers to [server level audits](https://docs.microsoft.com/en-us/sql/t-sql/statements/create-server-audit-transact-sql?view=sql-server-2017) while fine grained auditing refers to [audits at the database level](https://docs.microsoft.com/en-us/sql/t-sql/statements/create-database-audit-specification-transact-sql?view=sql-server-2017). *
+These terms are only used in Microsoft feature comparison documents, but not SQL Server documentation, so their use is often unclear to many. Basic auditing refers to [server level audits](https://docs.microsoft.com/en-us/sql/t-sql/statements/create-server-audit-transact-sql?view=sql-server-2017) while fine grained auditing refers to [audits at the database level](https://docs.microsoft.com/en-us/sql/t-sql/statements/create-database-audit-specification-transact-sql?view=sql-server-2017).
