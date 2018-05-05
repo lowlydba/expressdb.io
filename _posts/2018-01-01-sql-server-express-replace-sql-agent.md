@@ -83,11 +83,11 @@ Using Windows Task Scheduler from the command line involves running [schtasks.ex
  * `TN` - Task Name.
  * `TR` - A value that specifies the path and file name of the task to be run at the scheduled time.
  * `MO` - Modifier to add more fine grained control over the schedule:
-      * MINUTE: 1 - 1439 minutes.
-      * DAILY: 1 - 365 days.
-      * WEEKLY: weeks 1 - 52.
-      * MONTHLY: 1 - 12, or FIRST, SECOND, THIRD, FOURTH, LAST, and LASTDAY.
-      * ONEVENT: XPath event query string.  
+        * MINUTE: 1 - 1439 minutes.
+        * DAILY: 1 - 365 days.
+        * WEEKLY: weeks 1 - 52.
+        * MONTHLY: 1 - 12, or FIRST, SECOND, THIRD, FOURTH, LAST, and LASTDAY.
+        * ONEVENT: XPath event query string.  
 
  * `D` - A value that specifies the day of the week to run the task. Valid values are: MON, TUE, WED, THU, FRI, SAT, SUN and for MONTHLY schedules 1 - 31 (days of the month). The wildcard character ( * ) specifies all days.
  * `M` - A value that specifies months of the year. Defaults to the first day of the month. Valid values are: JAN, FEB, MAR, APR, MAY, JUN, JUL, AUG, SEP, OCT, NOV, and DEC. The wildcard character ( * ) specifies all months.
