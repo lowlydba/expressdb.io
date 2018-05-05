@@ -92,8 +92,7 @@ Using Windows Task Scheduler from the command line involves running [schtasks.ex
  * `M` - A value that specifies months of the year. Defaults to the first day of the month. Valid values are: JAN, FEB, MAR, APR, MAY, JUN, JUL, AUG, SEP, OCT, NOV, and DEC. The wildcard character ( * ) specifies all months.
 
 
-
-    {% gist f736afa20b372b0d0664adff7afb2107 %}
+  {% gist f736afa20b372b0d0664adff7afb2107 %}
 
 Repeat the above steps to handle database backups, DBCC checks, and other database maintenance as needed.
 
