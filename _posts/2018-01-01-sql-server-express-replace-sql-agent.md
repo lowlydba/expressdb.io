@@ -20,11 +20,15 @@ and takes very little time to configure. Enter Windows Task Scheduler!
 
 ## Windows Task Scheduler
 
-To utilize the task scheduler, a task must be created that will execute a batch script to
-run the desired code on the SQL Express Instance. In this case, it will be a maintenance job
+To utilize the task scheduler, a task must be created that will execute a batch script containing the code to run on the SQL Express Instance. In this eample, it will be a maintenance job
 that will be run weekly to ensure indexes are defragmented on user databases. The
 settings for the maintenance job will be copied directly from Ola's scripts to replicate
 the parameters that are used to create a job when the SQL Agent is available.
+
+* [Creating a Task via GUI](#task-scheduler-gui)
+* [Creating a Task via Command Line](#task-scheduler-command-line)
+
+### Task Scheduler GUI
 
 1. Install [Ola Hallengren's maintenance scripts](https://ola.hallengren.com/sql-server-index-and-statistics-maintenance.html) if they haven't been already. *There may be a message about SQLServerAgent not running when installing these scripts. That is expected since the agent isn't available, but will not affect the installation.*
 
@@ -60,6 +64,34 @@ the parameters that are used to create a job when the SQL Agent is available.
       <br/>
       </div>
 9. Test run the job to ensure it is working as expected.
+
+Repeat the above steps to handle database backups, DBCC checks, and other database maintenance as needed.
+
+### Task Scheduler Command Line
+
+Using Windows Task Scheduler from the command line involves running [schtasks.exe](https://msdn.microsoft.com/en-us/library/windows/desktop/bb736357(v=vs.85).aspx) to schedule and configure tasks.
+
+1. Install [Ola Hallengren's maintenance scripts](https://ola.hallengren.com/sql-server-index-and-statistics-maintenance.html) if they haven't been already. *There may be a message about SQLServerAgent not running when installing these scripts. That is expected since the agent isn't available, but will not affect the installation.*
+
+2. Create a `.bat` file for the sqlcmd script that will run the maintenance stored procedure:
+    {% gist 87d392406b0c52f7cb310a8372af3009 %}
+
+3. Replace the placeholder values and run the script below to create a scheduled task:
+ * RU - Windows user the task will run as.
+ * RP - Password for the RU.
+ * SC - Run schedule (MINUTE, HOURLY, DAILY, WEEKLY, MONTHLY, ONCE, ONLOGON, ONIDLE, or ONEVENT.)
+ * TN - Task Name.
+ * TR - A value that specifies the path and file name of the task to be run at the scheduled time.
+ * MO - Modifier to add more fine grained control over the schedule:
+    * MINUTE: 1 - 1439 minutes.
+    * DAILY: 1 - 365 days.
+    * WEEKLY: weeks 1 - 52.
+    * MONTHLY: 1 - 12, or FIRST, SECOND, THIRD, FOURTH, LAST, and LASTDAY.
+    * ONEVENT: XPath event query string.
+ * D - A value that specifies the day of the week to run the task. Valid values are: MON, TUE, WED, THU, FRI, SAT, SUN and for MONTHLY schedules 1 - 31 (days of the month). The wildcard character (*) specifies all days.
+ * M - A value that specifies months of the year. Defaults to the first day of the month. Valid values are: JAN, FEB, MAR, APR, MAY, JUN, JUL, AUG, SEP, OCT, NOV, and DEC. The wildcard character (*) specifies all months.
+
+    {% gist f736afa20b372b0d0664adff7afb2107 %}
 
 Repeat the above steps to handle database backups, DBCC checks, and other database maintenance as needed.
 
