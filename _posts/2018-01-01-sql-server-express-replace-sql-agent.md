@@ -90,7 +90,7 @@ Using Windows Task Scheduler from the command line involves running [schtasks.ex
         * ONEVENT: XPath event query string.  
  * `D` - A value that specifies the day of the week to run the task. Valid values are: MON, TUE, WED, THU, FRI, SAT, SUN and for MONTHLY schedules 1 - 31 (days of the month). The wildcard character ( * ) specifies all days.
  * `M` - A value that specifies months of the year. Defaults to the first day of the month. Valid values are: JAN, FEB, MAR, APR, MAY, JUN, JUL, AUG, SEP, OCT, NOV, and DEC. The wildcard character ( * ) specifies all months.
-
+<br/>
     {% gist f736afa20b372b0d0664adff7afb2107 %}
 
 Repeat the above steps to handle database backups, DBCC checks, and other database maintenance as needed.
