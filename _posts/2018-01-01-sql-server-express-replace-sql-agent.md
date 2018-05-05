@@ -81,7 +81,7 @@ Using Windows Task Scheduler from the command line involves running [schtasks.ex
  * `RP` - Password for the RU.
  * `SC` - Run schedule (MINUTE, HOURLY, DAILY, WEEKLY, MONTHLY, ONCE, ONLOGON, ONIDLE, or ONEVENT.)
  * `TN` - Task Name.
- * `TR` - A value that specifies the path and file name of the task to be run at the scheduled time.
+ * `TR` - A value that specifies the path and file name of the task to be run.
  * `MO` - Modifier to add more fine grained control over the schedule:
 
       * MINUTE: 1 - 1439 minutes.
