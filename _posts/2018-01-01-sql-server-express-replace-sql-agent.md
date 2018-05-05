@@ -77,19 +77,19 @@ Using Windows Task Scheduler from the command line involves running [schtasks.ex
     {% gist 87d392406b0c52f7cb310a8372af3009 %}
 
 3. Replace the placeholder values and run the script below to create a scheduled task:
- * RU - Windows user the task will run as.
- * RP - Password for the RU.
- * SC - Run schedule (MINUTE, HOURLY, DAILY, WEEKLY, MONTHLY, ONCE, ONLOGON, ONIDLE, or ONEVENT.)
- * TN - Task Name.
- * TR - A value that specifies the path and file name of the task to be run at the scheduled time.
- * MO - Modifier to add more fine grained control over the schedule:
+ * `RU` - Windows user the task will run as.
+ * `RP` - Password for the RU.
+ * `SC` - Run schedule (MINUTE, HOURLY, DAILY, WEEKLY, MONTHLY, ONCE, ONLOGON, ONIDLE, or ONEVENT.)
+ * `TN` - Task Name.
+ * `TR` - A value that specifies the path and file name of the task to be run at the scheduled time.
+ * `MO` - Modifier to add more fine grained control over the schedule:
     * MINUTE: 1 - 1439 minutes.
     * DAILY: 1 - 365 days.
     * WEEKLY: weeks 1 - 52.
     * MONTHLY: 1 - 12, or FIRST, SECOND, THIRD, FOURTH, LAST, and LASTDAY.
     * ONEVENT: XPath event query string.
- * D - A value that specifies the day of the week to run the task. Valid values are: MON, TUE, WED, THU, FRI, SAT, SUN and for MONTHLY schedules 1 - 31 (days of the month). The wildcard character (*) specifies all days.
- * M - A value that specifies months of the year. Defaults to the first day of the month. Valid values are: JAN, FEB, MAR, APR, MAY, JUN, JUL, AUG, SEP, OCT, NOV, and DEC. The wildcard character (*) specifies all months.
+ * `D` - A value that specifies the day of the week to run the task. Valid values are: MON, TUE, WED, THU, FRI, SAT, SUN and for MONTHLY schedules 1 - 31 (days of the month). The wildcard character ( * ) specifies all days.
+ * `M` - A value that specifies months of the year. Defaults to the first day of the month. Valid values are: JAN, FEB, MAR, APR, MAY, JUN, JUL, AUG, SEP, OCT, NOV, and DEC. The wildcard character ( * ) specifies all months.
 
     {% gist f736afa20b372b0d0664adff7afb2107 %}
 
