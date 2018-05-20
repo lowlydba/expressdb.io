@@ -34,6 +34,8 @@ navbar-links:
   Automation:
     - Replacing SQL Agent: "http://expressdb.io/sql-server-express-replace-sql-agent/"
     - Unattended Installation: "http://expressdb.io/sql-server-express-unattended-install"
+  Free Tools:
+    - Scripts, Apps, & Resources: "http://expressdb.io/free-sql-server-tools"
   About: 
     - Author : "http://expressdb.io/about/"
     - Contact: "http://expressdb.io/contact/"
