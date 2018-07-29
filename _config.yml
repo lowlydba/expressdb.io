@@ -34,6 +34,7 @@ navbar-links:
     - Unattended Installation: "http://expressdb.io/sql-server-express-unattended-install"
   Free Tools:
     - Scripts, Apps, & Resources: "http://expressdb.io/free-sql-server-tools"
+    - sp_SizeOptimiser: "http://expressdb.io/sp_sizeoptimiser"
   About: 
     - Author : "http://expressdb.io/about/"
     - Contact: "http://expressdb.io/contact/"
