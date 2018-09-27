@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Which SQL Server Management Studio Version to Use?
-subtitle: SQL Server Management Studio 17.7
+subtitle: SQL Server Management Studio 17.9
 comments: true
 date: 2018-09-10
 author: John McCall

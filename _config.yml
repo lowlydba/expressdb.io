@@ -35,6 +35,7 @@ navbar-links:
   Free Tools:
     - Scripts, Apps, & Resources: "http://expressdb.io/free-sql-server-tools"
     - sp_SizeOptimiser: "http://expressdb.io/sp_sizeoptimiser"
+    - Azure Data Studio: "http://expressdb.io/azure-data-studio"
   About: 
     - Author : "http://expressdb.io/about/"
     - Contact: "http://expressdb.io/contact/"
