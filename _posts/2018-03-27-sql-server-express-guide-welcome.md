@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Everything you need to get the most out of SQL Server Express
-date: 2018-08-01
+date: 2018-09-27
 ---
 
 After years of working as a database administrator, there is a small area of the SQL Server world that never seems to receive enough attention, despite its
