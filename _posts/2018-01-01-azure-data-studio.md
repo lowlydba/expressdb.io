@@ -24,7 +24,7 @@ Right after connecting to a SQL instance a dashboard provides instance informati
 Azure Data Studio is definitely targeted towards data-minded individuals. With integrated source control support, a host of free extensions, a file explorer, support for [Notebooks](https://notebooks.azure.com/), query results to graph capabilities it offers an ease of working with SQL and data that other database platforms have not come close to providing. And for anyone accustomed to using SQL Server Management Studio, the inclusion of both a fully supported dark theme and a blazing fast, reliable Intellisense are things that only dreams were made of until now.
 
 <div>
-<img style="display: block; margin: auto; border: 1px solid gray;" src="../img/azure-data-studio-dark-theme.png" title="New vs Old SQL Server Management Studio" alt="New vs Old SQL Server Management Studio">
+<img style="display: block; margin: auto; border: 1px solid gray;" src="../img/azure-data-studio-dark-theme.PNG" title="Proof Intellisense isn't broken by design" alt="Proof Intellisense isn't broken by design">
 <p style="text-align: center; font-style: italic;">Proof Intellisense isn't broken by design</p>
 </div>
 
@@ -36,7 +36,7 @@ If you're a developer, data scientist, or pretty much anyone except for a DBA, t
 If you are a DBA and you find yourself needing to work with SQL Agent, in depth-configurations, and wizards on a frequent basis, then (for now) Azure Data Studio probably won't fulfill your day to day needs. It does have increasing support for these areas, like the SQL Agent extension, which can show a novel view of current and previous job statistics:
 
 <div>
-<img style="display: block; margin: auto; border: 1px solid gray;" src="../img/azure-data-studio-sql-agent.png" title="New vs Old SQL Server Management Studio" alt="New vs Old SQL Server Management Studio">
+<img style="display: block; margin: auto; border: 1px solid gray;" src="../img/azure-data-studio-sql-agent.PNG" title="SQL Agent Extension for Azure Data Studio" alt="SQL Agent Extension for Azure Data Studio">
 <p style="text-align: center; font-style: italic;">The SQL Agent extension</p>
 </div>
 
