@@ -78,4 +78,4 @@ and cleaning up old backup files to prevent disks from filling up.
 
 # Scheduling
 
-Wondering how to automate these backups? Check out the [Replacing SQL Agent on SQL Server Express](http://expressdb.io/replace-sql-agent-on-sql-server-express) article for methods to schedule jobs without the SQL Agent.
+Wondering how to automate these backups? Check out the [Replacing SQL Agent on SQL Server Express](http://expressdb.io/sql-server-express-replace-sql-agent/) article for methods to schedule jobs without the SQL Agent.
