@@ -1,11 +1,11 @@
 ---
 layout: post
 title:  Which SQL Server Management Studio Version to Use?
-subtitle: SQL Server Management Studio 17.9
+subtitle: SQL Server Management Studio 18.1
 comments: true
-date: 2018-12-19
+date: 2019-06-18
 author: John McCall
-tags: [sql server express, ssms, sql server management studio, ssms 17.9]
+tags: [sql server express, ssms, sql server management studio, ssms 18.1]
 ---
 
 Until recently, which version of Management studio you used would
@@ -22,7 +22,7 @@ even when working with older servers.
 
 ## The Latest and Greatest
 
-As of April 24, 2019, the latest official version of SQL Server Management Studio is 18.0. The latest
+As of June 18, 2019, the latest official version of SQL Server Management Studio is 18.1. The latest
 version will always be available at the [Download SQL Server Management Studio](https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms) page.
 
 Starting with version 17, SSMS releases are the first SSMS products to be based off of Visual Studio 2015+,
