@@ -2,7 +2,7 @@
 layout: post
 title:  Free SQL Server Tools and Resources
 comments: true
-date: 2018-05-19
+date: 2019-06-18
 tags: [free tools, free resources, ssms plugins]
 ---
 
