@@ -43,5 +43,4 @@ The stored procedures required are:
 * [sp_send_dbmail](https://docs.microsoft.com/en-us/sql/relational-databases/system-stored-procedures/sp-send-dbmail-transact-sql?view=sql-server-2017)
 
 ### The Code
-<br/>
 {% gist a1bf0946427601f7c19b40caca87df9e %}
