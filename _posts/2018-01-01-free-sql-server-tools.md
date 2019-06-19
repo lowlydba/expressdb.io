@@ -73,11 +73,6 @@ maintaining, and using SQL Server Express. Using them helps keep underlying data
     <td>Idera</td>
   </tr>
   <tr>
-  <td><a href="http://www.manduka.tech/#/home">SQL Code Analyzer</a></td>
-    <td>Development</td>
-    <td>Manduka</td>
-  </tr>
-  <tr>
   <td><a href="https://github.com/Microsoft/sql-xplat-cli/">mssql-scripter</a></td>
     <td>Scripting</td>
     <td>Microsoft</td>
