@@ -2,7 +2,7 @@
 layout: post
 title:  Azure Data Studio
 comments: true
-date: 2018-09-26
+date: 2019-10-16
 author: John McCall
 tags: [azure data studio, sql operations studio, sql data studio]
 ---
@@ -12,7 +12,7 @@ was released under General Availability.
 
 This open source tool from Microsoft works on Linux, Mac, and Windows and builds off a very familiar foundation for anyone accustomed to using [Visual Studio Code](https://code.visualstudio.com/).
 
-While its previous form had some rough edges, the 1.0 release of Azure Data Studio is much more polished and out of the box delivers amazing functionality and performance when compared to SQL Server Management Studio.
+While its previous form had some rough edges, the 1.0 release of Azure Data Studio and later iterations are much more polished and deliver  amazing functionality and performance when compared to SQL Server Management Studio.
 
 <div>
 <img style="display: block; margin: auto; border: 1px solid gray;" src="../img/azure-data-studio.png" title="New vs Old SQL Server Management Studio" alt="New vs Old SQL Server Management Studio">
@@ -40,9 +40,19 @@ If you are a DBA and you find yourself needing to work with SQL Agent, in depth-
 <p style="text-align: center; font-style: italic;">The SQL Agent extension</p>
 </div>
 
-...but these features tend to still be half baked, however. At the time of writing, I was unable to get the "Delete Job" menu item to function correctly on a test instance. It seems the focus thus far has been on building out functionality that SSMS does not have, rather than trying to achieve parity between the two.
-
 Microsoft does provide [this chart](https://cloudblogs.microsoft.com/sqlserver/2018/09/25/azure-data-studio-for-sql-server/#featurecomparison) as a helpful comparison of features between Azure Data Studio and SQL Server Management Studio.
+
+## Extensions
+
+Extensions in Azure Data Studio are free, much easier to work with, and can be directly installed from within the application itself when compared to Management Studio. Microsoft has continued to come out with a great catalog of tools and gotten some great third party tooling support as well. A [full list of Azure Data Studio Extensions](https://github.com/Microsoft/azuredatastudio/wiki/List-of-Extensions) is on Github. Some of the most useful tools include:
+
+* [Poor SQL Formatter](https://github.com/wsr-publishing/azure-poor-formatter)
+* [Idera SQL DM Performance Insights](https://www.idera.com/productssolutions/freetools/sqldmperformanceinsights)
+* [First Responder Kit](https://github.com/dzsquared/sqlops-firstresponderkit)
+* [SentryOne Plan Explorer](https://www.sentryone.com/products/sentryone-plan-explorer-extension-azure-data-studio)
+* [whoisactive](https://github.com/Microsoft/azuredatastudio)
+* [PostgreSQL Support](https://github.com/Microsoft/azuredatastudio-postgresql/) (Microsoft)
+* [Admin Pack for SQL Server](https://github.com/Microsoft/azuredatastudio) (Microsoft)
 
 ## What's Next
 
