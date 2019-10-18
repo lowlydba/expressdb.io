@@ -3,7 +3,7 @@ layout: post
 title:  SQL Server Express vs Standard vs Enterprise
 subtitle: What features come in each version of SQL Server?
 comments: true
-date: 2018-03-28
+date: 2019-10-18
 author: John McCall
 tags: [sql server express, sql editions, express vs standard]
 ---
@@ -28,13 +28,14 @@ and do not represent every feature of SQL Server nor all of the parity between e
 * [2014](#sql-2014)
 * [2016](#sql-2016)
 * [2017](#sql-2017)
+* [2019](#sql-2019)
 
 
 Also see the [Feature Comparison FAQ](#faq) for clarification on terminology.
 
 ## SQL 2008 R2
 
-The complete listing for SQL 2008 R2 is available from on MSDN 's [Features Supported by the Editions of SQL Server 2008 R2](https://docs.microsoft.com/es-es/previous-versions/sql/sql-server-2008-r2/cc645993(v=sql.105)).
+The complete listing for SQL Server 2008 R2 Express is available from on MSDN 's [Features Supported by the Editions of SQL Server 2008 R2](https://docs.microsoft.com/es-es/previous-versions/sql/sql-server-2008-r2/cc645993(v=sql.105)).
 
 | Feature                                   | Enterprise | Standard                       | Express             | Express w/ Advanced Services
 | ----------------------------------------- |------------| -------------------------------| --------------------
@@ -65,10 +66,11 @@ The complete listing for SQL 2008 R2 is available from on MSDN 's [Features Supp
 | PowerShell SMO Support |  Yes | Yes   | Yes | Yes
 | CLR Integration |   Yes | Yes   | Yes | Yes
 | Import/Export Wizard |  No | No   | No | No
+| Database Mail | Yes | Yes | No | No
 
 ## SQL 2012
 
-The complete listing for SQL 2012 is available from on MSDN 's [Features Supported by the Editions of SQL Server 2012](https://msdn.microsoft.com/en-us/library/cc645993%28v=sql.110%29.aspx?f=255&MSPPError=-2147217396).
+The complete listing for SQL Server 2012 Express is available from on MSDN 's [Features Supported by the Editions of SQL Server 2012](https://msdn.microsoft.com/en-us/library/cc645993%28v=sql.110%29.aspx?f=255&MSPPError=-2147217396).
 
 | Feature                                   | Enterprise | Standard                       | Express             | Express w/ Advanced Services
 | ----------------------------------------- |------------| -------------------------------| --------------------
@@ -100,10 +102,11 @@ The complete listing for SQL 2012 is available from on MSDN 's [Features Support
 | PowerShell SMO Support |  Yes | Yes   | Yes | Yes
 | CLR Integration |   Yes | Yes   | Yes | Yes
 | Import/Export Wizard |  Yes | Yes   | Yes | Yes
+| Database Mail | Yes | Yes | No | No
 
 ## SQL 2014
 
-The complete listing for SQL 2014 is available from on MSDN 's [Features Supported by the Editions of SQL Server 2014](https://msdn.microsoft.com/library/cc645993%28v=sql.120%29.aspx?f=255&MSPPError=-2147217396).
+The complete listing for SQL Server 2014 Express is available from on MSDN 's [Features Supported by the Editions of SQL Server 2014](https://msdn.microsoft.com/library/cc645993%28v=sql.120%29.aspx?f=255&MSPPError=-2147217396).
 
 | Feature                                   | Enterprise | Standard                       | Express             | Express w/ Advanced Services
 | ----------------------------------------- |------------| -------------------------------| --------------------
@@ -134,10 +137,11 @@ The complete listing for SQL 2014 is available from on MSDN 's [Features Support
 | Full Text Search | Yes | Yes   | No | Yes
 | CLR Integration |   Yes | Yes   | Yes | Yes
 | Import/Export Wizard |  Yes | Yes   | Yes | Yes
+| Database Mail | Yes | Yes | No | No
 
 ## SQL 2016
 
-The complete listing for SQL 2016 is available from on Microsoft Docs' [Editions and supported features of SQL Server 2016](https://docs.microsoft.com/en-us/sql/sql-server/editions-and-components-of-sql-server-2016).
+The complete listing for SQL Server 2016 Express features is available from on Microsoft Docs' [Editions and supported features of SQL Server 2016](https://docs.microsoft.com/en-us/sql/sql-server/editions-and-components-of-sql-server-2016).
 
 | Feature                             | Enterprise | Standard               | Express             | Express w/ Advanced Services
 | ------------------------------------|------------| -------------------------------| --------------------
@@ -171,10 +175,11 @@ The complete listing for SQL 2016 is available from on Microsoft Docs' [Editions
 | Full Text Search | Yes | Yes   | No | Yes
 | CLR Integration |   Yes | Yes   | Yes | Yes
 | Import/Export Wizard |  Yes | Yes   | Yes | Yes
+| Database Mail | Yes | Yes | No | No
 
 ## SQL 2017
 
-The complete listing for SQL 2017 is available from on Microsoft Docs' [Editions and supported features of SQL Server 2017](https://docs.microsoft.com/en-us/sql/sql-server/editions-and-components-of-sql-server-2017).
+The complete listing for SQL Server 2017 Express features is available from on Microsoft Docs' [Editions and supported features of SQL Server 2017](https://docs.microsoft.com/en-us/sql/sql-server/editions-and-components-of-sql-server-2017).
 
 | Feature                             | Enterprise | Standard               | Express             | Express w/ Advanced Services
 | ------------------------------------|------------| -------------------------------| --------------------
@@ -212,6 +217,50 @@ The complete listing for SQL 2017 is available from on Microsoft Docs' [Editions
 | Full Text Search | Yes | Yes   | No | Yes
 | CLR Integration |   Yes | Yes   | Yes | Yes
 | Import/Export Wizard |  Yes | Yes   | Yes | Yes
+| Database Mail | Yes | Yes | No | No
+
+## SQL 2019
+
+The complete listing for SQL Server 2019 Express features is available from on Microsoft Docs' [Editions and supported features of SQL Server 2019](https://docs.microsoft.com/en-us/sql/sql-server/editions-and-components-of-sql-server-version-15?view=sql-server-ver15).
+
+| Feature                             | Enterprise | Standard               | Express             | Express w/ Advanced Services
+| ------------------------------------|------------| -------------------------------| --------------------
+| Max. Compute Capacity (per instance) | OS Max. | Lesser of 4 sockets / 24 cores | Lesser of 1 socket / 4 cores  | Lesser of 1 socket / 4 cores
+| Max. Buffer Pool Memory (per instance) | OS Max.      | 128GB                          | 1410MB  | 1410MB
+| Max. Columnstore Cache Memory (per instance) | Unlimited | 32GB | 352MB | 352MB
+| Max. Memory-Optimized Data Size (per instance) | Unlimited | 32GB | 352MB | 352MB
+| Max. database size                        | 524PB      | 524PB                          | 10GB | 10GB
+| Log Shipping | Yes |Yes | No | No
+| Mirroring | Yes | Yes | As Witness | As Witness
+| Backup Compression | Yes |Yes | No | No
+| Database Snapshots | Yes |Yes | Yes | Yes
+| AlwaysOn AG | Yes | No | No | No
+| [Basic Availability Groups](https://docs.microsoft.com/en-us/sql/database-engine/availability-groups/windows/basic-availability-groups-always-on-availability-groups) | Yes | Yes (2 nodes) | No | No
+| Encrypted Backups | Yes | Yes | No | No
+| Stretch Database | Yes | Yes | Yes | Yes
+| Table/index Partitioning | Yes | Yes | Yes | Yes
+| Buffer Pool Extension | Yes | Yes | No | No
+| Compression | Yes |Yes | Yes | Yes
+| Resource Governor | Yes | No | No | No
+| In-Memory OLTP | Yes |Yes | Yes | Yes
+| Auditing |  Yes | Yes | Yes | Yes
+| Fine Grained Auditing | Yes | Yes  | Yes | Yes
+| Dynamic Data Masking | Yes | Yes  | Yes | Yes
+| Always Encrypted | Yes | Yes  | Yes | Yes
+| Contained Databases|  Yes | Yes | Yes | Yes
+| Change Tracking |  Yes | Yes | Yes | Yes
+| Merge Replication | Yes | Yes | As Subscriber | As Subscriber
+| Transactional Replication | Yes | Yes   | As Subscriber | As Subscriber
+| Transactional Replication to Azure | Yes | Yes | No | No
+| Snapshot Replication |  Yes | Yes   | As Subscriber | As Subscriber
+| P2P Transactional Replication |  Yes |No | No | No
+| SQL Server Agent |  Yes | Yes   | No | No
+| Dedicated Admin Connection |  Yes | Yes   | Yes | Yes
+| PowerShell SMO Support |  Yes | Yes   | Yes | Yes
+| Full Text Search | Yes | Yes   | No | Yes
+| CLR Integration |   Yes | Yes   | Yes | Yes
+| Import/Export Wizard |  Yes | Yes  | Yes | Yes
+| Database Mail | Yes | Yes | No | No
 
 # FAQ
 
