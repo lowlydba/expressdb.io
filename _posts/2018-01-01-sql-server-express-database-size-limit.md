@@ -2,7 +2,7 @@
 layout: post
 title:  SQL Server Express Database Size Limitations
 comments: true
-date: 2018-03-26
+date: 2019-10-18
 author: John McCall
 tags: [sql server express, size limit, 10gb]
 ---
@@ -10,7 +10,7 @@ tags: [sql server express, size limit, 10gb]
 One of the reasons Microsoft is able to give SQL Server Express away for free is
 because of the limits imposed on certain facets of the server. One of the largest
 limitations of SQL Server Express is the restriction on individual database sizes.
-No single database can be over 10GB. This restriction has been in place for over a decade
+No single database can be over 10GB on modern versions. This restriction has been in place for over a decade
 and has not increased over time, even as modern data storage has become extremely
 cheap and plentiful.
 
