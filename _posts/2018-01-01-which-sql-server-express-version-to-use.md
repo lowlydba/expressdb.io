@@ -2,16 +2,16 @@
 layout: post
 title:  Which SQL Express version to use?
 comments: true
-date: 2018-03-26
+date: 2019-11-04
 author: John McCall
-tags: [sql server express, version comparison]
+tags: [sql server express, version comparison, sql server 2019]
 ---
 
 In most cases, the answer to 'Which SQL Server Express Version?' is simple: the latest version you can. Since Microsoft adds
 more features and decreases the limitations of SQL Server Express with every subsequent release,
 the more recent the version the more advanced capabilities it will offer.
 
-For now, this means [SQL Express 2017](https://www.microsoft.com/en-us/sql-server/sql-server-editions-express).
+For now, this means [SQL Express 2019](https://cloudblogs.microsoft.com/sqlserver/2019/11/04/sql-server-2019-is-now-generally-available/).
 
 ## Benefits of Newer Versions
 
@@ -27,6 +27,7 @@ pursuing the latest version possible when choosing which SQL Express to use. Ver
 | 2014    | 1410MB   | No                       | No               | No
 | 2016    | 1410MB   | Yes (SP1+)               | Yes (SP1+)       | No
 | 2017    | 1410MB   | Yes                      | Yes              | Yes
+| 2019    | 1410MB   | Yes                      | Yes              | Yes
 
 ## Compatibility Mode
 
@@ -48,6 +49,8 @@ The options for which levels are available will depend on the version:
 | 2014    | 12             | 120                 | 120, 110, 100
 | 2016    | 13             | 130                 | 130, 120, 110, 100
 | 2017    | 14             | 140                 | 140, 130, 120, 110, 100
+| 2019    | 15             | 150                 | 150, 140, 130, 120, 110, 100
+
 
 ## Support Lifecycle Policies
 
@@ -63,12 +66,13 @@ It is highly advised to *not* provision any new instances that are already out o
 
 | Version | End of Mainstream Support |
 | ------- | ------------------------- |
-| 2008    | 7/9/2019                  |
-| 2008 R2 | 7/9/2019                  |
-| 2012    | 7/12/202                  |
-| 2014    | 7/9/2024                  |
-| 2016    | 7/14/2026
-| 2017    | 10/12/2027
+| 2008    | 7/8/2014                  |
+| 2008 R2 | 7/8/2014                  |
+| 2012    | 7/11/2017                 |
+| 2014    | 7/9/2019                  |
+| 2016    | 7/13/2021                 |
+| 2017    | 10/11/2022                |
+| 2019    | 1/7/2025                  |
 
 ## Further Reading
 
