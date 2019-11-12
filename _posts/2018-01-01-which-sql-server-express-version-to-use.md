@@ -2,7 +2,7 @@
 layout: post
 title:  Which SQL Express version to use?
 comments: true
-date: 2019-11-04
+date: 2019-11-12
 author: John McCall
 tags: [sql server express, version comparison, sql server 2019]
 ---
@@ -20,14 +20,14 @@ have had import changes across versions and highlights the benefits of
 pursuing the latest version possible when choosing which SQL Express to use. Versions below
 2008 R2 are excluded due to their age and lack of support.
 
-| Version | Max. RAM | Table/Index Partitioning | Data Compression | Database Snapshots |
-| ------- | -------- | ------------------------ | ---------------- | ------------------ |
-| 2008 R2 | 1024MB   | No                       | No               | No
-| 2012    | 1024MB   | No                       | No               | No
-| 2014    | 1410MB   | No                       | No               | No
-| 2016    | 1410MB   | Yes (SP1+)               | Yes (SP1+)       | No
-| 2017    | 1410MB   | Yes                      | Yes              | Yes
-| 2019    | 1410MB   | Yes                      | Yes              | Yes
+| Version | Max. RAM | Table/Index Partitioning | Data Compression | Database Snapshots | Transparent Data Encryption | UTF-8 | Polybase Compute Node |
+| ------- | -------- | ------------------------ | ---------------- | ------------------ | --------------------------- | ----- | --------------------- |
+| 2008 R2 | 1024MB   | No                       | No               | No                 | No                          | No    | No                    |
+| 2012    | 1024MB   | No                       | No               | No                 | No                          | No    | No                    |
+| 2014    | 1410MB   | No                       | No               | No                 | No                          | No    | No                    |
+| 2016    | 1410MB   | Yes (SP1+)               | Yes (SP1+)       | No                 | No                          | No    | No                    |
+| 2017    | 1410MB   | Yes                      | Yes              | Yes                | No                          | No    | No                    |
+| 2019    | 1410MB   | Yes                      | Yes              | Yes                | Yes                         | Yes   | Yes                   |
 
 ## Compatibility Mode
 

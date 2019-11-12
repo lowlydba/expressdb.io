@@ -3,7 +3,7 @@ layout: post
 title:  SQL Server Express vs Standard vs Enterprise
 subtitle: What features come in each version of SQL Server?
 comments: true
-date: 2019-10-18
+date: 2019-11-12
 author: John McCall
 tags: [sql server express, sql editions, express vs standard]
 ---
@@ -246,7 +246,8 @@ The complete listing for SQL Server 2019 Express features is available from on M
 | Auditing |  Yes | Yes | Yes | Yes
 | Fine Grained Auditing | Yes | Yes  | Yes | Yes
 | Dynamic Data Masking | Yes | Yes  | Yes | Yes
-| Always Encrypted | Yes | Yes  | Yes | Yes
+| Always Encrypted w/ Secure Enclaves | Yes | Yes  | Yes | Yes
+| Transparent Data Encryption |  Yes | Yes   | Yes | Yes
 | Contained Databases|  Yes | Yes | Yes | Yes
 | Change Tracking |  Yes | Yes | Yes | Yes
 | Merge Replication | Yes | Yes | As Subscriber | As Subscriber
@@ -261,6 +262,10 @@ The complete listing for SQL Server 2019 Express features is available from on M
 | CLR Integration |   Yes | Yes   | Yes | Yes
 | Import/Export Wizard |  Yes | Yes  | Yes | Yes
 | Database Mail | Yes | Yes | No | No
+| UTF-8 |  Yes | Yes   | Yes | Yes
+| Java Runtime Integration |  Yes | Yes   | Yes | Yes
+| Polybase Compute Node |  Yes | Yes   | Yes | Yes
+| Master Instance for Big Data Cluster |  Yes | Yes   | Yes | Yes
 
 # FAQ
 
