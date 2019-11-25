@@ -13,4 +13,4 @@ SizeOptimiser is a T-SQL script that performs schema, architecture, and feature 
 
 Whiles some checks apply only to the features and limitations of a SQL Server Express instance, others can help increase the speed and maintainability of any SQL Server database.
 
-The script is totally free an open sourced. Updates, source code, and compatibility is available at: [lowlydba.com/ExpressSQL/](http://lowlydba.com/ExpressSQL)
+The script is totally free an open sourced. Updates, source code, and compatibility is available at: [spsizeoptimiser.lowlydba.com/](https://spsizeoptimiser.lowlydba.com/)
