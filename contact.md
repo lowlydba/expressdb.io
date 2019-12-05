@@ -26,7 +26,7 @@ subtitle: Need more SQL Express help?
 	<div class="form-group">
 		<label>Your problem(s)</label>
 		<br />
-		<textarea required minlength="10" cols="55" rows="6" placeholder="I need help with..."></textarea>
+		<textarea required minlength="10" cols="55" rows="6" name="comments" placeholder="I need help with..."></textarea>
 	</div>
   <br />
   <button type="submit" class="pageclip-form__submit--dark-loader">
