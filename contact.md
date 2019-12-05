@@ -21,6 +21,7 @@ subtitle: Need more SQL Express help?
 			<option value="2014">SQL Express 2014</option>
 			<option value="2016">SQL Express 2016</option>
 			<option value="2017">SQL Express 2017</option>
+			<option value="2017">SQL Express 2019</option>
 		</select>
 	</div>
 	<div class="form-group">
