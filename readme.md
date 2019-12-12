@@ -4,7 +4,7 @@ heroImage:
 heroText: ExpressDB
 tagline: Guides for Microsoft SQL Server Express
 actionText: Get Started →
-actionLink: /docs/what-is-sql-server-express.html
+actionLink: /what-is-sql-server-express
 footer: Express Databases, LLC - 2019 - Powered by VuePress
 ---
 # Everything you need to get the most out of SQL Server Express
