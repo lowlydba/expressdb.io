@@ -38,7 +38,3 @@ to the a 18.x version is both supported and recommended.
 
 <br/>
 <br/>
-
-<ClientOnly>
-<disqus-component/>
-</ClientOnly>

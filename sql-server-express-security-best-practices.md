@@ -58,7 +58,3 @@ to be completed:
 
 <br/>
 <br/>
-
-<ClientOnly>
-<disqus-component/>
-</ClientOnly>

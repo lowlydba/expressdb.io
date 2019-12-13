@@ -258,7 +258,3 @@ Coming soon! See SQL CAT Team's [Unattended install and configuration for SQL Se
 
 <br/>
 <br/>
-
-<ClientOnly>
-<disqus-component/>
-</ClientOnly>

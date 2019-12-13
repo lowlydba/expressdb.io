@@ -1,4 +1,6 @@
-
+---
+editLink: false # Will overwrite 'editLinks' from themeConfig
+---
 
 # About the Author
 

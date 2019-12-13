@@ -47,7 +47,3 @@ Here are a few reasons many choose Express over open source alternatives:
 
 <br/>
 <br/>
-
-<ClientOnly>
-<disqus-component/>
-</ClientOnly>

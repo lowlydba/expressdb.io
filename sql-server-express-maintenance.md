@@ -110,7 +110,3 @@ reach out via the [contact page](/author/contact/) to get more one-on-one help.
 
 <br/>
 <br/>
-
-<ClientOnly>
-<disqus-component/>
-</ClientOnly>

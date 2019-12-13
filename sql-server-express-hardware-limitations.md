@@ -71,7 +71,3 @@ price these days.
 
 <br/>
 <br/>
-
-<ClientOnly>
-<disqus-component/>
-</ClientOnly>

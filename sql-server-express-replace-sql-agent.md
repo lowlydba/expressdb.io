@@ -92,7 +92,3 @@ Repeat the above steps to handle database backups, DBCC checks, and other databa
 
 <br/>
 <br/>
-
-<ClientOnly>
-<disqus-component/>
-</ClientOnly>

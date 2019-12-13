@@ -1,6 +1,6 @@
 
 
-## Introduction
+## SQL Server Edition Feature Comparison
 
 The most well known differences between SQL Express and other editions are the
 [caps on database size](http://expressdb.io/sql-server-express-database-size-limit/) (10GB) and [lack of a SQL Agent feature](http://expressdb.io/sql-server-express-replace-sql-agent/). There are many other
@@ -269,6 +269,3 @@ These terms are only used in Microsoft feature comparison documents, but not SQL
 <br/>
 <br/>
 
-<ClientOnly>
-<disqus-component/>
-</ClientOnly>

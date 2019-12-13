@@ -100,7 +100,3 @@ EXECUTE msdb.dbo.sp_send_dbmail
 
 <br/>
 <br/>
-
-<ClientOnly>
-<disqus-component/>
-</ClientOnly>

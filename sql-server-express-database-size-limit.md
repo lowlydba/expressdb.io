@@ -113,7 +113,3 @@ Since there are always exceptions as to when normalized data or denormalized dat
 
 <br/>
 <br/>
-
-<ClientOnly>
-<disqus-component/>
-</ClientOnly>

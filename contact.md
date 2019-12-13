@@ -1,3 +1,7 @@
+---
+editLink: false # Will overwrite 'editLinks' from themeConfig
+---
+
 # Send a SQL SOS
 
 ::: tip Need more help?
