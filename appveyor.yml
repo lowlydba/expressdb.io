@@ -2,22 +2,27 @@ version: 1.0.{build}
 image: Visual Studio 2019
 
 install:
-  - cmd: >-
+- cmd: >-
     yarn global add vuepress
 
     yarn add -D @vuepress/plugin-google-analytics
     
 build_script:
   - cmd: vuepress build
-    
+   
+for:   
 -
   branches:
     only:
     - master
   
   configuration: Release
-  deploy:
-    - cmd: vuepress build
+  deploy_script:
+    - cmd: >-
+        vuepress build
+        mkdir C:\projects\dist\
+        copy .vuepress\dist\* C:\projects\dist\
+    
     
 -
   branches: 
@@ -25,8 +30,3 @@ build_script:
      - master
 
   configuration: Test
-
-
-    
-
-

@@ -18,6 +18,10 @@ performance degradation for end users.
 
 ## How to Work Around SQL Server Express's Data Limit
 
+### Compression
+
+In SQL Server 2016 SP1+, Express versions can utilize [data compression](https://docs.microsoft.com/en-us/sql/relational-databases/data-compression/data-compression?view=sql-server-ver15) on indexes and tables to increase the size of a database on disk. Generally, the additional CPU required to decompress data that is read from disk is a worthwhile trade off for larger tables and indexes. 
+
 ### Design Smart
 
 Commonly, databases are created using generic data types that may provide flexibility, but
