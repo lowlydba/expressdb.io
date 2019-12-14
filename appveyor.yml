@@ -18,7 +18,11 @@ for:
   
   configuration: Release
   deploy_script:
-    - cmd: vuepress build
+    - cmd: >-
+        vuepress build
+        mkdir C:\projects\dist\
+        copy .vuepress\dist\* C:\projects\dist\
+    
     
 -
   branches: 
