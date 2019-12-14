@@ -1,4 +1,9 @@
 {
+  "name": "test-project",
+  "version": "1.0.0",
+  "description": "A Vue.js project",
+  "main": "src/main.js",
+  "private": true,
   "devDependencies": {
     "@vuepress/plugin-google-analytics": "^1.2.0"
   }

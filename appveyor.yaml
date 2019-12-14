@@ -10,6 +10,7 @@ clone_folder: C:\projects\expressdb
 install:
 - ps: Install-Product node $env:nodejs_version
 - npm install
+- npm install --save core-js@^3
 - ps: yarn global add vuepress
   
   
