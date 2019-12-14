@@ -1,5 +1,6 @@
 // .vuepress/config.js
 module.exports = {
+  title: 'Express DB',
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
