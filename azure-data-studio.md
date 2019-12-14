@@ -48,7 +48,3 @@ Azure Data Studio will no doubt be getting a lot of love from Microsoft and the 
 
 <br/>
 <br/>
-
-<ClientOnly>
-<disqus-component/>
-</ClientOnly>
