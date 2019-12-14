@@ -36,10 +36,10 @@ module.exports = {
 		{ text: 'Unattended Installation', link: '/sql-server-express-unattended-install/'}
 		]
 	  },
-	  { text: 'Free Tools',
+	  { text: 'Tools & Resources',
 		ariaLabel: 'Free Tools Menu',
 		items: [
-		{ text: 'Scripts, Apps, and Resources', link: 'https://miscmssql.lowlydba.com/'},
+		{ text: 'Scripts, Apps, and Resources', link: '/sql-server-resources/'},
 		{ text: 'ExpressSQL Scripts', link: 'https://spsizeoptimiser.lowlydba.com/'},
 		{ text: 'Azure Data Studio', link: '/azure-data-studio/'}
 		]
