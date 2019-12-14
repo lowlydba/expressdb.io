@@ -8,9 +8,9 @@ environment:
 clone_folder: C:\projects\expressdb
 
 install:
-- ps: yarn global add vuepress
 - ps: Install-Product node $env:nodejs_version
 - npm install
+- ps: yarn global add vuepress
   
   
 build_script:
