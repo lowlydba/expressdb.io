@@ -19,9 +19,19 @@ for:
   configuration: Release
   deploy_script:
     - cmd: >-
-        vuepress build
         mkdir C:\projects\dist\
-        copy .vuepress\dist\* C:\projects\dist\
+        
+        cd C:\projects\dist\
+        
+        git checkout github-pages
+        
+        git rm -r * -q
+        
+        copy C:\projects\expressdb\.vuepress\dist\* C:\projects\dist\
+        
+        git commit -m "deploy github pages"
+        
+        git push 
     
     
 -
