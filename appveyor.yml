@@ -1,6 +1,10 @@
 version: 1.0.{build}
 image: Visual Studio 2019
 
+environment:
+  access_token:
+    secure: aQ03S2mWlOaOuaT8QBF6dVYG/sb6PgaeUlJ0rijCFs6gN0jxLH7lo0hgDMELamsQ
+
 install:
 - cmd: >-
     yarn global add vuepress
@@ -18,7 +22,7 @@ for:
   
   configuration: Release
   deploy_script:
-    - cmd: >-
+    - ps: >-
         mkdir C:\projects\dist\
         
         git clone -q --branch=gh-pages https://github.com/LowlyDBA/expressdb.git C:\projects\dist\
@@ -29,14 +33,17 @@ for:
         
         copy C:\projects\expressdb\.vuepress\dist\* C:\projects\dist\
         
+        git config --global credential.helper store
+        
+        Add-Content "$HOME\.git-credentials" "https://$($env:access_token):x-oauth-basic@github.com`n"
+        
         git config --global user.email "john@lowlydba.com" 
         
         git config --global user.name "John M"
         
         git commit -m "deploy github pages" -q
         
-        git push 
-    
+        git push origin gh-pages
     
 -
   branches: 
