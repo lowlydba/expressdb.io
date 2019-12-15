@@ -33,7 +33,7 @@ for:
         
         git config --global user.name "John M"
         
-        git commit -m "deploy github pages"
+        git commit -m "deploy github pages" -q
         
         git push 
     
