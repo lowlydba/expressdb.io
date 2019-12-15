@@ -43,7 +43,7 @@ for:
         
         git commit -m "deploy github pages" -q
         
-        git push origin gh-pages
+        git push origin gh-pages -f
     
 -
   branches: 
