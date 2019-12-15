@@ -29,7 +29,7 @@ for:
         
         cd C:\projects\dist\
         
-        git rm -r "*" -q
+        git rm * -r -q
         
         copy C:\projects\expressdb\.vuepress\dist\* C:\projects\dist\
         
