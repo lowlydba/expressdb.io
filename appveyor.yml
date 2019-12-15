@@ -29,7 +29,7 @@ for:
         
         cd C:\projects\dist\
         
-        git rm -r * -q
+        git rm -r "*" -q
         
         copy C:\projects\expressdb\.vuepress\dist\* C:\projects\dist\
         
@@ -41,7 +41,9 @@ for:
         
         git config --global user.name "John M"
         
-        git commit -m "deploy github pages" -q
+        git add .
+        
+        git commit -a -m "deploy github pages" -q
         
         git push origin gh-pages -f
     
