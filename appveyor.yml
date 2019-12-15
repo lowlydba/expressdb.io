@@ -38,6 +38,8 @@ for:
         
         copy C:\projects\expressdb\.vuepress\dist\* C:\projects\dist\
         
+        echo "expressdb.io" > CNAME
+        
         git config --global user.email "john@lowlydba.com" 
         
         git config --global user.name "John M"
