@@ -36,7 +36,7 @@ for:
         
         git rm * -r -q
         
-        xcopy "C:\projects\expressdb\.vuepress\dist\" "C:\projects\dist\" /s
+        xcopy "C:\projects\expressdb\.vuepress\dist" "C:\projects\dist" /s
         
         echo "expressdb.io" > CNAME
         
