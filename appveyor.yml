@@ -29,6 +29,10 @@ for:
         
         copy C:\projects\expressdb\.vuepress\dist\* C:\projects\dist\
         
+        git config --global user.email "john@lowlydba.com" 
+        
+        git config --global user.name "John M"
+        
         git commit -m "deploy github pages"
         
         git push 
