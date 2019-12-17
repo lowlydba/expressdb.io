@@ -41,6 +41,7 @@ Most open source, all free. Scripts, tools, and resources pertinent to SQL Serve
 | [SQL Watch](https://sqlwatch.io/) | Monitoring | 👍 | [Marcin Gminski](https://marcin.gminski.net/) |
 | [SchemaZen](https://github.com/sethreno/schemazen#schemazen---script-and-create-sql-server-objects-quickly) | Scripting | :+1: | [Seth Reno](https://github.com/sethreno) |
 | [mssql-scripter](https://github.com/Microsoft/sql-xplat-cli/) | Scripting | 👍 | Microsoft |
+| [DBDiagram.io](https://dbdiagram.io/) | Sharing | | [holistics.io](https://www.holistics.io)|
 | [Format Text as Table](https://senseful.github.io/text-table/) | Sharing | | [Senseful Solutions](https://senseful.github.io/) |
 | [DBFit](http://www.methodsandtools.com/tools/dbfit.php) | Testing | | <a href="https://javornikolov.wordpress.com/">Yavor Nikolov</a> |
 | [DB Fiddle](https://dbfiddle.uk/) | Testing/Sharing | | [Jack Douglas](https://douglastechnology.co.uk/) |
