@@ -20,6 +20,7 @@ Most open source, all free. Scripts, tools, and resources pertinent to SQL Serve
 - [Module Signing Info](https://modulesigning.info/)
 - [SQL 2017 & Azure Database Permissions Poster](assets/Permissions_Poster_2017_and_SQLDB.PDF)
 - [The Data Loading Performance Guide](https://docs.microsoft.com/en-us/previous-versions/sql/sql-server-2008/dd425070(v=sql.100))
+- [Database Hiearachy of Monitoring Infographic](https://www.lowlydba.com/database-hierarchy-of-monitoring/)
 - [Scheduling Powershell Tasks With SQL Agent](https://dbatools.io/agent/)
 
 ## SSMS Plugins
