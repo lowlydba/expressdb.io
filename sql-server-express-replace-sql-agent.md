@@ -7,18 +7,18 @@ and maintenance jobs across one or more servers, but it also functions as a gene
 job scheduler. It can execute any PowerShell or command prompt script to take care of
 any number of processes or jobs that may be 100% external to SQL Server.
 
-## Airflow
+* [Windows](#windows)
+* [Linux](#linux)
+* [Platform Agnostic](#platform-agnostic)
 
-A relative newcomer, [Airflow](https://airflow.apache.org/) is a "platform created by community to programmatically author, schedule and monitor workflows." It is backed by Apache, built in Python, and 100 percent free. Airflow has been making huge waves in data engineering and data science areas due to its relative ease to manage and customizability.
+## Windows
 
-While it may be overkill to leverage Airflow *just* for simple backup or maintenance scripts, if you have needs for other scheduled workflows around SQL Server Express, it may be a good fit. Airflow will require some knowledge of Python to get everything operational, but out of the box Airflow does include a [basic hook for SQL Server](https://airflow.apache.org/docs/stable/_api/airflow/hooks/mssql_hook/index.html) which should make a basic proof of concept an easy task to accomplish.
-
-## Windows Task Scheduler
+### Windows Task Scheduler
 
 Without a SQL Agent, the default option for [managing backups](/best-practices/sql-server-express-backups/) and [maintenance scripts](/best-practices/sql-server-express-maintenance/) on SQL Server Express is not an option. Luckily, one of the next best alternatives is free, included in Windows,
 and takes very little time to configure. Enter Windows Task Scheduler!
 
-To utilize the task scheduler, a task must be created that will execute a batch script containing the code to run on the SQL Express Instance. In this eample, it will be a maintenance job
+To utilize the task scheduler, a task must be created that will execute a batch script containing the code to run on the SQL Express Instance. In this example, it will be a maintenance job
 that will be run weekly to ensure indexes are defragmented on user databases. The
 settings for the maintenance job will be copied directly from Ola's scripts to replicate
 the parameters that are used to create a job when the SQL Agent is available.
@@ -26,7 +26,7 @@ the parameters that are used to create a job when the SQL Agent is available.
 * [Creating a Task via GUI](#task-scheduler-gui)
 * [Creating a Task via Command Line](#task-scheduler-command-line)
 
-### Task Scheduler GUI
+#### Task Scheduler GUI
 1. Install [Ola Hallengren's maintenance scripts](https://ola.hallengren.com/sql-server-index-and-statistics-maintenance.html) if they haven't been already. *There may be a message about SQLServerAgent not running when installing these scripts. That is expected since the agent isn't available, but will not affect the installation.*
 
 2. Create a `.bat` file for the sqlcmd script that will run the maintenance stored procedure:
@@ -59,7 +59,7 @@ the parameters that are used to create a job when the SQL Agent is available.
 
 Repeat the above steps to handle database backups, DBCC checks, and other database maintenance as needed.
 
-### Task Scheduler Command Line
+#### Task Scheduler Command Line
 Using Windows Task Scheduler from the command line involves running [schtasks.exe](https://msdn.microsoft.com/en-us/library/windows/desktop/bb736357(v=vs.85).aspx) to schedule and configure tasks.
 
 1. Install [Ola Hallengren's maintenance scripts](https://ola.hallengren.com/sql-server-index-and-statistics-maintenance.html) if they haven't been already. *There may be a message about SQLServerAgent not running when installing these scripts. That is expected since the agent isn't available, but will not affect the installation.*
@@ -90,6 +90,42 @@ Using Windows Task Scheduler from the command line involves running [schtasks.ex
 	```
 
 Repeat the above steps to handle database backups, DBCC checks, and other database maintenance as needed.
+
+## Linux
+
+For installations of SQL Server Express on Linux, the built-in system chron scheduler can be used to run maintenance and other SQL Server tasks.
+
+1.  Install [Ola Hallengren's maintenance scripts](https://ola.hallengren.com/sql-server-index-and-statistics-maintenance.html) if they haven't been already. *There may be a message about SQLServerAgent not running when installing these scripts. That is expected since the agent isn't available, but will not affect the installation.*
+
+2. Create a bash script to execute the maintenance procedure (we'll call ours `sqlmaint.sh`):
+
+	```bash
+	#!/bin/bash
+	sqlcmd -E -S .\SQLEXPRESS -d master \
+	-Q "EXECUTE [dbo].[IndexOptimize] @Databases = 'USER_DATABASES', @LogToTable = 'Y'" -b
+	```
+
+3. Schedule the script to run via cron by opening the cron editor from the shell:
+
+	```bash
+	crontab -e
+	```
+
+4. And adding the script on a schedule:
+
+	```bash
+	00 23 * * * /bin/sqlmaint.sh # Run maintenance 11PM every day
+	```
+
+Repeat the above steps for any other tasks that need to be regularly scheduled.
+
+## Platform Agnostic
+
+### Airflow
+
+A relative newcomer, [Airflow](https://airflow.apache.org/) is a "platform created by community to programmatically author, schedule and monitor workflows." It is backed by Apache, built in Python, and 100 percent free. Airflow has been making huge waves in data engineering and data science areas due to its relative ease to manage and customizability.
+
+While it may be overkill to leverage Airflow *just* for simple backup or maintenance scripts, if you have needs for other scheduled workflows around SQL Server Express, it may be a good fit. Airflow will require some knowledge of Python to get everything operational, but out of the box Airflow does include a [basic hook for SQL Server](https://airflow.apache.org/docs/stable/_api/airflow/hooks/mssql_hook/index.html) which should make a basic proof of concept an easy task to accomplish.
 
 ## Further Reading
 * [FAQ on Ola Hallengren's Scripts](https://ola.hallengren.com/frequently-asked-questions.html)
