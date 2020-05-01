@@ -16,7 +16,7 @@ Right after connecting to a SQL instance a dashboard provides instance informati
 
 Azure Data Studio is definitely targeted towards data-minded individuals. With integrated source control support, a host of free extensions, a file explorer, support for [Notebooks](https://notebooks.azure.com/), query results to graph capabilities it offers an ease of working with SQL and data that other database platforms have not come close to providing. And for anyone accustomed to using SQL Server Management Studio, the inclusion of both a fully supported dark theme and a blazing fast, reliable Intellisense are things that only dreams were made of until now.
 
-![Proof Intellisense isn't broken by design](/azure-data-studio-dark-theme.PNG)
+![Proof Intellisense isn't broken by design](/azure-data-studio-dark-theme.png)
 *Proof Intellisense isn't broken by design*
 
 ## When To Use It
@@ -25,7 +25,7 @@ If you're a developer, data scientist, or pretty much anyone except for a DBA, t
 
 If you are a DBA and you find yourself needing to work with SQL Agent, in depth-configurations, and wizards on a frequent basis, then (for now) Azure Data Studio probably won't fulfill your day to day needs. It does have increasing support for these areas, like the SQL Agent extension, which can show a novel view of current and previous job statistics:
 
-![SQL Agent Extension for Azure Data Studio](/azure-data-studio-sql-agent.PNG)
+![SQL Agent Extension for Azure Data Studio](/azure-data-studio-sql-agent.png)
 *The SQL Agent extension*
 
 Microsoft does provide [this chart](https://cloudblogs.microsoft.com/sqlserver/2018/09/25/azure-data-studio-for-sql-server/#featurecomparison) as a helpful comparison of features between Azure Data Studio and SQL Server Management Studio.
