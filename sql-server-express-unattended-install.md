@@ -249,7 +249,11 @@ SQLSVCINSTANTFILEINIT="True"
 
 ## 2017, 2019 Unattended Install Linux
 
-Coming soon! See SQL CAT Team's [Unattended install and configuration for SQL Server 2017 on Linux](https://blogs.msdn.microsoft.com/sqlcat/2017/10/03/unattended-install-and-configuration-for-sql-server-2017-on-linux/) in the mean time.
+Microsoft has done an excellent job on documenting an unattended SQL Server installation for Ubuntu, SUSE, and Red Hat.
+
+* [Unattended SQL Server install for Redhat](https://docs.microsoft.com/en-us/sql/linux/sample-unattended-install-redhat?view=sql-server-ver15)
+* [Unattended SQL Server install for SUSE](https://docs.microsoft.com/en-us/sql/linux/sample-unattended-install-suse?view=sql-server-ver15)
+* [Unattended SQL Server install for Ubuntu](https://docs.microsoft.com/en-us/sql/linux/sample-unattended-install-ubuntu?view=sql-server-ver15)
 
 ## Further Reading
 * Microsoft's documentation [Install SQL Server from the Command Line](https://docs.microsoft.com/en-us/sql/database-engine/install-windows/install-sql-server-from-the-command-prompt?view=sql-server-2017)
