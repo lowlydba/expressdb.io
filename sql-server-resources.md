@@ -68,7 +68,7 @@ Most open source, all free. Scripts, tools, and resources pertinent to SQL Serve
 - [T-SQL Interview Questions](https://www.mssqltips.com/sqlservertip/1450/sql-server-developer-tsql-interview-questions/) by [Jeremy Kadlec](https://www.mssqltips.com/sqlserverauthor/38/jeremy-kadlec/)
 - [Developer Interview Questions](https://www.brentozar.com/archive/2009/06/top-10-developer-interview-questions-about-sql-server/) by Brent Ozar
 - [Tuning Cost Threshold](http://sqlblog.com/blogs/jonathan_kehayias/archive/2010/01/19/tuning-cost-threshold-of-parallelism-from-the-plan-cache.aspx)
-- [5 Rules of Normalization][normrules] by Marc Rettig
+- [5 Rules of Normalization][normrules] by [Marc Rettig][marc]
 - [T-SQL Code Smells][smelly] by [Phil Factor][phil]
 - [Fighting Evil in Your Code: Comments on Comments](https://www.red-gate.com/simple-talk/opinion/opinion-pieces/fighting-evil-code-comments-comments/) by [Michael Sorens](https://www.red-gate.com/simple-talk/author/michael-sorens/)
 - [The Security of Modern Password Expiration: An Algorithmic Framework and Empirical Analysis](https://www.cs.unc.edu/~reiter/papers/2010/CCS.pdf)
@@ -83,7 +83,9 @@ Most open source, all free. Scripts, tools, and resources pertinent to SQL Serve
   "DB Fit"
 [fiddle]: http://sqlfiddle.com/
   "SQL Fiddle"
-[normrules]: https://github.com/LowlyDBA/miscmssql/blob/master/Best%20Practices/Marc_Rettig_5_Rules_of_Normalization_Poster.pdf
+[normrules]: /rettigNormalizationPoster.pdf
   "5 Rules of Normalization"
- [smelly]: https://www.red-gate.com/simple-talk/sql/t-sql-programming/sql-code-smells/
- [phil]: https://www.red-gate.com/simple-talk/author/phil-factor/
+[marc]: http://marcrettig.me/data-normalization-poster-1989/
+  "Marc Rettig"
+[smelly]: https://www.red-gate.com/simple-talk/sql/t-sql-programming/sql-code-smells/
+[phil]: https://www.red-gate.com/simple-talk/author/phil-factor/
