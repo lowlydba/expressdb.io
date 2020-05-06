@@ -50,13 +50,13 @@ Most open source, all free. Scripts, tools, and resources pertinent to SQL Serve
 | [SQL Fiddle](http://sqlfiddle.com/) | Testing/Sharing | | [Jake Feasel](http://stackoverflow.com/users/808921/jake-feasel) |
 | [Paste The Plan](https://pastetheplan.com/) | Tuning/Sharing | | [Brent Ozar Unlimited](https://www.brentozar.com/)
 
-## Other
-- [Wide World Importer Database](https://github.com/Microsoft/sql-server-samples) - Successor to the AdventureWorks sample database for SQL Server 2016+
-- [Stack Overflow Database](https://www.brentozar.com/archive/2015/10/how-to-download-the-stack-overflow-database-via-bittorrent/) - Brent Ozar's packaging of the Stack Overflow database
-- [idownvotedbecau.se](http://idownvotedbecau.se/) - Linkable downvoting rationale for Stack Exchange comments.
-- [Open Source Pull Request Template](https://www.talater.com/open-source-templates/#/) - Whimsical choose-your-own-adventure that climaxes with a customized pull request template by [Tal Ater](https://twitter.com/TalAter)
+## Educational 
+- [Vertabelo's Academy](https://www.vertabelo.com/academy/) - Various database patterns and schema design examples
+- [5 Rules of Normalization][normrules] by [Marc Rettig][marc]
+- [SQL Murder Mystery](https://mystery.knightlab.com/) - Introduction to SQL as a murder mystery story
+- [Select Star](https://selectstarsql.com/) - Interactive introduction to SQL 
 
-## Good Reads
+## Articles
 
 ### AlwaysOn
 - [The AlwaysOn Health Model Part 2 - Extending the Health Model](https://techcommunity.microsoft.com/t5/SQL-Server/The-AlwaysOn-Health-Model-Part-2-Extending-the-Health-Model/ba-p/384043?advanced=false&collapse_discussion=true&q=the%20alwayson%20health%20model&search_type=thread)
@@ -68,10 +68,15 @@ Most open source, all free. Scripts, tools, and resources pertinent to SQL Serve
 - [T-SQL Interview Questions](https://www.mssqltips.com/sqlservertip/1450/sql-server-developer-tsql-interview-questions/) by [Jeremy Kadlec](https://www.mssqltips.com/sqlserverauthor/38/jeremy-kadlec/)
 - [Developer Interview Questions](https://www.brentozar.com/archive/2009/06/top-10-developer-interview-questions-about-sql-server/) by Brent Ozar
 - [Tuning Cost Threshold](http://sqlblog.com/blogs/jonathan_kehayias/archive/2010/01/19/tuning-cost-threshold-of-parallelism-from-the-plan-cache.aspx)
-- [5 Rules of Normalization][normrules] by [Marc Rettig][marc]
 - [T-SQL Code Smells][smelly] by [Phil Factor][phil]
 - [Fighting Evil in Your Code: Comments on Comments](https://www.red-gate.com/simple-talk/opinion/opinion-pieces/fighting-evil-code-comments-comments/) by [Michael Sorens](https://www.red-gate.com/simple-talk/author/michael-sorens/)
 - [The Security of Modern Password Expiration: An Algorithmic Framework and Empirical Analysis](https://www.cs.unc.edu/~reiter/papers/2010/CCS.pdf)
+
+## Other
+- [Wide World Importer Database](https://github.com/Microsoft/sql-server-samples) - Successor to the AdventureWorks sample database for SQL Server 2016+
+- [Stack Overflow Database](https://www.brentozar.com/archive/2015/10/how-to-download-the-stack-overflow-database-via-bittorrent/) - Brent Ozar's packaging of the Stack Overflow database
+- [idownvotedbecau.se](http://idownvotedbecau.se/) - Linkable downvoting rationale for Stack Exchange comments.
+- [Open Source Pull Request Template](https://www.talater.com/open-source-templates/#/) - Whimsical choose-your-own-adventure that climaxes with a customized pull request template by [Tal Ater](https://twitter.com/TalAter)
 
 [betterment]: https://www.betterment.com/resources/inside-betterment/engineering/modern-data-analysis-dont-trust-your-spreadsheet/
   "Betterment Blog"
