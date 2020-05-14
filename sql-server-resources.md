@@ -15,7 +15,8 @@ Most open source, all free. Scripts, tools, and resources pertinent to SQL Serve
 
 - [SQL Style Guide](http://www.sqlstyle.guide/)
 - [T-SQL Style Guide](https://lowlydba.github.io/tsqlstyle.guide/)
-- [DBATools Build Reference](https://sqlcollaborative.github.io/builds)
+- [DBATools Build Reference](https://sqlcollaborative.github.io/builds) - Open source SQL Server build tracker
+- [SQLServerUpdates.com](https://sqlserverupdates.com/) - Brent Ozar's SQL Server build tracker
 - [MSSQL Waitopedia](https://www.spotlightessentials.com/public/waitopedia)
 - [Module Signing Info](https://modulesigning.info/)
 - [SQL 2017 & Azure Database Permissions Poster](assets/Permissions_Poster_2017_and_SQLDB.PDF)
