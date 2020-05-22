@@ -66,6 +66,7 @@ Most open source, all free. Scripts, tools, and resources pertinent to SQL Serve
 - [SQL Server 2016/2017: Availability group secondary replica redo model and performance](https://blogs.msdn.microsoft.com/sql_server_team/sql-server-20162017-availability-group-secondary-replica-redo-model-and-performance/) - Detailed information on parallelism in redo worker threads
 
 ### Misc.
+- [Erland Sommarskog's articles on SQL Server](http://sommarskog.se/)
 - [Modern Data Analysis: Don't Trust Your Spreadsheet][betterment]
 - [T-SQL Interview Questions](https://www.mssqltips.com/sqlservertip/1450/sql-server-developer-tsql-interview-questions/) by [Jeremy Kadlec](https://www.mssqltips.com/sqlserverauthor/38/jeremy-kadlec/)
 - [Developer Interview Questions](https://www.brentozar.com/archive/2009/06/top-10-developer-interview-questions-about-sql-server/) by Brent Ozar
