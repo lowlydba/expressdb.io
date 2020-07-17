@@ -6,7 +6,10 @@ environment:
     secure: aQ03S2mWlOaOuaT8QBF6dVYG/sb6PgaeUlJ0rijCFs6gN0jxLH7lo0hgDMELamsQ
 
 install:
-- cmd: >-
+  # Get the latest stable version of Node.js or io.js
+  - ps: Install-Product node $env:nodejs_version
+  
+  - cmd: >-
     yarn upgrade
     
     yarn global add vuepress@1.5.0 --exact
