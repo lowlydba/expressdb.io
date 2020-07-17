@@ -9,6 +9,8 @@ install:
 - cmd: >-
     yarn upgrade
     
+    npm upgrade -g
+    
 - cmd: >-
     yarn global add vuepress
 
