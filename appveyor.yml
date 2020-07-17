@@ -9,6 +9,7 @@ install:
 - cmd: >-
     yarn upgrade
     
+- cmd: >-
     yarn global add vuepress
 
     yarn add -D @vuepress/plugin-google-analytics
