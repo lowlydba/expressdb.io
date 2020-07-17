@@ -9,12 +9,9 @@ install:
   # Get the latest stable version of Node.js or io.js
   - ps: Install-Product node $env:nodejs_version
   
-  - cmd: >-
-    yarn upgrade
-    
-    yarn global add vuepress@1.5.0 --exact
-
-    yarn add -D @vuepress/plugin-google-analytics
+  - cmd: yarn upgrade
+  - cmd: yarn global add vuepress@1.5.0 --exact
+  - cmd: yarn add -D @vuepress/plugin-google-analytics
     
 build_script:
   - cmd: vuepress build
