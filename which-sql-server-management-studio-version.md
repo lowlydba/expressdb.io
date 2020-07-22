@@ -1,8 +1,8 @@
 
 
-## Which Management Studio Version to Use
+## Which SQL Server Management Studio Version to Use
 
-Until recently, which version of Management studio you used would
+Until recently, which version of SQL Server Management studio you used would
 most likely depend on which version of SQL Server you were using. The tool
 came packaged with each new release of SQL Server and was only updated
 when a new SQL Server version was released. So if you were using SQL Server 2014,
@@ -16,7 +16,7 @@ even when working with older servers.
 
 ## The Latest and Greatest
 
-As of April 7, the latest official version of SQL Server Management Studio is 18.5. 
+As of April 7, the latest official version of SQL Server Management Studio is 18.6. 
 
 ::: tip
 The latest version of Management Studio will always be available at the [Download SQL Server Management Studio](https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms) page.

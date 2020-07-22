@@ -10,7 +10,7 @@ module.exports = {
 		{ text: 'Express vs. Standard vs. Enterprise', link: '/docs/sql-server-express-feature-comparison/'},
 		{ text: 'SQL Express vs. LocalDB', link: '/docs/sql-server-express-vs-localdb/'},
 		{ text: 'Which Express Version to Use', link: '/docs/which-sql-server-express-version-to-use/'},
-		{ text: 'Which Management Studio to Use', link: '/docs/which-sql-server-management-studio-version/'},
+		{ text: 'Which SQL Server Management Studio to Use', link: '/docs/which-sql-server-management-studio-version/'},
 		] 
 	  },
       { text: 'Limitations',
