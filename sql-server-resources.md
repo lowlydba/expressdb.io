@@ -3,6 +3,7 @@
 Most open source, all free. Scripts, tools, and resources pertinent to SQL Server and beyond. 
 
 ## T-SQL Scripts
+
 - [Ola's Maintenance Scripts](https://github.com/olahallengren/sql-server-maintenance-solution)
 - [Brent's First Responder Kit](https://github.com/BrentOzarULTD/SQL-Server-First-Responder-Kit)
 - [Glenn Berry's Diagnostic Queries](https://www.sqlskills.com/blogs/glenn/category/dmv-queries/)
@@ -25,6 +26,7 @@ Most open source, all free. Scripts, tools, and resources pertinent to SQL Serve
 - [Scheduling Powershell Tasks With SQL Agent](https://dbatools.io/agent/)
 
 ## SSMS Plugins
+
 - [Apex SQL Refactor](http://www.apexsql.com/sql_tools_refactor.aspx)
 - [Apex SQL Complete](http://www.apexsql.com/sql_tools_complete.aspx)
 - [Apex SQL Search](http://www.apexsql.com/sql_tools_search.aspx)
@@ -32,6 +34,7 @@ Most open source, all free. Scripts, tools, and resources pertinent to SQL Serve
 - [Dell Spotlight Essentials](https://www.spotlightessentials.com/spotlight-extensions)
 
 ## Tools
+
 | Name | Type | Open Source | Author |
 | ---- | ---- | ----------- | ------ |
 | [DBA Tools](https://dbatools.io) | Admin | 👍 | [SQL Collaborative](https://dbatools.io/team/) |
@@ -43,16 +46,18 @@ Most open source, all free. Scripts, tools, and resources pertinent to SQL Serve
 | [Is It SQL?](http://www.scalesql.com/isitsql/) | Monitoring | | [Bill Graziano](http://www.scalesql.com/about.html)
 | [Spotlight Cloud Basic](https://www.spotlightcloud.io/pricing) | Monitoring | | [Quest](https://www.quest.com/) |
 | [SQL Watch](https://sqlwatch.io/) | Monitoring | 👍 | [Marcin Gminski](https://marcin.gminski.net/) |
-| [SchemaZen](https://github.com/sethreno/schemazen#schemazen---script-and-create-sql-server-objects-quickly) | Scripting | :+1: | [Seth Reno](https://github.com/sethreno) |
+| [SchemaZen](https://github.com/sethreno/schemazen#schemazen---script-and-create-sql-server-objects-quickly) | Scripting | 👍 | [Seth Reno](https://github.com/sethreno) |
 | [mssql-scripter](https://github.com/Microsoft/sql-xplat-cli/) | Scripting | 👍 | Microsoft |
 | [DBDiagram.io](https://dbdiagram.io/) | Sharing | | [holistics.io](https://www.holistics.io)|
 | [Format Text as Table](https://senseful.github.io/text-table/) | Sharing | | [Senseful Solutions](https://senseful.github.io/) |
-| [DBFit](http://www.methodsandtools.com/tools/dbfit.php) | Testing | | <a href="https://javornikolov.wordpress.com/">Yavor Nikolov</a> |
+| [DBFit](http://www.methodsandtools.com/tools/dbfit.php) | Testing | | [Yavor Nikolov](https://javornikolov.wordpress.com/) |
 | [DB Fiddle](https://dbfiddle.uk/) | Testing/Sharing | | [Jack Douglas](https://douglastechnology.co.uk/) |
 | [SQL Fiddle](http://sqlfiddle.com/) | Testing/Sharing | | [Jake Feasel](http://stackoverflow.com/users/808921/jake-feasel) |
+| [SQL Query Stress](https://github.com/ErikEJ/SqlQueryStress) | Testing | 👍 | [Erik Ejlskov Jensen](https://erikej.github.io/)
 | [Paste The Plan](https://pastetheplan.com/) | Tuning/Sharing | | [Brent Ozar Unlimited](https://www.brentozar.com/)
 
-## Educational 
+## Educational
+
 - [Vertabelo's Academy](https://www.vertabelo.com/academy/) - Various database patterns and schema design examples
 - [5 Rules of Normalization][normrules] by [Marc Rettig][marc]
 - [SQL Murder Mystery](https://mystery.knightlab.com/) - Introduction to SQL as a murder mystery story
@@ -61,11 +66,13 @@ Most open source, all free. Scripts, tools, and resources pertinent to SQL Serve
 ## Articles
 
 ### AlwaysOn
-- [The AlwaysOn Health Model Part 2 - Extending the Health Model](https://techcommunity.microsoft.com/t5/SQL-Server/The-AlwaysOn-Health-Model-Part-2-Extending-the-Health-Model/ba-p/384043?advanced=false&collapse_discussion=true&q=the%20alwayson%20health%20model&search_type=thread)
+
+- [The AlwaysOn Health Model Part 2 - Extending the Health Model][alwaysonhealth]
 - [When Always On Isn't: Handling Outages In Your Application](https://www.brentozar.com/archive/2017/01/always-isnt-handling-outages-application/) by Brent Ozar
 - [SQL Server 2016/2017: Availability group secondary replica redo model and performance](https://blogs.msdn.microsoft.com/sql_server_team/sql-server-20162017-availability-group-secondary-replica-redo-model-and-performance/) - Detailed information on parallelism in redo worker threads
 
-### Misc.
+### Misc
+
 - [Erland Sommarskog's articles on SQL Server](http://sommarskog.se/)
 - [Modern Data Analysis: Don't Trust Your Spreadsheet][betterment]
 - [T-SQL Interview Questions](https://www.mssqltips.com/sqlservertip/1450/sql-server-developer-tsql-interview-questions/) by [Jeremy Kadlec](https://www.mssqltips.com/sqlserverauthor/38/jeremy-kadlec/)
@@ -76,11 +83,13 @@ Most open source, all free. Scripts, tools, and resources pertinent to SQL Serve
 - [The Security of Modern Password Expiration: An Algorithmic Framework and Empirical Analysis](https://www.cs.unc.edu/~reiter/papers/2010/CCS.pdf)
 
 ## Other
+
 - [Wide World Importer Database](https://github.com/Microsoft/sql-server-samples) - Successor to the AdventureWorks sample database for SQL Server 2016+
 - [Stack Overflow Database](https://www.brentozar.com/archive/2015/10/how-to-download-the-stack-overflow-database-via-bittorrent/) - Brent Ozar's packaging of the Stack Overflow database
 - [idownvotedbecau.se](http://idownvotedbecau.se/) - Linkable downvoting rationale for Stack Exchange comments.
 - [Open Source Pull Request Template](https://www.talater.com/open-source-templates/#/) - Whimsical choose-your-own-adventure that climaxes with a customized pull request template by [Tal Ater](https://twitter.com/TalAter)
 
+[alwaysonhealth]: https://techcommunity.microsoft.com/t5/SQL-Server/The-AlwaysOn-Health-Model-Part-2-Extending-the-Health-Model/ba-p/384043?advanced=false&collapse_discussion=true&q=the%20alwayson%20health%20model&search_type=thread
 [betterment]: https://www.betterment.com/resources/inside-betterment/engineering/modern-data-analysis-dont-trust-your-spreadsheet/
   "Betterment Blog"
 [isitsql]: http://www.scalesql.com/isitsql/
@@ -97,3 +106,4 @@ Most open source, all free. Scripts, tools, and resources pertinent to SQL Serve
   "Marc Rettig"
 [smelly]: https://www.red-gate.com/simple-talk/sql/t-sql-programming/sql-code-smells/
 [phil]: https://www.red-gate.com/simple-talk/author/phil-factor/
+
