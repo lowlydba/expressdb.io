@@ -1,6 +1,6 @@
 
-
 ## SQL Express = No Agent
+
 One of the biggest feature limitations of SQL Server Express is the exclusion of
 the SQL Agent. Not only does SQL Agent work wonderfully for managing ETL, SSIS,
 and maintenance jobs across one or more servers, but it also functions as a general
@@ -27,6 +27,7 @@ the parameters that are used to create a job when the SQL Agent is available.
 * [Creating a Task via Command Line](#task-scheduler-command-line)
 
 #### Task Scheduler GUI
+
 1. Install [Ola Hallengren's maintenance scripts](https://ola.hallengren.com/sql-server-index-and-statistics-maintenance.html) if they haven't been already. *There may be a message about SQLServerAgent not running when installing these scripts. That is expected since the agent isn't available, but will not affect the installation.*
 
 2. Create a `.bat` file for the sqlcmd script that will run the maintenance stored procedure:
@@ -60,17 +61,20 @@ the parameters that are used to create a job when the SQL Agent is available.
 Repeat the above steps to handle database backups, DBCC checks, and other database maintenance as needed.
 
 #### Task Scheduler Command Line
+
 Using Windows Task Scheduler from the command line involves running [schtasks.exe](https://msdn.microsoft.com/en-us/library/windows/desktop/bb736357(v=vs.85).aspx) to schedule and configure tasks.
 
 1. Install [Ola Hallengren's maintenance scripts](https://ola.hallengren.com/sql-server-index-and-statistics-maintenance.html) if they haven't been already. *There may be a message about SQLServerAgent not running when installing these scripts. That is expected since the agent isn't available, but will not affect the installation.*
 
 2. Create a `.bat` file for the sqlcmd script that will run the maintenance stored procedure:
+
 	```batch
 	sqlcmd -E -S .\SQLEXPRESS -d master ^
 	-Q "EXECUTE [dbo].[IndexOptimize] @Databases = 'USER_DATABASES', @LogToTable = 'Y'" -b
 	```
 
 3. Replace the placeholder values and run the script below to create a scheduled task:
+
  * `RU` - Windows user the task will run as.
  * `RP` - Password for the RU.
  * `SC` - Run schedule (MINUTE, HOURLY, DAILY, WEEKLY, MONTHLY, ONCE, ONLOGON, ONIDLE, or ONEVENT.)
@@ -95,7 +99,7 @@ Repeat the above steps to handle database backups, DBCC checks, and other databa
 
 For installations of SQL Server Express on Linux, the built-in system chron scheduler can be used to run maintenance and other SQL Server tasks.
 
-1.  Install [Ola Hallengren's maintenance scripts](https://ola.hallengren.com/sql-server-index-and-statistics-maintenance.html) if they haven't been already. *There may be a message about SQLServerAgent not running when installing these scripts. That is expected since the agent isn't available, but will not affect the installation.*
+1. Install [Ola Hallengren's maintenance scripts](https://ola.hallengren.com/sql-server-index-and-statistics-maintenance.html) if they haven't been already. *There may be a message about SQLServerAgent not running when installing these scripts. That is expected since the agent isn't available, but will not affect the installation.*
 
 2. Create a bash script to execute the maintenance procedure (we'll call ours `sqlmaint.sh`):
 
@@ -128,10 +132,10 @@ A relative newcomer, [Airflow](https://airflow.apache.org/) is a "platform creat
 While it may be overkill to leverage Airflow *just* for simple backup or maintenance scripts, if you have needs for other scheduled workflows around SQL Server Express, it may be a good fit. Airflow will require some knowledge of Python to get everything operational, but out of the box Airflow does include a [basic hook for SQL Server](https://airflow.apache.org/docs/stable/_api/airflow/hooks/mssql_hook/index.html) which should make a basic proof of concept an easy task to accomplish.
 
 ## Further Reading
+
 * [FAQ on Ola Hallengren's Scripts](https://ola.hallengren.com/frequently-asked-questions.html)
 * Microsoft KB on [How to Schedule and Automate Backups of SQL Server Databases in SQL Server Express](https://support.microsoft.com/en-us/help/2019698/how-to-schedule-and-automate-backups-of-sql-server-databases-in-sql-se)
 * Microsoft Documentation on [sqlcmd](https://docs.microsoft.com/en-us/sql/tools/sqlcmd-utility?view=sql-server-2017)
-
 
 <br/>
 <br/>

@@ -17,7 +17,6 @@ maintenance plan will address areas like:
   * System Data
   * Application Data
 
-
 ## Best Maintenance Plan Practices for SQL Server Express
 
 For the most part, maintenance on database of 10GB or less is straightforward. Most
@@ -33,7 +32,7 @@ so general SQL Server best practices are applicable to Express.
 
 ### Ola's Maintenance Scripts
 
-Just as [Ola Hallengrens free scripts](https://ola.hallengren.com/sql-server-backup.html) are highly recommended for [SQL Express backups](/best-practices/sql-server-express-backups/), the same goes for his index and statistic scripts which help to make managing both areas extremely easy and customizable.
+Just as [Ola Hallengrens free scripts](https://ola.hallengren.com/sql-server-backup.html) are highly recommended for [SQL Express backups](/sql-server-express-backups.html), the same goes for his index and statistic scripts which help to make managing both areas extremely easy and customizable.
 
 By default, Ola's scripts use the following settings:
 
@@ -56,7 +55,7 @@ These numbers are based off of Microsoft's BOL article [Reorganize and Rebuild I
 A more modern take is setting the first fragmentation level to 30% and the second level to 80%. Some even
 prefer to go higher (see further reading at the bottom). Adjusting Ola's defaults, by taking into consideration the lack of an online rebuild option and taking advantage of a few extra settings results in the following recommended script:
 
-```sql 
+```sql
 EXECUTE dbo.IndexOptimize
 @Databases = 'USER_DATABASES',
 @FragmentationLow = NULL,
@@ -73,15 +72,18 @@ EXECUTE dbo.IndexOptimize
 ```
 
 #### Fragmentation
+
 Since taking an index offline for a rebuild isn't ideal, 80% makes sure that scenario isn't
 occurring too often.
 
 #### Fill Factor
+
 While normally a fill factor might need to be tweaked, it is
 probably safe to keep at 100% (no padding in the index) to make sure that the database
 files aren't hitting the 10GB limit earlier than is absolutely necessary.
 
 #### Update statistics
+
 One of the great features of Ola's script is that it will update statistics after it
 does the index rebuilds, since an index maintenance operation will automatically
 update statistics in use by the index. This prevents duplication of work and
@@ -91,11 +93,13 @@ the statistics and it is skipped. This is especially helpful for archive tables 
 hardly or ever change, but may take up significant time to do statistics samplings on.
 
 #### Logging
+
 Logging to the built-in table is extremely useful when tracking down a failed index job or
 to analyze a growing trend in job runtime. It doesn't cost much to log each action,
 but is key when hunting down problems with maintenance jobs.
 
 ### Other Maintenance Tasks
+
 Backup pruning is conveniently handled by settings within Ola's script, so that part of
 maintenance can be bundled right into the backup commands themselves (see the [Express Backup](/best-practices/sql-server-express-backups/)) article for details.
 

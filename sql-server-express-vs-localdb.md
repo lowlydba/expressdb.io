@@ -1,5 +1,4 @@
 
-
 ## What is LocalDB?
 
 LocalDB is a developer oriented, on-demand managed instance of the SQL Server engine
@@ -9,16 +8,16 @@ the overhead of managing and installing a full SQL Server instance. LocalDB util
 of files needed to achieve all of this. Having the database access stay local greatly reduces
 the complexity for developing and testing applications with a SQL Server backend.
 
-LocalDB is packaged with [Visual Studio][1] as well as [SQL Server Express](https://www.microsoft.com/en-us/sql-server/sql-server-editions-express) (with Advanced Services for versions 2016 and earlier).
+LocalDB is packaged with [Visual Studio][1] as well as [SQL Server Express][sqlexpress] (with Advanced Services for versions 2016 and earlier).
 
 ## SQL Server Express vs LocalDB
 
 SQL Server Express and LocalDB have a lot in common:
 
- * Cost: free
- * Target Audiences: developers and students
- * API Compatibility with other versions of SQL Server
- * Both run with sqlservr.exe
+* Cost: free
+* Target Audiences: developers and students
+* API Compatibility with other versions of SQL Server
+* Both run with sqlservr.exe
 
 However, LocalDB is intended for a different use case by addressing needs that are specific
 to developers and less common for actual application use. As a result, it is only able to have one installation per version, runs in-process and not as a service,
@@ -49,6 +48,7 @@ done if the application's database needs will not grow over time.
 * Microsoft's [SQL Server 2016 Express LocalDB](https://docs.microsoft.com/en-us/sql/database-engine/configure-windows/sql-server-2016-express-localdb?view=sql-server-2017) Documentation
 
  [1]: https://www.visualstudio.com/downloads/
+ [sqlexpress]: https://www.microsoft.com/en-us/sql-server/sql-server-editions-express
 
 <br/>
 <br/>

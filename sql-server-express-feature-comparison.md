@@ -1,9 +1,8 @@
 
-
 ## SQL Server Edition Feature Comparison
 
 The most well known differences between SQL Express and other editions are the
-[caps on database size](http://expressdb.io/sql-server-express-database-size-limit/) (10GB) and [lack of a SQL Agent feature](http://expressdb.io/sql-server-express-replace-sql-agent/). There are many other
+[caps on database size](/sql-server-express-database-size-limit.html) (10GB) and [lack of a SQL Agent feature](/sql-server-express-replace-sql-agent.html). There are many other
 differences though, some of which can be extremely important for some application
 and architecture requirements.
 
@@ -269,13 +268,13 @@ The complete listing for SQL Server 2008 R2 Express is available from on MSDN 's
 
 | Category | Feature | Supported |
 | --- | --- | --- |
-| Database engine | 	Merge replication | No |
-| Database engine | 	Stretch DB | No |
+| Database engine | Merge replication | No |
+| Database engine | Stretch DB | No |
 | Database engine | Polybase | Yes |
 | Database engine |Distributed query with 3rd-party connections | No |
-| Database engine | 	Linked Servers | No |
-| Database engine | 	System extended stored procedures | No |
-| Database engine | 	Filetable, FILESTREAM | No |
+| Database engine | Linked Servers | No |
+| Database engine | System extended stored procedures | No |
+| Database engine | Filetable, FILESTREAM | No |
 | Database engine | CLR assemblies with the EXTERNAL_ACCESS or UNSAFE permission set | No |
 | Database engine | Buffer Pool Extension | No |
 | SQL Server Agent | Subsystems: CmdExec, PowerShell, Queue Reader, SSIS, SSAS, SSRS | No |
@@ -283,28 +282,28 @@ The complete listing for SQL Server 2008 R2 Express is available from on MSDN 's
 | SQL Server Agent | Log Reader Agent | Yes |
 | SQL Server Agent | Managed Backup | No |
 | High Availability | Database Mirroring  | No |
-| Security |  	Extensible Key Management | No |
+| Security | Extensible Key Management | No |
 | Security | AD Authentication for Linked Servers | No |
 | Security | AD Authentication for Availability Groups | No |
-| Services | 	SQL Server Browser | No |
-| Services | 	SQL Server R services | No |
+| Services | SQL Server Browser | No |
+| Services | SQL Server R services | No |
 | Services | StreamInsight | No |
-| Services |	Analysis Services | No |
-| Services |  Reporting Services | No |
-| Services |  	Data Quality Services | No |
-| Services |  	Master Data Services | No |
+| Services | Analysis Services | No |
+| Services | Reporting Services | No |
+| Services | Data Quality Services | No |
+| Services | Master Data Services | No |
 
 ### SQL Server Linux 2017
 
 | Category | Feature | Supported |
 | --- | --- | --- |
-| Database engine | 	Merge replication | No |
-| Database engine | 	Stretch DB | No |
+| Database engine | Merge replication | No |
+| Database engine | Stretch DB | No |
 | Database engine | Polybase | No |
 | Database engine | Distributed query with 3rd-party connections | No |
-| Database engine | 	Linked Servers | No |
-| Database engine | 	System extended stored procedures | No |
-| Database engine | 	Filetable, FILESTREAM | No |
+| Database engine | Linked Servers | No |
+| Database engine | System extended stored procedures | No |
+| Database engine | Filetable, FILESTREAM | No |
 | Database engine | CLR assemblies with the EXTERNAL_ACCESS or UNSAFE permission set | No |
 | Database engine | Buffer Pool Extension | No |
 | SQL Server Agent | Subsystems: CmdExec, PowerShell, Queue Reader, SSIS, SSAS, SSRS | No |
@@ -312,17 +311,16 @@ The complete listing for SQL Server 2008 R2 Express is available from on MSDN 's
 | SQL Server Agent | Log Reader Agent | No |
 | SQL Server Agent | Managed Backup | No |
 | High Availability | Database Mirroring  | No |
-| Security |  	Extensible Key Management | No |
+| Security | Extensible Key Management | No |
 | Security | AD Authentication for Linked Servers | No |
 | Security | AD Authentication for Availability Groups | No |
-| Services | 	SQL Server Browser | No |
-| Services | 	SQL Server R services | No |
+| Services | SQL Server Browser | No |
+| Services | SQL Server R services | No |
 | Services | StreamInsight | No |
-| Services |	Analysis Services | No |
-| Services |  Reporting Services | No |
-| Services |  	Data Quality Services | No |
-| Services |  	Master Data Services | No |
-
+| Services | Analysis Services | No |
+| Services | Reporting Services | No |
+| Services | Data Quality Services | No |
+| Services | Master Data Services | No |
 
 ## FAQ
 

@@ -1,5 +1,4 @@
 
-
 ## Hardware Limitations
 
 Some of the major restrictions for SQL Server Express are the caps
@@ -17,6 +16,7 @@ the version](http://expressdb.io/sql-server-express-feature-comparison/)).
 ## Multiple Instances on One Machine
 
 ### Making the Most of Resources
+
 While the allowed maximum RAM and CPU numbers might
 seem paltry compared to even a mid-tier laptop these days, the good news is that this
 only applies at the *instance* level, so using multiple instances is a fair strategy.
@@ -51,7 +51,9 @@ is that the instances are still sharing resources (and not just cores). A noisy 
 impact all the other instances and tracking down the root of that problem is far from easy.
 
 ## Virtualization
+
 ### Virtually the Best Option
+
 Similar so side-loading several instances, with a powerful enough server a great option is to run
 different SQL Server Express instances inside of Virtual Machines. This approach removes most of the
 downsides from side-loading, as each VM has more or less contained resources and can be rebooted indepdently

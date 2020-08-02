@@ -3,7 +3,7 @@
 
 While SQL Server Express is still 100% able to send mail using msdb's stored procedures,
 most people rely on Management Studio's GUI and the Database Mail feature to do the initial setup of profiles and accounts
-to make sending mail possible. Despite this limitation, the underlying stored procedures located within the msdb database are still fully able to replication the GUI driven setup that Database Mail aids in. This leaves T-SQL as the primary alternative for enabling and configuring SQL Server Express so that `sp_send_dbmail` can be used to send mail out. Adding this functionality with a [replacement for SQL Agent](http://expressdb.io/sql-server-express-replace-sql-agent/) can help mimic much of the functionality that Database Mail and SQL Agent provide on the full featured editions of SQL Server.
+to make sending mail possible. Despite this limitation, the underlying stored procedures located within the msdb database are still fully able to replication the GUI driven setup that Database Mail aids in. This leaves T-SQL as the primary alternative for enabling and configuring SQL Server Express so that `sp_send_dbmail` can be used to send mail out. Adding this functionality with a [replacement for SQL Agent](/sql-server-express-replace-sql-agent.html) can help mimic much of the functionality that Database Mail and SQL Agent provide on the full featured editions of SQL Server.
 
 ![SQL Server Mail in non-Express Editions](/database_mail.png)
 
@@ -58,7 +58,7 @@ EXECUTE msdb.dbo.sysmail_add_account_sp
 @mailserver_name = 'mail.queryingsql.com'
 --Default is 25, or specify a custom one
 @port = 25;
-       
+
 /* Create a profile */
 EXECUTE msdb.dbo.sysmail_add_profile_sp
 @profile_name = 'MyMailProfile',
@@ -91,10 +91,10 @@ RECONFIGURE;
 GO
 
 /* Send a test email */
-EXECUTE msdb.dbo.sp_send_dbmail 
-@profile_name = 'MyMailProfile', 
-@recipients = 'MyTestAddress@mycompany.com', 
-@subject = 'Test Mail from SQL Express', 
+EXECUTE msdb.dbo.sp_send_dbmail
+@profile_name = 'MyMailProfile',
+@recipients = 'MyTestAddress@mycompany.com',
+@subject = 'Test Mail from SQL Express',
 @body = 'Hello world!';
 ```
 

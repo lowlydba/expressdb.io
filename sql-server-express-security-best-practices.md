@@ -15,8 +15,8 @@ Otherwise, standard best practices apply. Since general security is out of the s
 of this site, see the [Further Reading](#further-reading) section at the bottom of this page
 for general security recommendations.
 
-
 ### Enabling Network Connectivity
+
 If the Express instance needs to be available on a network, however, the following steps need
 to be completed:
 
@@ -46,8 +46,6 @@ to be completed:
 8. Set start to "Automatic" and apply the changes.
 
       ![SQL Server Express Configuration Manager](/sql_configuration_manager_6.PNG)
-
-
 
 ## Further Reading
 

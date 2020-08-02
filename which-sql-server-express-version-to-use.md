@@ -1,5 +1,4 @@
 
-
 ## Which Express Version to Use
 
 In most cases, the answer to 'Which SQL Server Express Version?' is simple: the latest version you can. Since Microsoft adds
@@ -7,7 +6,7 @@ more features and decreases the limitations of SQL Server Express with every sub
 the more recent the version the more advanced capabilities it will offer.
 
 ::: tip Note
-For now, this means [SQL Express 2019](https://cloudblogs.microsoft.com/sqlserver/2019/11/04/sql-server-2019-is-now-generally-available/).
+For now, this means [SQL Express 2019][express2019].
 :::
 
 ## Benefits of Newer Versions
@@ -48,7 +47,6 @@ The options for which levels are available will depend on the version:
 | 2017    | 14             | 140                 | 140, 130, 120, 110, 100
 | 2019    | 15             | 150                 | 150, 140, 130, 120, 110, 100
 
-
 ## Support Lifecycle Policies
 
 Features aside, an important part of choosing between SQL Server Express versions
@@ -73,9 +71,14 @@ It is highly advised to *not* provision any new instances that are already out o
 
 ## Further Reading
 
-* [SQL Server Express Feature Comparison](http://expressdb.io/sql-server-express-feature-comparison/)
-* [Microsoft's documentation on compatibility mode](https://docs.microsoft.com/en-us/sql/t-sql/statements/alter-database-transact-sql-compatibility-level)
-* [SQL Collaborative's Build Reference](https://sqlcollaborative.github.io/builds)
+* [SQL Server Express Feature Comparison][feature-comparison]
+* [Microsoft's documentation on compatibility mode][compat]
+* [SQL Collaborative's Build Reference][sqlcollab]
+
+[compat]: https://docs.microsoft.com/en-us/sql/t-sql/statements/alter-database-transact-sql-compatibility-level
+[express2019]: https://cloudblogs.microsoft.com/sqlserver/2019/11/04/sql-server-2019-is-now-generally-available/
+[feature-comparison]: /sql-server-express-feature-comparison.html
+[sqlcollab]: https://sqlcollaborative.github.io/builds
 
 <br/>
 <br/>

@@ -1,5 +1,4 @@
 
-
 ## Size Limitations
 
 One of the reasons Microsoft is able to give SQL Server Express away for free is
@@ -20,7 +19,7 @@ performance degradation for end users.
 
 ### Compression
 
-In SQL Server 2016 SP1+, Express versions can utilize [data compression](https://docs.microsoft.com/en-us/sql/relational-databases/data-compression/data-compression?view=sql-server-ver15) on indexes and tables to increase the size of a database on disk. Generally, the additional CPU required to decompress data that is read from disk is a worthwhile trade off for larger tables and indexes. 
+In SQL Server 2016 SP1+, Express versions can utilize [data compression](https://docs.microsoft.com/en-us/sql/relational-databases/data-compression/data-compression?view=sql-server-ver15) on indexes and tables to increase the size of a database on disk. Generally, the additional CPU required to decompress data that is read from disk is a worthwhile trade off for larger tables and indexes.
 
 ### Design Smart
 
@@ -53,7 +52,7 @@ There are many options for date, time, and datetime values, so assess what makes
 | Data Type | Accuracy | Size | Compatibility | Example |
 | --------- | -------- | ---- | ------------- | ------- |
 | [`DATE`](https://docs.microsoft.com/en-us/sql/t-sql/data-types/date-transact-sql) |  One day | 3 bytes | 2008+ | 2018-04-02
-| [`DATETIME`](https://docs.microsoft.com/en-us/sql/t-sql/data-types/datetime-transact-sql) | 	Rounded to increments of .000, .003, .007 sec | 8 bytes | 2008+ | 2018-04-02 12:35:29.123
+| [`DATETIME`](https://docs.microsoft.com/en-us/sql/t-sql/data-types/datetime-transact-sql) | Rounded to increments of .000, .003, .007 sec | 8 bytes | 2008+ | 2018-04-02 12:35:29.123
 | [`DATETIME2`](https://docs.microsoft.com/en-us/sql/t-sql/data-types/datetime2-transact-sql) | 100 nanoseconds | 6 bytes for precisions < 3; 7 bytes for precisions 3 & 4; all others are 8 bytes | 2008+ | 2018-04-02 12:35:29.1234567
 | [`DATETIMEOFFSET`](https://docs.microsoft.com/en-us/sql/t-sql/data-types/datetimeoffset-transact-sql) | 100 nanoseconds | 8-10 bytes | 2008+ | 2018-04-02 12:35:29.1234567 +12:15
 | [`SMALLDATETIME`](https://docs.microsoft.com/en-us/sql/t-sql/data-types/smalldatetime-transact-sql) | One minute | 4 bytes | 2008+ |  2018-04-02 12:35:00
@@ -74,7 +73,6 @@ For most cases, a precision of 9 or less will suffice, which means `DECIMAL` wil
 | 29-38 | 17 bytes |
 
 It may be tempting to consider the [`FLOAT` or `REAL`](https://docs.microsoft.com/en-us/sql/t-sql/data-types/float-and-real-transact-sql) types as well, since they can store a precision of 7 digits in 4 bytes and 15 digits in 8 bytes. However, it is integral to remember that these types are *floating point numerics* and thus contain approximate values. Unless floating point numbers are a specific requirement, using these types can lead to rounding issues and are certainly not worth the risk for space savings.
-
 
 #### Strings and VARCHARs
 
@@ -111,9 +109,11 @@ of that data from interfering with the actual customer data in the primary datab
 
 [Normalization](https://en.wikipedia.org/wiki/Database_normalization) is a huge topic, but it isn't often talked about today in terms of storage benefits, due to the low cost of disk space.
 
-Proper normalization data can greatly reduce the redundancy of data. Often the most redundant data are of the string variety and thus can have a significant impact on the overall size of a database when not properly normalized. Aiming for the [third normal form](https://en.wikipedia.org/wiki/Third_normal_form) is a reasonable goal to achieve most of the size-related benefits that normal forms can offer.
+Proper normalization data can greatly reduce the redundancy of data. Often the most redundant data are of the string variety and thus can have a significant impact on the overall size of a database when not properly normalized. Aiming for the [third normal form][tnf] is a reasonable goal to achieve most of the size-related benefits that normal forms can offer.
 
 Since there are always exceptions as to when normalized data or denormalized data is most beneficial, it will depend on the case at hand, but defaulting to normalizing data is generally a good strategy.
+
+[tnf]: https://en.wikipedia.org/wiki/Third_normal_form
 
 <br/>
 <br/>
