@@ -1,5 +1,5 @@
 
-## What is LocalDB?
+## What is LocalDB
 
 LocalDB is a developer oriented, on-demand managed instance of the SQL Server engine
 that can be turned on automatically when needed and turned off when not in use. It requires

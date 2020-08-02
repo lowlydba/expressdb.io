@@ -1,5 +1,5 @@
 
-## Mail without SQL Agent?
+## Mail without SQL Agent
 
 While SQL Server Express is still 100% able to send mail using msdb's stored procedures,
 most people rely on Management Studio's GUI and the Database Mail feature to do the initial setup of profiles and accounts
@@ -54,7 +54,7 @@ EXECUTE msdb.dbo.sysmail_add_account_sp
 @username='MyMailUser@mycompany.com',
 --Password to login to the mail server
 @password='MyPassword',
---Name or IP of the mail server 
+--Name or IP of the mail server
 @mailserver_name = 'mail.queryingsql.com'
 --Default is 25, or specify a custom one
 @port = 25;
@@ -68,7 +68,7 @@ EXECUTE msdb.dbo.sysmail_add_profile_sp
 EXECUTE msdb.dbo.sysmail_add_profileaccount_sp
 @profile_name = 'MyMailProfile',
 @account_name = 'MyMailAccount',
-/* The sequence number determines the order 
+/* The sequence number determines the order
 in which Database Mail uses accounts in the profile,
 going from lowest to highest until one works. */
 @sequence_number = 1;

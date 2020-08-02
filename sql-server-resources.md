@@ -1,6 +1,6 @@
-# Technical Resources for SQL Server & more
+# Tools and Scripts
 
-Most open source, all free. Scripts, tools, and resources pertinent to SQL Server and beyond. 
+Most open source, all free. Scripts, tools, and resources pertinent to SQL Server and beyond.
 
 ## T-SQL Scripts
 
@@ -61,7 +61,7 @@ Most open source, all free. Scripts, tools, and resources pertinent to SQL Serve
 - [Vertabelo's Academy](https://www.vertabelo.com/academy/) - Various database patterns and schema design examples
 - [5 Rules of Normalization][normrules] by [Marc Rettig][marc]
 - [SQL Murder Mystery](https://mystery.knightlab.com/) - Introduction to SQL as a murder mystery story
-- [Select Star](https://selectstarsql.com/) - Interactive introduction to SQL 
+- [Select Star](https://selectstarsql.com/) - Interactive introduction to SQL
 
 ## Articles
 
@@ -84,26 +84,26 @@ Most open source, all free. Scripts, tools, and resources pertinent to SQL Serve
 
 ## Other
 
-- [Wide World Importer Database](https://github.com/Microsoft/sql-server-samples) - Successor to the AdventureWorks sample database for SQL Server 2016+
-- [Stack Overflow Database](https://www.brentozar.com/archive/2015/10/how-to-download-the-stack-overflow-database-via-bittorrent/) - Brent Ozar's packaging of the Stack Overflow database
-- [idownvotedbecau.se](http://idownvotedbecau.se/) - Linkable downvoting rationale for Stack Exchange comments.
-- [Open Source Pull Request Template](https://www.talater.com/open-source-templates/#/) - Whimsical choose-your-own-adventure that climaxes with a customized pull request template by [Tal Ater](https://twitter.com/TalAter)
+- [Wide World Importer Database][wwi] - Successor to the AdventureWorks sample database for SQL Server 2016+
+- [Stack Overflow Database][so-db] - Brent Ozar's packaging of the Stack Overflow database
+- [idownvotedbecau.se][idvb] - Linkable downvoting rationale for Stack Exchange comments.
+- [Open Source Pull Request Template][pr-template] - Whimsical choose-your-own-adventure that climaxes with a customized pull request template by [Tal Ater][tal]
 
 [alwaysonhealth]: https://techcommunity.microsoft.com/t5/SQL-Server/The-AlwaysOn-Health-Model-Part-2-Extending-the-Health-Model/ba-p/384043?advanced=false&collapse_discussion=true&q=the%20alwayson%20health%20model&search_type=thread
 [betterment]: https://www.betterment.com/resources/inside-betterment/engineering/modern-data-analysis-dont-trust-your-spreadsheet/
-  "Betterment Blog"
+[dbfit]: http://www.methodsandtools.com/tools/dbfit.php
+[fiddle]: http://sqlfiddle.com/
+[idvb]: http://idownvotedbecau.se/
 [isitsql]: http://www.scalesql.com/isitsql/
   "Is It SQL?"
-[schemazen]: https://github.com/sethreno/schemazen#schemazen---script-and-create-sql-server-objects-quickly
-  "SchemaZen"
-[dbfit]: http://www.methodsandtools.com/tools/dbfit.php
-  "DB Fit"
-[fiddle]: http://sqlfiddle.com/
-  "SQL Fiddle"
-[normrules]: /rettigNormalizationPoster.pdf
-  "5 Rules of Normalization"
 [marc]: http://marcrettig.me/data-normalization-poster-1989/
   "Marc Rettig"
+[normrules]: /rettigNormalizationPoster.pdf
+  "5 Rules of Normalization"
+[pr-template]: https://www.talater.com/open-source-templates/#/
+[schemazen]: https://github.com/sethreno/schemazen#schemazen---script-and-create-sql-server-objects-quickly
 [smelly]: https://www.red-gate.com/simple-talk/sql/t-sql-programming/sql-code-smells/
+[so-db]: https://www.brentozar.com/archive/2015/10/how-to-download-the-stack-overflow-database-via-bittorrent/
+[tal]: https://twitter.com/TalAter
 [phil]: https://www.red-gate.com/simple-talk/author/phil-factor/
-
+[wwi]: https://github.com/Microsoft/sql-server-samples

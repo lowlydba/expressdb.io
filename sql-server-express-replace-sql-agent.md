@@ -31,10 +31,11 @@ the parameters that are used to create a job when the SQL Agent is available.
 1. Install [Ola Hallengren's maintenance scripts](https://ola.hallengren.com/sql-server-index-and-statistics-maintenance.html) if they haven't been already. *There may be a message about SQLServerAgent not running when installing these scripts. That is expected since the agent isn't available, but will not affect the installation.*
 
 2. Create a `.bat` file for the sqlcmd script that will run the maintenance stored procedure:
-	```batch
-	sqlcmd -E -S .\SQLEXPRESS -d master ^
-	-Q "EXECUTE [dbo].[IndexOptimize] @Databases = 'USER_DATABASES', @LogToTable = 'Y'" -b
-	```
+
+    ```batch
+    sqlcmd -E -S .\SQLEXPRESS -d master ^
+    -Q "EXECUTE [dbo].[IndexOptimize] @Databases = 'USER_DATABASES', @LogToTable = 'Y'" -b
+    ```
 
 3. Search for "Task Scheduler" from the start menu to open the scheduler
 
@@ -68,30 +69,33 @@ Using Windows Task Scheduler from the command line involves running [schtasks.ex
 
 2. Create a `.bat` file for the sqlcmd script that will run the maintenance stored procedure:
 
-	```batch
-	sqlcmd -E -S .\SQLEXPRESS -d master ^
-	-Q "EXECUTE [dbo].[IndexOptimize] @Databases = 'USER_DATABASES', @LogToTable = 'Y'" -b
-	```
+    ```batch
+    sqlcmd -E -S .\SQLEXPRESS -d master ^
+    -Q "EXECUTE [dbo].[IndexOptimize] @Databases = 'USER_DATABASES', @LogToTable = 'Y'" -b
+    ```
 
 3. Replace the placeholder values and run the script below to create a scheduled task:
 
- * `RU` - Windows user the task will run as.
- * `RP` - Password for the RU.
- * `SC` - Run schedule (MINUTE, HOURLY, DAILY, WEEKLY, MONTHLY, ONCE, ONLOGON, ONIDLE, or ONEVENT.)
- * `TN` - Task Name.
- * `TR` - A value that specifies the path and file name of the task to be run.
- * `MO` - Modifier to add more fine grained control over the schedule:
-        * MINUTE: 1 - 1439 minutes.
-        * DAILY: 1 - 365 days.
-        * WEEKLY: weeks 1 - 52.
-        * MONTHLY: 1 - 12, or FIRST, SECOND, THIRD, FOURTH, LAST, and LASTDAY.
-        * ONEVENT: XPath event query string.  
- * `D` - A value that specifies the day of the week to run the task. Valid values are: MON, TUE, WED, THU, FRI, SAT, SUN and for MONTHLY schedules 1 - 31 (days of the month). The wildcard character ( * ) specifies all days.
- * `M` - A value that specifies months of the year. Defaults to the first day of the month. Valid values are: JAN, FEB, MAR, APR, MAY, JUN, JUL, AUG, SEP, OCT, NOV, and DEC. The wildcard character ( * ) specifies all months.
-	```batch
-	schtasks  /Create /RU MyLogin /RP MyPassword /SC WEEKLY [/MO modifier] [/D day] [/M months] ^
-	/TN SQLExpressMaintenance /TR C:\express_maintenance.bat
-	```
+* `RU` - Windows user the task will run as.
+* `RP` - Password for the RU.
+* `SC` - Run schedule (MINUTE, HOURLY, DAILY, WEEKLY, MONTHLY, ONCE, ONLOGON, ONIDLE, or ONEVENT.)
+* `TN` - Task Name.
+* `TR` - A value that specifies the path and file name of the task to be run.
+* `MO` - Modifier to add more fine grained control over the schedule:
+
+  * MINUTE: 1 - 1439 minutes.
+  * DAILY: 1 - 365 days.
+  * WEEKLY: weeks 1 - 52.
+  * MONTHLY: 1 - 12, or FIRST, SECOND, THIRD, FOURTH, LAST, and LASTDAY.
+  * ONEVENT: XPath event query string.  
+
+* `D` - A value that specifies the day of the week to run the task. Valid values are: MON, TUE, WED, THU, FRI, SAT, SUN and for MONTHLY schedules 1 - 31 (days of the month). The wildcard character ( * ) specifies all days.
+* `M` - A value that specifies months of the year. Defaults to the first day of the month. Valid values are: JAN, FEB, MAR, APR, MAY, JUN, JUL, AUG, SEP, OCT, NOV, and DEC. The wildcard character ( * ) specifies all months.
+
+    ```batch
+    schtasks  /Create /RU MyLogin /RP MyPassword /SC WEEKLY [/MO modifier] [/D day] [/M months] ^
+    /TN SQLExpressMaintenance /TR C:\express_maintenance.bat
+    ```
 
 Repeat the above steps to handle database backups, DBCC checks, and other database maintenance as needed.
 
@@ -103,23 +107,23 @@ For installations of SQL Server Express on Linux, the built-in system chron sche
 
 2. Create a bash script to execute the maintenance procedure (we'll call ours `sqlmaint.sh`):
 
-	```bash
-	#!/bin/bash
-	sqlcmd -E -S .\SQLEXPRESS -d master \
-	-Q "EXECUTE [dbo].[IndexOptimize] @Databases = 'USER_DATABASES', @LogToTable = 'Y'" -b
-	```
+    ```bash
+    #!/bin/bash
+    sqlcmd -E -S .\SQLEXPRESS -d master \
+    -Q "EXECUTE [dbo].[IndexOptimize] @Databases = 'USER_DATABASES', @LogToTable = 'Y'" -b
+    ```
 
 3. Schedule the script to run via cron by opening the cron editor from the shell:
 
-	```bash
-	crontab -e
-	```
+    ```bash
+    crontab -e
+    ```
 
 4. And adding the script on a schedule:
 
-	```bash
-	00 23 * * * /bin/sqlmaint.sh # Run maintenance 11PM every day
-	```
+    ```bash
+    00 23 * * * /bin/sqlmaint.sh # Run maintenance 11PM every day
+    ```
 
 Repeat the above steps for any other tasks that need to be regularly scheduled.
 

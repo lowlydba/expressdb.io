@@ -32,7 +32,7 @@ for:
     - cmd: >-
         mkdir C:\projects\dist\
         
-        git clone -q --branch=gh-pages https://github.com/LowlyDBA/expressdb.git C:\projects\dist\
+        git clone -q --branch=gh-pages https://github.com/LowlyDBA/expressdb.io.git C:\projects\dist\
         
         cd C:\projects\dist\
         

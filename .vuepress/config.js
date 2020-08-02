@@ -1,6 +1,6 @@
 // .vuepress/config.js
 module.exports = {
-  title: 'Express DB',
+  title: 'ExpressDB',
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
@@ -56,7 +56,7 @@ module.exports = {
     lastUpdated: 'Last Updated',
 	sidebar: 'auto',
 	// Assumes GitHub. Can also be a full GitLab url.
-    repo: 'LowlyDBA/expressdb',
+    repo: 'LowlyDBA/expressdb.io',
     // Customising the header label
     // Defaults to "GitHub"/"GitLab"/"Bitbucket" depending on `themeConfig.repo`
     repoLabel: 'Contribute!',

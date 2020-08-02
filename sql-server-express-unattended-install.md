@@ -1,5 +1,5 @@
 
-## How Does Unattended Install Work?
+## How Does Unattended Install Work
 
 Automating the installation of SQL Server Express, also known as an
 unattended install, is done by launching the setup process via the command
@@ -140,7 +140,7 @@ SQLSVCINSTANTFILEINIT="True"
 The newest versions of SQL Server Express have a configuration file that is
 very similar to prior versions, with the addition of two new optional parameters:
 
-#### SQLTEMPDBFILESIZE
+### SQLTEMPDBFILESIZE
 
 This parameter allows the default size of all new tempdb data files to be specified
 at the time of installation. While the default for SQL Server Express is a paltry 4MB and
@@ -148,7 +148,7 @@ all other versions are set to 8MB, customizing this value reduces the number of
 post-install steps required since most servers will require more than a few MB of
 space for the tempdb.
 
-#### SQLTEMPDBLOGFILESIZE
+### SQLTEMPDBLOGFILESIZE
 
 Similar to the above, the size of the tempdb log can also now be specified during
 the installation process. The defaults of 4MB and 8MB are the same, so most people
