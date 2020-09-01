@@ -2,6 +2,17 @@
 
 Most open source, all free. Scripts, tools, and resources pertinent to SQL Server and beyond.
 
+| **Table of Contents** |
+| --------------------- |
+| [T-SQL Scripts](#t-sql-scripts) |
+| [References](#references) |
+| [SSMS Plugins](#ssms-plugins) |
+| [Tools](#tools) |
+| [Education](#education) |
+| [Articles](#articles) |
+| [Other](#other) |
+
+
 ## T-SQL Scripts
 
 - [Ola's Maintenance Scripts](https://github.com/olahallengren/sql-server-maintenance-solution)
@@ -56,7 +67,7 @@ Most open source, all free. Scripts, tools, and resources pertinent to SQL Serve
 | [SQL Query Stress](https://github.com/ErikEJ/SqlQueryStress) | Testing | 👍 | [Erik Ejlskov Jensen](https://erikej.github.io/)
 | [Paste The Plan](https://pastetheplan.com/) | Tuning/Sharing | | [Brent Ozar Unlimited](https://www.brentozar.com/)
 
-## Educational
+## Education
 
 - [Vertabelo's Academy](https://www.vertabelo.com/academy/) - Various database patterns and schema design examples
 - [5 Rules of Normalization][normrules] by [Marc Rettig][marc]
