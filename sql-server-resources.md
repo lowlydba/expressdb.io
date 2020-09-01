@@ -71,6 +71,13 @@ Most open source, all free. Scripts, tools, and resources pertinent to SQL Serve
 - [When Always On Isn't: Handling Outages In Your Application](https://www.brentozar.com/archive/2017/01/always-isnt-handling-outages-application/) by Brent Ozar
 - [SQL Server 2016/2017: Availability group secondary replica redo model and performance](https://blogs.msdn.microsoft.com/sql_server_team/sql-server-20162017-availability-group-secondary-replica-redo-model-and-performance/) - Detailed information on parallelism in redo worker threads
 
+### Patterns / Anti-Patterns
+
+- [SQL Server UPSERT Patterns and Antipatterns][upsert] by [Michael J Swart][swart]
+- [T-SQL Code Smells][smelly] by [Phil Factor][phil]
+- [Fighting Evil in Your Code: Comments on Comments](https://www.red-gate.com/simple-talk/opinion/opinion-pieces/fighting-evil-code-comments-comments/) by [Michael Sorens](https://www.red-gate.com/simple-talk/author/michael-sorens/)
+
+
 ### Misc
 
 - [Erland Sommarskog's articles on SQL Server](http://sommarskog.se/)
@@ -78,8 +85,6 @@ Most open source, all free. Scripts, tools, and resources pertinent to SQL Serve
 - [T-SQL Interview Questions](https://www.mssqltips.com/sqlservertip/1450/sql-server-developer-tsql-interview-questions/) by [Jeremy Kadlec](https://www.mssqltips.com/sqlserverauthor/38/jeremy-kadlec/)
 - [Developer Interview Questions](https://www.brentozar.com/archive/2009/06/top-10-developer-interview-questions-about-sql-server/) by Brent Ozar
 - [Tuning Cost Threshold](http://sqlblog.com/blogs/jonathan_kehayias/archive/2010/01/19/tuning-cost-threshold-of-parallelism-from-the-plan-cache.aspx)
-- [T-SQL Code Smells][smelly] by [Phil Factor][phil]
-- [Fighting Evil in Your Code: Comments on Comments](https://www.red-gate.com/simple-talk/opinion/opinion-pieces/fighting-evil-code-comments-comments/) by [Michael Sorens](https://www.red-gate.com/simple-talk/author/michael-sorens/)
 - [The Security of Modern Password Expiration: An Algorithmic Framework and Empirical Analysis](https://www.cs.unc.edu/~reiter/papers/2010/CCS.pdf)
 
 ## Other
@@ -104,6 +109,8 @@ Most open source, all free. Scripts, tools, and resources pertinent to SQL Serve
 [schemazen]: https://github.com/sethreno/schemazen#schemazen---script-and-create-sql-server-objects-quickly
 [smelly]: https://www.red-gate.com/simple-talk/sql/t-sql-programming/sql-code-smells/
 [so-db]: https://www.brentozar.com/archive/2015/10/how-to-download-the-stack-overflow-database-via-bittorrent/
+[swart]: https://michaeljswart.com/about/
 [tal]: https://twitter.com/TalAter
+[upsert]: https://michaeljswart.com/2017/07/sql-server-upsert-patterns-and-antipatterns/
 [phil]: https://www.red-gate.com/simple-talk/author/phil-factor/
 [wwi]: https://github.com/Microsoft/sql-server-samples
