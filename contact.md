@@ -27,6 +27,7 @@ Shoot me a message using the form below, and I'll get back to you as soon as pos
 				<option value="2017">SQL Server 2017</option>
 				<option value="2019">SQL Server 2019</option>
 				<option value="Azure">Azure SQL</option>
+				<option value="Azure">SQL Server RDS</option>
 			</select>
 		</div>
 		<br />
@@ -34,6 +35,12 @@ Shoot me a message using the form below, and I'll get back to you as soon as pos
 			<label>Your problem(s)</label>
 			<br />
 			<textarea name="problem" required minlength="10" cols="55" rows="6" placeholder="I need help with..."></textarea>
+		</div>
+		<br />
+		<div class="form-group">
+			<label>6 - 3 = ?</label>
+			<br />
+			<input type="text" id="human" name="human" required minlength="1" pattern="3">
 		</div>
 	  <br />
 	  <button type="submit" class="pageclip-form__submit--dark-loader">
