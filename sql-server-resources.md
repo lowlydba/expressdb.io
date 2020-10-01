@@ -35,6 +35,7 @@ Most open source, all free. Scripts, tools, and resources pertinent to SQL Serve
 - [The Data Loading Performance Guide](https://docs.microsoft.com/en-us/previous-versions/sql/sql-server-2008/dd425070(v=sql.100))
 - [Database Hiearachy of Monitoring Infographic](https://www.lowlydba.com/database-hierarchy-of-monitoring/)
 - [Scheduling Powershell Tasks With SQL Agent](https://dbatools.io/agent/)
+- [ColumnScore.com](https://columnscore.com/) - Quiz to find if you should use columnstore indexes on your table
 
 ## SSMS Plugins
 
