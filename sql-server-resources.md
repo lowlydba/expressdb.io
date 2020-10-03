@@ -52,7 +52,7 @@ Most open source, all free. Scripts, tools, and resources pertinent to SQL Serve
 | [DBA Tools](https://dbatools.io) | Admin | 👍 | [SQL Collaborative](https://dbatools.io/team/) |
 | [DBA Checks](https://dbachecks.io) | Admin | 👍 | [SQL Collaborative](https://dbatools.io/team/) |
 | [MinionWare](http://www.minionware.net/) | Admin | | [MinionWare](http://www.minionware.net/meet-the-team/)|
-| [Express SQL Scripts](https://expresssql.lowlydba.com/) | Admin | 👍 | [John McCall](/about.html) |
+| [DBA MultiTool](https://lowlydba.com/dba-multitool) | Admin | 👍 | [John McCall](/about.html) |
 | [DLM Dashboard](http://www.red-gate.com/products/dlm/dlm-dashboard/) | Devops | | [Redgate](https://www.red-gate.com/) |
 | [Flyway](https://flywaydb.org/) | Migrations | 👍 | [Axel Fontaine](https://axelfontaine.com/) |
 | [Is It SQL?](http://www.scalesql.com/isitsql/) | Monitoring | | [Bill Graziano](http://www.scalesql.com/about.html)
