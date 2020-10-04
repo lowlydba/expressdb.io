@@ -5,7 +5,7 @@ editLink: false # Will overwrite 'editLinks' from themeConfig
 # Send a SQL SOS
 
 ::: tip Need more help?
-Shoot me a message using the form below, and I'll get back to you as soon as possible.
+Shoot me a message using the form below, and I'll get back to you as soon as possible. I offer extremely flexible consulting packages and rates.
 ::: 
 
 <form action="https://send.pageclip.co/4VbMDoV02C8aN7vFEjebO1Wbwrl0wRny/Contact" class="pageclip-form" method="post">
