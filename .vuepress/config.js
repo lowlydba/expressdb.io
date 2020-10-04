@@ -75,7 +75,7 @@ module.exports = {
     editLinkText: 'Edit this page on Github'
   },
   markdown: {
-		lineNumbers: true
+		lineNumbers: false
   },
   plugins: [
     [
