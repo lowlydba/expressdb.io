@@ -4,28 +4,16 @@ editLink: false # Will overwrite 'editLinks' from themeConfig
 
 # About the Author
 
-My name is John McCall, but I often use the handle LowlyDBA on sites like [GitHub](http://github.com/lowlyDBA), [Stack Overflow](https://dba.stackexchange.com/users/45616/lowlydba), and my personal site
-[lowlydba.com](http://www.lowlydba.com).
+<img src="https://expressdb.io/john-profile.jpg" length="200px" width="175px" align="right">
 
-I'm a data engineer and database administrator who has worked for years with companies ranging from
-large financial institutions to startup non-profits. My passion is finding ways
-to leverage data to create new and efficient possibilities in software that
-make the world a better place. I am also the owner of Express Databases, LLC which provides SQL Server based consulting services.
+My name is John McCall, but I often use the handle LowlyDBA on sites
+like [GitHub](http://github.com/lowlyDBA), [Stack Overflow](https://dba.stackexchange.com/users/45616/lowlydba), and my personal site
+[lowlydba.com](http://www.lowlydba.com). I'm a marathoner, occasional moss artist, and chronic optimizer.
 
-Over my career I have been able to learn so much from the SQL Server community members
-who consistently provide free advice, resources, and tools to other data professionals.
-This site is my opportunity to create something free and useful for the community as a
-thank you.
+That’s why I don’t balk at the persistence and tuning minutiae that are key to making sure SQL Server operate smoothly in any environment. If I’m not answering questions on forums like Stack Exchange, then I’m asking on them, because database problems are what keep me up at night (that, or PagerDuty).
 
-While almost every conceivable topic on SQL Server has been and continues to becovered in great detail,
-an overall resource that addresses the many quirks of SQL Server Express has never existed. There
-were fragments of issues and questions scattered around message boards and forums that cover the unique challenges
-and limitations of SQL Server Express, but until now
-there hasn't been a single place to find most of that information.
+That is also why I’ve written stored procedures like `sp_doc`, `sp_helpme`, and `sp_sizeoptimiser` in my [DBA MultiTool](http://dba-multitool.org/) and made them free and open source, to help others automate and simplify the parts of database administration that I’ve found lacking over the years.
 
-My hope is that this open sourced site is useful for anyone using, learning, or weighing options about
-SQL Server Express. It is a fascinating and powerful free database engine that has earned
-a place of common usage for many software vendors and students. 
+If you need help, by working with me I can promise persistence, a positive attitude, and a solution to your database performance mysteries. You’ll have my undivided attention and one-on-one access to all of my knowledge and experience - I will readily share anything you want to know or that I believe will help you.
 
-If you have any further questions or problems, feel free to [reach out](https://www.lowlydba.com/consulting/) to me personally
-or [open an issue](https://github.com/LowlyDBA/expressdb/issues) on Github. 
+You can [reach out](https://www.lowlydba.com/consulting/#how-it-works) to me about consulting services and a free consultation to see how I can help work through whatever problems you're facing.
