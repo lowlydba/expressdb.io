@@ -41,7 +41,7 @@ module.exports = {
 		ariaLabel: 'Free Tools Menu',
 		items: [
 		{ text: 'Scripts, Apps, and Resources', link: '/sql-server-resources.html'},
-		{ text: 'ExpressSQL Scripts', link: 'https://expresssql.lowlydba.com/'},
+		{ text: 'DBA MultiTool', link: 'http://lowlydba.com/dba-multitool'},
 		{ text: 'Azure Data Studio', link: '/azure-data-studio.html'}
 		]
 	  },
@@ -57,10 +57,10 @@ module.exports = {
 	sidebar: 'auto',
     
     // Assumes GitHub. Can also be a full GitLab url.
-    repo: 'LowlyDBA/expressdb.io',
+    // repo: 'LowlyDBA/expressdb.io',
     // Customising the header label
     // Defaults to "GitHub"/"GitLab"/"Bitbucket" depending on `themeConfig.repo`
-    repoLabel: 'Contribute!',
+    // repoLabel: 'Contribute!',
 
     // Optional options for generating "Edit this page" link
     // if your docs are in a different repo from your main project:
