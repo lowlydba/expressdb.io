@@ -1,6 +1,6 @@
 // .vuepress/config.js
 module.exports = {
-  title: 'ExpressDB',
+  title: 'MSSQL Express Database Guides',
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
