@@ -10,8 +10,19 @@ footer: Express Databases, LLC - 2020 - Powered by VuePress
 
 # Everything you need to get the most out of SQL Server Express
 
-:wave: Hi, I'm [John McCall](/about.html), aka LowlyDBA. After years of working as a database administrator, I have noticed there is a small area of the SQL Server world that never seems to receive enough attention, despite its prevalence and very affordable price tag of :free:: SQL Server Express edition.
+:wave: Hi, I'm [John McCall](/about.html), aka LowlyDBA.
 
-As the database of choice for many developers and who need a powerful, but modestly sized, database backend for their application, the free edition of SQL Server offers amazing technology. It is way ahead of its open source counterparts in many areas and its simple licensing makes it an attractive option.
+While almost every conceivable topic on SQL Server has been and continues to becovered in great detail
+by MVPs and diligent bloggers,
+an dedicated resource that addresses the many quirks of SQL Server Express has never existed. There
+were fragments of issues and questions scattered around message boards and forums that cover the unique challenges
+and limitations of SQL Server Express, but until now
+there hasn't been a single place to find most of that information.
 
-However, there are a few noticeable differences that separate SQL Server Express from its other SQL Server sibling editions, outside of just the price tag. This site dives deep into the limitations of SQL Server Express and is targeted at those who need to make the most out of their SQL Express installation. It is for those who want to eek out every bit of performance and automation that Express edition has to offer, all while still playing within the boundaries and limitations of SQL Server Express.
+I have been able to learn so much from the SQL Server community members who consistently
+provide free advice, resources, and tools to other data professionals.
+This site is my opportunity to create something free and useful for the community as a thank you.
+
+My hope is that this site is useful for anyone using, learning, or weighing options about
+SQL Server Express. It is a fascinating and powerful free database engine that has earned
+a place of common usage for many software vendors and students. 
