@@ -7,7 +7,7 @@ editLink: false # Will overwrite 'editLinks' from themeConfig
 <img src="https://expressdb.io/john-profile.jpg" length="200px" width="175px" align="right">
 
 My name is John McCall, but I often use the handle LowlyDBA on sites
-like [GitHub](http://github.com/lowlyDBA), [Stack Overflow](https://dba.stackexchange.com/users/45616/lowlydba), and my personal site
+like [GitHub](http://github.com/lowlyDBA), [Stack Overflow](https://dba.stackexchange.com/users/45616/lowlydba), and my site
 [lowlydba.com](http://www.lowlydba.com). I'm a marathoner, occasional moss artist, and chronic optimizer.
 
 That’s why I don’t balk at the persistence and tuning minutiae that are key to making sure SQL Server operate smoothly in any environment. If I’m not answering questions on forums like Stack Exchange, then I’m asking on them, because database problems are what keep me up at night (that, or PagerDuty).
