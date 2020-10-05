@@ -1,7 +1,7 @@
 ---
 home: true
-heroImage: 
-heroText: ExpressDB
+heroImage: /sql-express.png
+heroText:
 tagline: Guides for Microsoft SQL Server Express
 actionText: What is SQL Server Express?
 actionLink: /what-is-sql-server-express
