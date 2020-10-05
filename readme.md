@@ -3,7 +3,7 @@ home: true
 heroImage: /sql-express.png
 heroText:
 tagline: Guides for Microsoft SQL Server Express
-actionText: What is SQL Server Express?
+actionText: Get started →
 actionLink: /what-is-sql-server-express
 footer: Express Databases, LLC - 2020 - Powered by VuePress
 ---
