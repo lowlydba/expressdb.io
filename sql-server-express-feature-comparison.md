@@ -58,7 +58,7 @@ The complete listing for SQL Server 2019 Express features is available from on M
 | Fine Grained Auditing | Yes | Yes  | Yes | Yes
 | Dynamic Data Masking | Yes | Yes  | Yes | Yes
 | Always Encrypted w/ Secure Enclaves | Yes | Yes  | Yes | Yes
-| Transparent Data Encryption |  Yes | Yes   | Yes | Yes
+| Transparent Database Encryption | Yes | Yes | No | No |
 | Contained Databases|  Yes | Yes | Yes | Yes
 | Change Tracking |  Yes | Yes | Yes | Yes
 | Merge Replication | Yes | Yes | As Subscriber | As Subscriber
@@ -69,14 +69,21 @@ The complete listing for SQL Server 2019 Express features is available from on M
 | SQL Server Agent |  Yes | Yes   | No | No
 | Dedicated Admin Connection |  Yes | Yes   | Yes | Yes
 | PowerShell SMO Support |  Yes | Yes   | Yes | Yes
-| Full Text Search | Yes | Yes   | No | Yes
-| CLR Integration |   Yes | Yes   | Yes | Yes
-| Import/Export Wizard |  Yes | Yes  | Yes | Yes
-| Database Mail | Yes | Yes | No | No
-| UTF-8 |  Yes | Yes   | Yes | Yes
-| Java Runtime Integration |  Yes | Yes   | Yes | Yes
-| Polybase Compute Node |  Yes | Yes   | Yes | Yes
-| Master Instance for Big Data Cluster |  Yes | Yes   | Yes | Yes |
+| Full Text Search | Yes | Yes | No | Yes |
+| CLR Integration | Yes | Yes | Yes | Yes |
+| Import/Export Wizard |  Yes | Yes | Yes | Yes |
+| Database Mail | Yes | Yes | No | No |
+| UTF-8 | Yes | Yes | Yes | Yes |
+| Java Runtime Integration | Yes | Yes | Yes | Yes |
+| Polybase Compute Node | Yes | Yes | Yes | Yes |
+| Master Instance for Big Data Cluster | Yes | Yes | Yes | Yes |
+| Acceleterated Database Recovery | Yes | Yes | No | No |
+| Intelligent Database: automatic tuning | Yes | No | No | No |
+| Intelligent Database: batch mode for row store | Yes | No | No | No |
+| Intelligent Database: row mode memory grant feedback | Yes | No | No | No |
+| Intelligent Database: approximate count distinct | Yes | Yes | Yes | Yes |
+| Intelligent Database: table variable deferred compilation | Yes | Yes | Yes | Yes |
+| Intelligent Database: scalar UDF inlining | Yes | Yes | Yes | Yes |
 
 ### SQL Server Windows 2017
 
