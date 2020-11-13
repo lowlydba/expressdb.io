@@ -52,3 +52,7 @@ done if the application's database needs will not grow over time.
 
 <br/>
 <br/>
+
+<ClientOnly>
+<disqus-component/>
+</ClientOnly>
