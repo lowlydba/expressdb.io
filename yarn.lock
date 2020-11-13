@@ -1062,7 +1062,7 @@
     autoprefixer "^9.5.1"
     babel-loader "^8.0.4"
     cache-loader "^3.0.0"
-    chokidar "^3.0.0"
+    chokidar "^2.0.3"
     connect-history-api-fallback "^1.5.0"
     copy-webpack-plugin "^5.0.2"
     core-js "^3.6.4"
@@ -2100,7 +2100,7 @@ chokidar@^2.0.3, chokidar@^2.1.8:
     readdirp "^2.2.1"
     upath "^1.1.1"
   optionalDependencies:
-    fsevents "^2.0.0"
+    fsevents "^1.2.7"
 
 chokidar@^3.4.1:
   version "3.4.3"
