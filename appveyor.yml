@@ -10,7 +10,7 @@ install:
   - ps: Install-Product node $env:nodejs_version
   
   - cmd: yarn upgrade
-  - cmd: yarn global add vuepress@1.5.0 --exact
+  - cmd: yarn global add vuepress
   - cmd: yarn add -D @vuepress/plugin-google-analytics
     
 build_script:
