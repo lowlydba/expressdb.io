@@ -38,3 +38,7 @@ to the a 18.x version is both supported and recommended.
 <br/>
 
 [ssms]: https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms
+
+<ClientOnly>
+<disqus-component/>
+</ClientOnly>

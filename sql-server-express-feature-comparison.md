@@ -337,3 +337,7 @@ These terms are only used in Microsoft feature comparison documents, but not SQL
 
 <br/>
 <br/>
+
+<ClientOnly>
+<disqus-component/>
+</ClientOnly>

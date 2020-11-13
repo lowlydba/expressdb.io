@@ -82,3 +82,7 @@ It is highly advised to *not* provision any new instances that are already out o
 
 <br/>
 <br/>
+
+<ClientOnly>
+<disqus-component/>
+</ClientOnly>

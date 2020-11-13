@@ -126,3 +126,7 @@ Most open source, all free. Scripts, tools, and resources pertinent to SQL Serve
 [upsert]: https://michaeljswart.com/2017/07/sql-server-upsert-patterns-and-antipatterns/
 [phil]: https://www.red-gate.com/simple-talk/author/phil-factor/
 [wwi]: https://github.com/Microsoft/sql-server-samples
+
+<ClientOnly>
+<disqus-component/>
+</ClientOnly>
