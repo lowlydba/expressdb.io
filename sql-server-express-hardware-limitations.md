@@ -9,10 +9,10 @@ pain of having less RAM/CPU available may not be noticeable. But, for those
 trying to utilize many databases on a single instance, it might become
 obvious that more resources are needed.
 
-::: tip Note
+::: warning Note
 SQL Server Express can utilize *at most* 1410MB
-of RAM and either 1 socket or 4 cores - whichever is less ([depending on
-the version](/which-sql-server-express-version-to-use)).
+of RAM and either 1 socket or 4 cores - whichever is less [depending on
+the version](/which-sql-server-express-version-to-use).
 :::
 
 ## Multiple Instances on One Machine
@@ -40,8 +40,10 @@ For example, a laptop with 8GB of RAM and a quad-core processor
 | Instance 4 | 1410MB | 4 cores
 | **Total** | **5640MB** | **4 cores** |
 
-*Note: This example is for demonstration purposes. Hardware configurations should be
-highly tailored based on required performance and available hardware.*
+::: tip Note
+This example is for demonstration purposes. Hardware configurations should be
+highly tailored based on required performance and available hardware.
+:::
 
 ### The Downsides of Side-Loading
 
