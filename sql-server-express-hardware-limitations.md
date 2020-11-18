@@ -9,9 +9,11 @@ pain of having less RAM/CPU available may not be noticeable. But, for those
 trying to utilize many databases on a single instance, it might become
 obvious that more resources are needed.
 
+::: tip Note
 SQL Server Express can utilize *at most* 1410MB
 of RAM and either 1 socket or 4 cores - whichever is less ([depending on
-the version](http://expressdb.io/sql-server-express-feature-comparison/)).
+the version](https://expressdb.io/which-sql-server-express-version-to-use.html)).
+:::
 
 ## Multiple Instances on One Machine
 
