@@ -42,6 +42,10 @@ Most open source, all free. Scripts, tools, and resources pertinent to SQL Serve
 - [SQL Sentry Plan Explorer](https://www.sentryone.com/plan-explorer/)
 - [Dell Spotlight Essentials](https://www.spotlightessentials.com/spotlight-extensions)
 
+## Azure Data Studio Extensions
+
+Micosoft curates a list of first and third party extensions [here][ads-extensions].
+
 ## Tools
 
 | Name | Type | Open Source | Author |
@@ -103,6 +107,7 @@ Most open source, all free. Scripts, tools, and resources pertinent to SQL Serve
 - [idownvotedbecau.se][idvb] - Linkable downvoting rationale for Stack Exchange comments.
 - [Open Source Pull Request Template][pr-template] - Whimsical choose-your-own-adventure that climaxes with a customized pull request template by [Tal Ater][tal]
 
+[ads-extensions]: https://github.com/Microsoft/azuredatastudio/wiki/List-of-Extensions
 [alwaysonhealth]: https://techcommunity.microsoft.com/t5/SQL-Server/The-AlwaysOn-Health-Model-Part-2-Extending-the-Health-Model/ba-p/384043?advanced=false&collapse_discussion=true&q=the%20alwayson%20health%20model&search_type=thread
 [betterment]: https://www.betterment.com/resources/inside-betterment/engineering/modern-data-analysis-dont-trust-your-spreadsheet/
 [dbfit]: http://www.methodsandtools.com/tools/dbfit.php
