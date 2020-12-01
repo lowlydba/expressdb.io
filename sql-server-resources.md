@@ -39,9 +39,6 @@ Most open source, all free. Scripts, tools, and resources pertinent to SQL Serve
 
 ## SSMS Plugins
 
-- [Apex SQL Refactor](http://www.apexsql.com/sql_tools_refactor.aspx)
-- [Apex SQL Complete](http://www.apexsql.com/sql_tools_complete.aspx)
-- [Apex SQL Search](http://www.apexsql.com/sql_tools_search.aspx)
 - [SQL Sentry Plan Explorer](https://www.sentryone.com/plan-explorer/)
 - [Dell Spotlight Essentials](https://www.spotlightessentials.com/spotlight-extensions)
 
