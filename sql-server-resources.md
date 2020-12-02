@@ -16,12 +16,13 @@ Most open source, all free. Scripts, tools, and resources pertinent to SQL Serve
 ## T-SQL Scripts
 
 - [Ola's Maintenance Scripts](https://github.com/olahallengren/sql-server-maintenance-solution)
-- [Brent's First Responder Kit](https://github.com/BrentOzarULTD/SQL-Server-First-Responder-Kit)
+- [Brent Ozar's First Responder Kit](https://github.com/BrentOzarULTD/SQL-Server-First-Responder-Kit)
 - [Glenn Berry's Diagnostic Queries](https://www.sqlskills.com/blogs/glenn/category/dmv-queries/)
-- [Tiger Tool Box](https://github.com/Microsoft/tigertoolbox)
-- [sp_WhoIsActive](http://whoisactive.com/downloads/)
-- [sp_InEachDB](https://github.com/BrentOzarULTD/SQL-Server-First-Responder-Kit/blob/dev/sp_ineachdb.sql) - replacement for the undocumented [sp_MSForEachDB](http://sqlblog.com/blogs/aaron_bertrand/archive/2010/12/29/a-more-reliable-and-more-flexible-sp-msforeachdb.aspx)
+- [SQL CAT's Tiger Tool Box](https://github.com/Microsoft/tigertoolbox)
+- [Adam Machanic's sp_WhoIsActive](http://whoisactive.com/downloads/)
+- [Aaron Bertrand's sp_InEachDB](https://github.com/BrentOzarULTD/SQL-Server-First-Responder-Kit/blob/dev/sp_ineachdb.sql) - replacement for the undocumented [sp_MSForEachDB](http://sqlblog.com/blogs/aaron_bertrand/archive/2010/12/29/a-more-reliable-and-more-flexible-sp-msforeachdb.aspx)
 - [Jeff Moden's DelimitedSplit8k](http://www.sqlservercentral.com/articles/Tally+Table/72993/) - string splitter function
+- [John McCall's DBA MultiTool](https://dba-multitool.org) - Suite of administrative scripts
 
 ## References
 
@@ -53,14 +54,14 @@ Micosoft curates a list of first and third party extensions [here][ads-extension
 | [DBA Tools](https://dbatools.io) | Admin | 👍 | [SQL Collaborative](https://dbatools.io/team/) |
 | [DBA Checks](https://dbachecks.io) | Admin | 👍 | [SQL Collaborative](https://dbatools.io/team/) |
 | [MinionWare](http://www.minionware.net/) | Admin | | [MinionWare](http://www.minionware.net/meet-the-team/)|
-| [DBA MultiTool](https://lowlydba.com/dba-multitool) | Admin | 👍 | [John McCall](/about.html) |
 | [DLM Dashboard](http://www.red-gate.com/products/dlm/dlm-dashboard/) | Devops | | [Redgate](https://www.red-gate.com/) |
+| [DBOps](https://github.com/sqlcollaborative/dbops) | Migrations | 👍 | [SQL Collaborative](https://dbatools.io/team/) |
 | [Flyway](https://flywaydb.org/) | Migrations | 👍 | [Axel Fontaine](https://axelfontaine.com/) |
 | [Is It SQL?](http://www.scalesql.com/isitsql/) | Monitoring | | [Bill Graziano](http://www.scalesql.com/about.html)
 | [Spotlight Cloud Basic](https://www.spotlightcloud.io/pricing) | Monitoring | | [Quest](https://www.quest.com/) |
 | [SQL Watch](https://sqlwatch.io/) | Monitoring | 👍 | [Marcin Gminski](https://marcin.gminski.net/) |
 | [SchemaZen](https://github.com/sethreno/schemazen#schemazen---script-and-create-sql-server-objects-quickly) | Scripting | 👍 | [Seth Reno](https://github.com/sethreno) |
-| [mssql-scripter](https://github.com/Microsoft/sql-xplat-cli/) | Scripting | 👍 | Microsoft |
+| [mssql-scripter](https://github.com/Microsoft/sql-xplat-cli/) (may be dead) | Scripting | 👍 | Microsoft |
 | [DBDiagram.io](https://dbdiagram.io/) | Sharing | | [holistics.io](https://www.holistics.io)|
 | [Format Text as Table](https://senseful.github.io/text-table/) | Sharing | | [Senseful Solutions](https://senseful.github.io/) |
 | [DBFit](http://www.methodsandtools.com/tools/dbfit.php) | Testing | | [Yavor Nikolov](https://javornikolov.wordpress.com/) |
