@@ -85,4 +85,5 @@ It is highly advised to *not* provision any new instances that are already out o
 
 <ClientOnly>
 <disqus-component/>
-</ClientOnly>
+<userway-component/>
+</clientOnly>

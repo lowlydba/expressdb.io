@@ -36,5 +36,5 @@ a place of common usage for many software vendors and students alike.
 \- John
 
 <ClientOnly>
-  <script>(function(){var s = document.createElement("script");s.setAttribute("data-account","GEbanlpDaE");s.setAttribute("src","https://cdn.userway.org/widget.js");document.body.appendChild(s);})();</script>
-</ClientOnly>
+<userway-component/>
+</clientOnly>

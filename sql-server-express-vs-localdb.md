@@ -55,4 +55,5 @@ done if the application's database needs will not grow over time.
 
 <ClientOnly>
 <disqus-component/>
-</ClientOnly>
+<userway-component/>
+</clientOnly>
