@@ -41,4 +41,5 @@ to the a 18.x version is both supported and recommended.
 
 <ClientOnly>
 <disqus-component/>
-</ClientOnly>
+<userway-component/>
+</clientOnly>

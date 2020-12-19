@@ -103,4 +103,5 @@ EXECUTE msdb.dbo.sp_send_dbmail
 
 <ClientOnly>
 <disqus-component/>
-</ClientOnly>
+<userway-component/>
+</clientOnly>

@@ -47,3 +47,7 @@ Shoot me a message using the form below, and I'll get back to you as soon as pos
 		<span>Send</span>
 	  </button>
 	</form>
+
+<ClientOnly>
+<userway-component/>
+</clientOnly>

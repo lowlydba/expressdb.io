@@ -1,14 +1,14 @@
 {
-  "name": "test-project",
+  "name": "expressdb",
   "version": "1.0.0",
   "description": "A Vue.js project",
   "main": "src/main.js",
   "private": true,
   "devDependencies": {
-    "@vuepress/plugin-google-analytics": "^1.6.1"
   },
   "dependencies": {
-    "vuepress": "^1.6.1",
-    "chokidar": "^3.0.0"
+    "vuepress": "^1.7.1",
+    "chokidar": "^3.0.0",
+    "@vuepress/plugin-google-analytics": "^1.2.0"
   }
 }
