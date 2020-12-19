@@ -132,4 +132,5 @@ Micosoft curates a list of first and third party extensions [here][ads-extension
 
 <ClientOnly>
 <disqus-component/>
-</ClientOnly>
+<userway-component/>
+</clientOnly>

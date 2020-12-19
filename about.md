@@ -17,3 +17,7 @@ That is also why I’ve written stored procedures like `sp_doc`, `sp_helpme`, an
 If you need help, by working with me I can promise persistence, a positive attitude, and a solution to your database performance mysteries. You’ll have my undivided attention and one-on-one access to all of my knowledge and experience - I will readily share anything you want to know or that I believe will help you.
 
 You can [reach out](https://www.lowlydba.com/consulting/#how-it-works) to me about consulting services and get a free consultation to see how I can help work through whatever problems you're facing, one step at a time.
+
+<ClientOnly>
+<userway-component/>
+</clientOnly>

@@ -271,4 +271,5 @@ Microsoft has done an excellent job on documenting an unattended SQL Server inst
 
 <ClientOnly>
 <disqus-component/>
-</ClientOnly>
+<userway-component/>
+</clientOnly>

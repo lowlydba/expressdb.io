@@ -340,4 +340,5 @@ These terms are only used in Microsoft feature comparison documents, but not SQL
 
 <ClientOnly>
 <disqus-component/>
-</ClientOnly>
+<userway-component/>
+</clientOnly>

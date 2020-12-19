@@ -49,4 +49,5 @@ Here are a few reasons many choose Express over open source alternatives:
 
 <ClientOnly>
 <disqus-component/>
-</ClientOnly>
+<userway-component/>
+</clientOnly>

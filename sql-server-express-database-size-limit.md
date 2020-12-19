@@ -120,4 +120,5 @@ Since there are always exceptions as to when normalized data or denormalized dat
 
 <ClientOnly>
 <disqus-component/>
-</ClientOnly>
+<userway-component/>
+</clientOnly>

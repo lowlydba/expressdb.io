@@ -59,4 +59,5 @@ to be completed:
 
 <ClientOnly>
 <disqus-component/>
-</ClientOnly>
+<userway-component/>
+</clientOnly>
