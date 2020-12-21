@@ -15,7 +15,7 @@ any number of processes or jobs that may be 100% external to SQL Server.
 
 ### Windows Task Scheduler
 
-Without a SQL Agent, the default option for [managing backups](/sql-server-express-backups.html) and [maintenance scripts](/sql-server-express-maintenance.html) on SQL Server Express is not an option. Luckily, one of the next best alternatives is free, included in Windows,
+Without a SQL Agent, the  default option for [managing backups](/sql-server-express-backups.html) and [maintenance scripts](/sql-server-express-maintenance.html) on SQL Server Express is not an option. Luckily, one of the next best alternatives is free, included in Windows,
 and takes very little time to configure. Enter Windows Task Scheduler!
 
 To utilize the task scheduler, a task must be created that will execute a batch script containing the code to run on the SQL Express Instance. In this example, it will be a maintenance job
