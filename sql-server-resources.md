@@ -108,6 +108,7 @@ Micosoft curates a list of first and third party extensions [here][ads-extension
 - [Stack Overflow Database][so-db] - Brent Ozar's packaging of the Stack Overflow database
 - [idownvotedbecau.se][idvb] - Linkable downvoting rationale for Stack Exchange comments.
 - [Open Source Pull Request Template][pr-template] - Whimsical choose-your-own-adventure that climaxes with a customized pull request template by [Tal Ater][tal]
+- [SQL Server Kit][ssk] - Compendium of everything SQL Server & R by [Konstantin Taranov][konstantin]
 
 [ads-extensions]: https://github.com/Microsoft/azuredatastudio/wiki/List-of-Extensions
 [alwaysonhealth]: https://techcommunity.microsoft.com/t5/SQL-Server/The-AlwaysOn-Health-Model-Part-2-Extending-the-Health-Model/ba-p/384043?advanced=false&collapse_discussion=true&q=the%20alwayson%20health%20model&search_type=thread
@@ -117,6 +118,7 @@ Micosoft curates a list of first and third party extensions [here][ads-extension
 [idvb]: http://idownvotedbecau.se/
 [isitsql]: http://www.scalesql.com/isitsql/
   "Is It SQL?"
+[konstantin]: https://github.com/ktaranov
 [marc]: http://marcrettig.me/data-normalization-poster-1989/
   "Marc Rettig"
 [normrules]: /rettigNormalizationPoster.pdf
@@ -125,6 +127,7 @@ Micosoft curates a list of first and third party extensions [here][ads-extension
 [schemazen]: https://github.com/sethreno/schemazen#schemazen---script-and-create-sql-server-objects-quickly
 [smelly]: https://www.red-gate.com/simple-talk/sql/t-sql-programming/sql-code-smells/
 [so-db]: https://www.brentozar.com/archive/2015/10/how-to-download-the-stack-overflow-database-via-bittorrent/
+[ssk]: https://github.com/ktaranov/sqlserver-kit
 [swart]: https://michaeljswart.com/about/
 [tal]: https://twitter.com/TalAter
 [upsert]: https://michaeljswart.com/2017/07/sql-server-upsert-patterns-and-antipatterns/
