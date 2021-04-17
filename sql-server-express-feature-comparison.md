@@ -84,6 +84,7 @@ The complete listing for SQL Server 2019 Express features is available from on M
 | Intelligent Database: approximate count distinct | Yes | Yes | Yes | Yes |
 | Intelligent Database: table variable deferred compilation | Yes | Yes | Yes | Yes |
 | Intelligent Database: scalar UDF inlining | Yes | Yes | Yes | Yes |
+| [Parallel Query Processing][PQP] | Yes | Yes | No | No |
 
 ### SQL Server Windows 2017
 
@@ -126,6 +127,7 @@ The complete listing for SQL Server 2017 Express features is available from on M
 | CLR Integration |   Yes | Yes   | Yes | Yes
 | Import/Export Wizard |  Yes | Yes   | Yes | Yes
 | Database Mail | Yes | Yes | No | No
+| [Parallel Query Processing][PQP] | Yes | Yes | No | No |
 
 ### SQL Server Windows 2016
 
@@ -164,6 +166,7 @@ The complete listing for SQL Server 2016 Express features is available from on M
 | CLR Integration |   Yes | Yes   | Yes | Yes
 | Import/Export Wizard |  Yes | Yes   | Yes | Yes
 | Database Mail | Yes | Yes | No | No
+| [Parallel Query Processing][PQP] | Yes | Yes | No | No |
 
 ### SQL Server Windows 2014
 
@@ -199,6 +202,7 @@ The complete listing for SQL Server 2014 Express is available from on MSDN 's [F
 | CLR Integration |   Yes | Yes   | Yes | Yes
 | Import/Export Wizard |  Yes | Yes   | Yes | Yes
 | Database Mail | Yes | Yes | No | No
+| [Parallel Query Processing][PQP] | Yes | Yes | No | No |
 
 ### SQL Server Windows 2012
 
@@ -235,6 +239,7 @@ The complete listing for SQL Server 2012 Express is available from on MSDN 's [F
 | CLR Integration |   Yes | Yes   | Yes | Yes
 | Import/Export Wizard |  Yes | Yes   | Yes | Yes
 | Database Mail | Yes | Yes | No | No
+| [Parallel Query Processing][PQP] | Yes | Yes | No | No |
 
 ### SQL Server Windows 2008 R2
 
@@ -270,6 +275,7 @@ The complete listing for SQL Server 2008 R2 Express is available from on MSDN 's
 | CLR Integration |   Yes | Yes   | Yes | Yes |
 | Import/Export Wizard |  No | No   | No | No |
 | Database Mail | Yes | Yes | No | No |
+| [Parallel Query Processing][PQP] | Yes | Yes | No | No |
 
 ### SQL Server Linux 2019
 
@@ -299,6 +305,7 @@ The complete listing for SQL Server 2008 R2 Express is available from on MSDN 's
 | Services | Reporting Services | No |
 | Services | Data Quality Services | No |
 | Services | Master Data Services | No |
+| [Parallel Query Processing][PQP] | Yes | Yes | No | No |
 
 ### SQL Server Linux 2017
 
@@ -328,6 +335,7 @@ The complete listing for SQL Server 2008 R2 Express is available from on MSDN 's
 | Services | Reporting Services | No |
 | Services | Data Quality Services | No |
 | Services | Master Data Services | No |
+| [Parallel Query Processing][PQP] | Yes | Yes | No | No |
 
 ## FAQ
 
@@ -342,3 +350,5 @@ These terms are only used in Microsoft feature comparison documents, but not SQL
 <disqus-component/>
 <userway-component/>
 </clientOnly>
+
+[PQP]: https://docs.microsoft.com/en-us/sql/relational-databases/query-processing-architecture-guide?view=sql-server-ver15#parallel-query-processing
