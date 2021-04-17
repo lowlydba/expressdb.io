@@ -4,8 +4,6 @@ editLink: false # Will overwrite 'editLinks' from themeConfig
 
 # About the Author
 
-<img src="https://expressdb.io/john-profile.jpg" length="200px" width="175px" align="right">
-
 My name is John McCall, but I often use the handle LowlyDBA on sites
 like [GitHub](http://github.com/lowlyDBA), [Stack Overflow](https://dba.stackexchange.com/users/45616/lowlydba), and my site
 [lowlydba.com](http://www.lowlydba.com). I'm a marathoner, occasional moss artist, and chronic optimizer.
