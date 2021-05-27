@@ -60,6 +60,7 @@ Micosoft curates a list of first and third party extensions [here][ads-extension
 | [Is It SQL?](http://www.scalesql.com/isitsql/) | Monitoring | | [Bill Graziano](http://www.scalesql.com/about.html) |
 | [OpServer](https://github.com/opserver/Opserver) | Monitoring | 👍 | [Stack Exchange](https://opserver.github.io/Opserver/) |
 | [Spotlight Cloud Basic](https://www.spotlightcloud.io/pricing) | Monitoring | | [Quest](https://www.quest.com/) |
+| [SQLTop](https://github.com/channeladvisor/sqltop) | Monitoring | 👍 | [Channel Advisor](https://www.channeladvisor.com/)
 | [SQL Watch](https://sqlwatch.io/) | Monitoring | 👍 | [Marcin Gminski](https://marcin.gminski.net/) |
 | [SchemaZen](https://github.com/sethreno/schemazen#schemazen---script-and-create-sql-server-objects-quickly) | Scripting | 👍 | [Seth Reno](https://github.com/sethreno) |
 | [mssql-scripter](https://github.com/Microsoft/sql-xplat-cli/) (may be dead) | Scripting | 👍 | Microsoft |
