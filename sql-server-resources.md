@@ -92,6 +92,7 @@ Micosoft curates a list of first and third party extensions [here][ads-extension
 - [SQL Server UPSERT Patterns and Antipatterns][upsert] by [Michael J Swart][swart]
 - [T-SQL Code Smells][smelly] by [Phil Factor][phil]
 - [Fighting Evil in Your Code: Comments on Comments](https://www.red-gate.com/simple-talk/opinion/opinion-pieces/fighting-evil-code-comments-comments/) by [Michael Sorens](https://www.red-gate.com/simple-talk/author/michael-sorens/)
+- [The Data Loading Performance Guide][dlpg]
 
 
 ### Misc
@@ -115,6 +116,7 @@ Micosoft curates a list of first and third party extensions [here][ads-extension
 [alwaysonhealth]: https://techcommunity.microsoft.com/t5/SQL-Server/The-AlwaysOn-Health-Model-Part-2-Extending-the-Health-Model/ba-p/384043?advanced=false&collapse_discussion=true&q=the%20alwayson%20health%20model&search_type=thread
 [betterment]: https://www.betterment.com/resources/inside-betterment/engineering/modern-data-analysis-dont-trust-your-spreadsheet/
 [dbfit]: http://www.methodsandtools.com/tools/dbfit.php
+[dlpg]: https://docs.microsoft.com/en-us/previous-versions/sql/sql-server-2008/dd425070(v=sql.100)
 [fiddle]: http://sqlfiddle.com/
 [idvb]: http://idownvotedbecau.se/
 [isitsql]: http://www.scalesql.com/isitsql/
