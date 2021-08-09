@@ -37,6 +37,8 @@ Most open source, all free. Scripts, tools, and resources pertinent to SQL Serve
 - [Database Hiearachy of Monitoring Infographic](https://www.lowlydba.com/database-hierarchy-of-monitoring/)
 - [Scheduling Powershell Tasks With SQL Agent](https://dbatools.io/agent/)
 - [ColumnScore.com](https://columnscore.com/) - Quiz to find if you should use columnstore indexes on your table
+- [Use the Index, Luke!](https://use-the-index-luke.com/) - A site explaining SQL indexing to developers—no crap about administration.
+- [Modern SQL](https://modern-sql.com/) - A site explaining modern features of the SQL standard & which products use them.
 
 ## SSMS Plugins
 
