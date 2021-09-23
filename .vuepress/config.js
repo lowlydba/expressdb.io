@@ -41,7 +41,7 @@ module.exports = {
 		ariaLabel: 'Free Tools Menu',
 		items: [
 		{ text: 'Scripts, Apps, and Resources', link: '/sql-server-resources.html'},
-		{ text: 'ExpressSQL Scripts', link: 'https://expresssql.lowlydba.com/'},
+		{ text: 'DBA MultiTool', link: 'https://dba-multitool.org'},
 		{ text: 'Azure Data Studio', link: '/azure-data-studio.html'}
 		]
 	  },
