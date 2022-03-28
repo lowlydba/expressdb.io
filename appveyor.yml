@@ -7,7 +7,7 @@ environment:
 
 install:
   # Get the latest stable version of Node.js or io.js
-  - ps: Install-Product node $env:nodejs_version
+  - ps: Install-Product node 16
   
   - cmd: yarn install
   - cmd: yarn upgrade
@@ -33,7 +33,7 @@ for:
     - cmd: >-
         mkdir C:\projects\dist\
         
-        git clone -q --branch=gh-pages https://github.com/LowlyDBA/expressdb.io.git C:\projects\dist\
+        git clone -q --branch=gh-pages https://github.com/lowlydba/expressdb.io.git C:\projects\dist\
         
         cd C:\projects\dist\
         

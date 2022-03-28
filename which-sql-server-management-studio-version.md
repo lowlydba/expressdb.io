@@ -15,7 +15,7 @@ even when working with older servers.
 
 ## The Latest and Greatest
 
-As of October 5, 2021, the latest official version of SQL Server Management Studio is 18.10.
+As of March 8, 2022, the latest official version of SQL Server Management Studio is 18.11.1.
 
 ::: tip
 The latest version of Management Studio will always be available at the [Download SQL Server Management Studio][ssms] page.
