@@ -61,6 +61,7 @@ Micosoft curates a list of first and third party extensions [here][ads-extension
 | [DBOps](https://github.com/sqlcollaborative/dbops) | Migrations | 👍 | [SQL Collaborative](https://dbatools.io/team/) |
 | [Flyway](https://flywaydb.org/) | Migrations | 👍 | [Axel Fontaine](https://axelfontaine.com/) |
 | [Is It SQL?](http://www.scalesql.com/isitsql/) | Monitoring | | [Bill Graziano](http://www.scalesql.com/about.html) |
+| [lowlydba.sqlserver](https://github.com/lowlydba/lowlydba.sqlserver) Ansible collection | Admin | 👍 | [John McCall](https://github.com/lowlydba)
 | [OpServer](https://github.com/opserver/Opserver) | Monitoring | 👍 | [Stack Exchange](https://opserver.github.io/Opserver/) |
 | [Spotlight Cloud Basic](https://www.spotlightcloud.io/pricing) | Monitoring | | [Quest](https://www.quest.com/) |
 | [SQLTop](https://github.com/channeladvisor/sqltop) | Monitoring | 👍 | [Channel Advisor](https://www.channeladvisor.com/)
