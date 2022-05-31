@@ -38,7 +38,7 @@ Shoot me a message using the form below, and I'll get back to you as soon as pos
 		</div>
 		<br />
 		<div class="form-group">
-			<label>6 - 3 = ?</label>
+			<label>6 less 3 is equal to what?</label>
 			<br />
 			<input type="text" id="human" name="human" value="4" required minlength="1" pattern="[3]{1}">
 		</div>
