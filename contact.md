@@ -40,7 +40,7 @@ Shoot me a message using the form below, and I'll get back to you as soon as pos
 		<div class="form-group">
 			<label>6 - 3 = ?</label>
 			<br />
-			<input type="text" id="human" name="human" placeholder="4" required minlength="1" pattern="3">
+			<input type="text" id="human" name="human" value="4" required minlength="1" pattern="\d[3]*">
 		</div>
 	  <br />
 	  <button type="submit" class="pageclip-form__submit--dark-loader">
