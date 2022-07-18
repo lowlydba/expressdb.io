@@ -40,6 +40,7 @@ Most open source, all free. Scripts, tools, and resources pertinent to SQL Serve
 - [Use the Index, Luke!](https://use-the-index-luke.com/) - A site explaining SQL indexing to developers—no crap about administration.
 - [Modern SQL](https://modern-sql.com/) - A site explaining modern features of the SQL standard & which products use them.
 - [EndofLife.Date](https://endoflife.date/mssqlserver) - EOL for MSSQL (and many others).
+- [Query Store Best Practices](https://www.sqlskills.com/blogs/erin/query-store-best-practices/) - by Erin Stellato
 
 ## SSMS Plugins
 
