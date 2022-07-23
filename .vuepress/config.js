@@ -87,17 +87,17 @@ module.exports = {
   ],
   head: [
 	['link', { rel: 'icon', href: '/favicon.png'}],
-	['meta', { property='og:locale', content='en_US'}],
-	['meta', { property='og:type', content='website'}],
-	['meta', { property='og:site_name', content='Express DB'}],
-	['meta', { property='og:title', content='Express DB'}],
-	['meta', { property='og:description', content='Guides and references for SQL Server Express'}],
-	['meta', { property='og:image:secure', content='https://expressdb.io/expressdb-og.png'}],
-	['meta', { property='twitter:card', content='summary'}],
-	['meta', { property='twitter:domain', content='expressdb.io'}],
-	['meta', { property='twitter:url', content='https://expressdb.io/'}],
-	['meta', { property='twitter:title', content='Express DB'}],
-	['meta', { property='twitter:description', content='Guides and references for SQL Server Express'}],
-	['meta', { property='twitter:image', content='https://expressdb.io/expressdb-og.png'}]
+	['meta', { property: 'og:locale', content: 'en_US'}],
+	['meta', { property: 'og:type', content: 'website'}],
+	['meta', { property: 'og:site_name', content: 'Express DB'}],
+	['meta', { property: 'og:title', content: 'Express DB'}],
+	['meta', { property: 'og:description', content: 'Guides and references for SQL Server Express'}],
+	['meta', { property: 'og:image:secure', content: 'https://expressdb.io/expressdb-og.png'}],
+	['meta', { property: 'twitter:card', content: 'summary'}],
+	['meta', { property: 'twitter:domain', content: 'expressdb.io'}],
+	['meta', { property: 'twitter:url', content: 'https://expressdb.io/'}],
+	['meta', { property: 'twitter:title', content: 'Express DB'}],
+	['meta', { property: 'twitter:description', content: 'Guides and references for SQL Server Express'}],
+	['meta', { property: 'twitter:image', content: 'https://expressdb.io/expressdb-og.png'}]
   ]
 }
