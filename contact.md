@@ -20,12 +20,12 @@ Shoot me a message using the form below, and I'll get back to you as soon as pos
 			<br />
 			<select name="version" required="">
 				<option value="complicated">It's complicated...</option>
-				<option value="2008">SQL Server 2008 / R2</option>
 				<option value="2012">SQL Server 2012</option>
 				<option value="2014">SQL Server 2014</option>
 				<option value="2016">SQL Server 2016</option>
 				<option value="2017">SQL Server 2017</option>
 				<option value="2019">SQL Server 2019</option>
+				<option value="2022">SQL Server 2022</option>
 				<option value="Azure">Azure SQL</option>
 				<option value="Azure">SQL Server RDS</option>
 			</select>
