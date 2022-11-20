@@ -14,6 +14,7 @@ and do not represent every feature of SQL Server nor all of the parity between e
 
 ## Windows Edition Features
 
+* [2022](#sql-server-windows-2019)
 * [2019](#sql-server-windows-2019)
 * [2017](#sql-server-windows-2017)
 * [2016](#sql-server-windows-2016)
@@ -25,10 +26,67 @@ and do not represent every feature of SQL Server nor all of the parity between e
 
 Some features of SQL Server, regardless of edition, are unsupported in Linux.
 
+* [Linux 2022](#sql-server-linux-2022)
 * [Linux 2019](#sql-server-linux-2019)
 * [Linux 2017](#sql-server-linux-2017)
 
 Also see the [Feature Comparison FAQ](#faq) for clarification on terminology.
+
+### SQL Server Windows 2022
+
+The complete listing for SQL Server 2022 Express features is available from on Microsoft Docs' [Editions and supported features of SQL Server 2022](https://learn.microsoft.com/en-us/sql/sql-server/editions-and-components-of-sql-server-2022?view=sql-server-ver16).
+
+| Feature                             | Enterprise | Standard               | Express             | Express w/ Advanced Services |
+| ------------------------------------|------------| -----------------------| ------------------- | ---------------------------- |
+| Max. Compute Capacity (per instance) | OS Max. | Lesser of 4 sockets / 24 cores | Lesser of 1 socket / 4 cores  | Lesser of 1 socket / 4 cores
+| Max. Buffer Pool Memory (per instance) | OS Max.      | 128GB                          | 1410MB  | 1410MB
+| Max. Columnstore Cache Memory (per instance) | Unlimited | 32GB | 352MB | 352MB
+| Max. Memory-Optimized Data Size (per instance) | Unlimited | 32GB | 352MB | 352MB
+| Max. database size                        | 524PB      | 524PB                          | 10GB | 10GB
+| Log Shipping | Yes |Yes | No | No
+| Mirroring | Yes | Yes | As Witness | As Witness
+| Backup Compression | Yes |Yes | No | No
+| Database Snapshots | Yes |Yes | Yes | Yes
+| AlwaysOn AG | Yes | No | No | No
+| [Basic Availability Groups](https://docs.microsoft.com/en-us/sql/database-engine/availability-groups/windows/basic-availability-groups-always-on-availability-groups) | Yes | Yes (2 nodes) | No | No
+| Encrypted Backups | Yes | Yes | No | No
+| Stretch Database | Yes | Yes | Yes | Yes
+| Table/index Partitioning | Yes | Yes | Yes | Yes
+| Buffer Pool Extension | Yes | Yes | No | No
+| Compression | Yes | Yes | Yes | Yes
+| Resource Governor | Yes | No | No | No
+| In-Memory OLTP | Yes |Yes | Yes | Yes
+| Auditing |  Yes | Yes | Yes | Yes
+| Fine Grained Auditing | Yes | Yes | Yes | Yes
+| Dynamic Data Masking | Yes | Yes | Yes | Yes
+| Always Encrypted w/ Secure Enclaves | Yes | Yes  | Yes | Yes
+| Transparent Database Encryption | Yes | Yes | No | No |
+| Contained Databases|  Yes | Yes | Yes | Yes
+| Change Tracking |  Yes | Yes | Yes | Yes
+| Merge Replication | Yes | Yes | As Subscriber | As Subscriber
+| Transactional Replication | Yes | Yes | As Subscriber | As Subscriber
+| Transactional Replication to Azure | Yes | Yes | No | No
+| Snapshot Replication |  Yes | Yes | As Subscriber | As Subscriber
+| P2P Transactional Replication | Yes |No | No | No
+| SQL Server Agent |  Yes | Yes | No | No
+| Dedicated Admin Connection | Yes | Yes | Yes | Yes
+| PowerShell SMO Support | Yes | Yes | Yes | Yes
+| Full Text Search | Yes | Yes | No | Yes |
+| CLR Integration | Yes | Yes | Yes | Yes |
+| Import/Export Wizard |  Yes | Yes | Yes | Yes |
+| Database Mail | Yes | Yes | No | No |
+| UTF-8 | Yes | Yes | Yes | Yes |
+| Java Runtime Integration | Yes | Yes | Yes | Yes |
+| Polybase Compute Node | Yes | Yes | Yes | Yes |
+| Master Instance for Big Data Cluster | Yes | Yes | Yes | Yes |
+| Acceleterated Database Recovery | Yes | Yes | No | No |
+| Intelligent Database: automatic tuning | Yes | No | No | No |
+| Intelligent Database: batch mode for row store | Yes | No | No | No |
+| Intelligent Database: row mode memory grant feedback | Yes | No | No | No |
+| Intelligent Database: approximate count distinct | Yes | Yes | Yes | Yes |
+| Intelligent Database: table variable deferred compilation | Yes | Yes | Yes | Yes |
+| Intelligent Database: scalar UDF inlining | Yes | Yes | Yes | Yes |
+| [Parallel Query Processing][PQP] | Yes | Yes | No | No |
 
 ### SQL Server Windows 2019
 
@@ -275,6 +333,36 @@ The complete listing for SQL Server 2008 R2 Express is available from on MSDN 's
 | CLR Integration |   Yes | Yes   | Yes | Yes |
 | Import/Export Wizard |  No | No   | No | No |
 | Database Mail | Yes | Yes | No | No |
+| [Parallel Query Processing][PQP] | Yes | Yes | No | No |
+
+### SQL Server Linux 2022
+
+| Category | Feature | Supported |
+| --- | --- | --- |
+| Database engine | Merge replication | No |
+| Database engine | Stretch DB | No |
+| Database engine | Polybase | Yes |
+| Database engine | Distributed query with 3rd-party connections | No |
+| Database engine | Linked Servers | No (Yes to only SQL Server sources) |
+| Database engine | System extended stored procedures | No |
+| Database engine | Filetable, FILESTREAM | No |
+| Database engine | CLR assemblies with the EXTERNAL_ACCESS or UNSAFE permission set | No |
+| Database engine | Buffer Pool Extension | Enterprise/Standard only |
+| SQL Server Agent | Subsystems: CmdExec, PowerShell, Queue Reader, SSIS, SSAS, SSRS | No |
+| SQL Server Agent | Alerts | No |
+| SQL Server Agent | Log Reader Agent | Yes |
+| SQL Server Agent | Managed Backup | No |
+| High Availability | Database Mirroring  | No |
+| Security | Extensible Key Management | No |
+| Security | AD Authentication for Linked Servers | No |
+| Security | AD Authentication for Availability Groups | No |
+| Services | SQL Server Browser | No |
+| Services | SQL Server R services | No |
+| Services | StreamInsight | No |
+| Services | Analysis Services | No |
+| Services | Reporting Services | No |
+| Services | Data Quality Services | No |
+| Services | Master Data Services | No |
 | [Parallel Query Processing][PQP] | Yes | Yes | No | No |
 
 ### SQL Server Linux 2019

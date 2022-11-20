@@ -44,7 +44,7 @@ Extensions in Azure Data Studio are free, much easier to work with, and can be d
 
 ## What's Next
 
-Azure Data Studio will no doubt be getting a lot of love from Microsoft and the open source community over the next few years and now supports a ton of [new SQL 2019 features](https://cloudblogs.microsoft.com/sqlserver/2019/11/05/the-november-2019-release-of-azure-data-studio-is-now-available/). Its features will probably also include things that Management Studio does not, and I expect it to take on many areas that it currently lacks in comparison to SSMS. There will be fewer and fewer reasons to open SSMS over time and if you're a wizard at PowerShell already, this might already be the final nail in Management Studio's coffin for you.
+Azure Data Studio will no doubt be getting a lot of love from Microsoft and the open source community over the next few years and now supports a ton of [new SQL 2019/2022 features](https://cloudblogs.microsoft.com/sqlserver/2019/11/05/the-november-2019-release-of-azure-data-studio-is-now-available/). Its features will probably also include things that Management Studio does not, and I expect it to take on many areas that it currently lacks in comparison to SSMS. There will be fewer and fewer reasons to open SSMS over time and if you're a wizard at PowerShell already, this might already be the final nail in Management Studio's coffin for you.
 
 <br/>
 <br/>

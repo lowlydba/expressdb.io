@@ -6,7 +6,7 @@ more features and decreases the limitations of SQL Server Express with every sub
 the more recent the version the more advanced capabilities it will offer.
 
 ::: tip Note
-For now, this means [SQL Express 2019][express2019].
+For now, this means [SQL Express 2022][express2022].
 :::
 
 ## Benefits of Newer Versions
@@ -24,6 +24,7 @@ pursuing the latest version possible when choosing which SQL Express to use. Ver
 | 2016    | 1410MB   | Yes (SP1+)               | Yes (SP1+)       | No                 | No                          | No    | No                    |
 | 2017    | 1410MB   | Yes                      | Yes              | Yes                | No                          | No    | No                    |
 | 2019    | 1410MB   | Yes                      | Yes              | Yes                | Yes                         | Yes   | Yes                   |
+| 2022    | 1410MB   | Yes                      | Yes              | Yes                | Yes                         | Yes   | Yes                   |
 
 ## Compatibility Mode
 
@@ -46,6 +47,7 @@ The options for which levels are available will depend on the version:
 | 2016    | 13             | 130                 | 130, 120, 110, 100
 | 2017    | 14             | 140                 | 140, 130, 120, 110, 100
 | 2019    | 15             | 150                 | 150, 140, 130, 120, 110, 100
+| 2022    | 16             | 160                 | 160, 150, 140, 130, 120, 110, 100
 
 ## Support Lifecycle Policies
 
@@ -68,6 +70,7 @@ It is highly advised to *not* provision any new instances that are already out o
 | 2016    | 7/13/2021                 |
 | 2017    | 10/11/2022                |
 | 2019    | 1/7/2025                  |
+| 2022    | 1/11/2028                 |
 
 ## Further Reading
 
@@ -76,7 +79,7 @@ It is highly advised to *not* provision any new instances that are already out o
 * [SQL Collaborative's Build Reference][sqlcollab]
 
 [compat]: https://docs.microsoft.com/en-us/sql/t-sql/statements/alter-database-transact-sql-compatibility-level
-[express2019]: https://cloudblogs.microsoft.com/sqlserver/2019/11/04/sql-server-2019-is-now-generally-available/
+[express2022]: https://cloudblogs.microsoft.com/sqlserver/2022/11/16/sql-server-2022-is-now-generally-available
 [feature-comparison]: /sql-server-express-feature-comparison.html
 [sqlcollab]: https://sqlcollaborative.github.io/builds
 

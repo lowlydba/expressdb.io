@@ -33,8 +33,8 @@ present and optional settings commented out to provide a generic template that c
 be customized as needed.
 
 * [SQL Server Express 2008, 2012, 2014 Unattended Install](#_2008-2012-2014-unattended-install) (Windows)
-* [SQL Server Express 2016, 2017, 2019 Unattended Install](#_2016-2017-2019-unattended-install) (Windows)
-* [SQL Server Express 2017, 2019 Unattended Install](#_2017-2019-unattended-install-linux) (Linux)
+* [SQL Server Express 2016, 2017, 2019, 2022 Unattended Install](#_2016-2017-2019-2022-unattended-install) (Windows)
+* [SQL Server Express 2017, 2019, 2022 Unattended Install](#_2017-2019-2022-unattended-install-linux) (Linux)
 
 ## 2008, 2012, 2014 Unattended Install
 
@@ -135,7 +135,7 @@ SQLSVCINSTANTFILEINIT="True"
 ; SQLSYSADMINACCOUNTS=""
 ```
 
-## 2016, 2017, 2019 Unattended Install
+## 2016, 2017, 2019, 2022 Unattended Install
 
 The newest versions of SQL Server Express have a configuration file that is
 very similar to prior versions, with the addition of two new optional parameters:
@@ -252,7 +252,7 @@ SQLSVCINSTANTFILEINIT="True"
 ; SQLSYSADMINACCOUNTS=""
 ```
 
-## 2017, 2019 Unattended Install Linux
+## 2017, 2019, 2022 Unattended Install Linux
 
 Microsoft has done an excellent job on documenting an unattended SQL Server installation for Ubuntu, SUSE, and Red Hat.
 
