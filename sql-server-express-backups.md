@@ -64,7 +64,7 @@ EXECUTE dbo.DatabaseBackup
 @Databases = 'USER_DATABASES',
 @Directory = 'C:\Backup',
 @BackupType = 'FULL',
-@Compess = 'Y',
+@Compress = 'Y',
 @LogToTable = 'Y',
 @CleanupTime = 336, --14 days
 @CleanupMode = 'AFTER_BACKUP',
@@ -75,7 +75,7 @@ EXECUTE dbo.DatabaseBackup
 @Databases = 'USER_DATABASES',
 @Directory = 'C:\Backup',
 @BackupType = 'DIFF',
-@Compess = 'Y',
+@Compress = 'Y',
 @LogToTable = 'Y',
 @CleanupTime = 168, --7 days
 @CleanupMode = 'AFTER_BACKUP',
@@ -86,7 +86,7 @@ EXECUTE dbo.DatabaseBackup
 @Databases = 'USER_DATABASES',
 @Directory = 'C:\Backup',
 @BackupType = 'LOG',
-@Compess = 'Y',
+@Compress = 'Y',
 @LogToTable = 'Y',
 @CleanupTime = 168, --7 days
 @CleanupMode = 'AFTER_BACKUP',
@@ -101,7 +101,7 @@ EXECUTE dbo.DatabaseBackup
 @Databases = 'USER_DATABASES',
 @Directory = 'C:\Backup',
 @BackupType = 'FULL',
-@Compess = 'Y',
+@Compress = 'Y',
 @LogToTable = 'Y',
 @CleanupTime = 48, --3 days
 @CleanupMode = 'AFTER_BACKUP',
@@ -112,7 +112,7 @@ EXECUTE dbo.DatabaseBackup
 @Databases = 'USER_DATABASES',
 @Directory = 'C:\Backup',
 @BackupType = 'DIFF',
-@Compess = 'Y',
+@Compress = 'Y',
 @LogToTable = 'Y',
 @CleanupTime = 24, --1 day
 @CleanupMode = 'AFTER_BACKUP',
@@ -123,7 +123,7 @@ EXECUTE dbo.DatabaseBackup
 @Databases = 'USER_DATABASES',
 @Directory = 'C:\Backup',
 @BackupType = 'LOG',
-@Compess = 'Y',
+@Compress = 'Y',
 @LogToTable = 'Y',
 @CleanupTime = 12, --12 hours
 @CleanupMode = 'AFTER_BACKUP',
@@ -138,11 +138,11 @@ EXECUTE dbo.DatabaseBackup
 @Databases = 'USER_DATABASES',
 @Directory = 'C:\Backup',
 @BackupType = 'FULL',
-@Compess = 'Y',
+@Compress = 'Y',
 @LogToTable = 'Y',
 @CleanupTime = 72, --3 days
 @CleanupMode = 'AFTER_BACKUP',
-@Verify = 'Y
+@Verify = 'Y'
 ```
 
 ## Scheduling
