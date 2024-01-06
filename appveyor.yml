@@ -8,52 +8,50 @@ environment:
 install:
   # Get the latest stable version of Node.js or io.js
   - ps: Install-Product node 16
-  
+
   - cmd: yarn install
   - cmd: yarn upgrade
   - cmd: yarn global add vuepress
-  - cmd: yarn add -D @vuepress/plugin-google-analytics
-    
+  - cmd: set NODE_OPTIONS=--openssl-legacy-provider
+
 build_script:
   - cmd: vuepress build
-   
-for:   
--
-  branches:
-    only:
-    - master
-  
-  configuration: Release
-  deploy_script:
-    - ps: >-
-        git config --global credential.helper store
-        
-        Add-Content "$HOME\.git-credentials" "https://$($env:access_token):x-oauth-basic@github.com`n"
-        
-    - cmd: >-
-        mkdir C:\projects\dist\
-        
-        git clone -q --branch=gh-pages https://github.com/lowlydba/expressdb.io.git C:\projects\dist\
-        
-        cd C:\projects\dist\
-        
-        git rm * -r -q
-        
-        xcopy "C:\projects\expressdb-io\.vuepress\dist" "C:\projects\dist" /s
-        
-        git config --global user.email "john@lowlydba.com" 
-        
-        git config --global user.name "John M"
-        
-        git add .
-        
-        git commit -a -m "deploy github pages" -q
-        
-        git push origin gh-pages -f
-    
--
-  branches: 
-   except:
-     - master
 
-  configuration: Test
+for:
+  - branches:
+      only:
+        - master
+
+    configuration: Release
+    deploy_script:
+      - ps: >-
+          git config --global credential.helper store
+
+          Add-Content "$HOME\.git-credentials" "https://$($env:access_token):x-oauth-basic@github.com`n"
+
+      - cmd: >-
+          mkdir C:\projects\dist\
+
+          git clone -q --branch=gh-pages https://github.com/lowlydba/expressdb.io.git C:\projects\dist\
+
+          cd C:\projects\dist\
+
+          git rm * -r -q
+
+          xcopy "C:\projects\expressdb-io\.vuepress\dist" "C:\projects\dist" /s
+
+          git config --global user.email "john@lowlydba.com"
+
+          git config --global user.name "John M"
+
+          git add .
+
+          git commit -a -m "deploy github pages" -q
+
+          git push origin gh-pages -f
+
+  - branches:
+      except:
+        - master
+
+    configuration: Test

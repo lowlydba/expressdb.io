@@ -4,11 +4,11 @@
   "description": "A Vue.js project",
   "main": "src/main.js",
   "private": true,
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "dependencies": {
+    "@vuepress/plugin-google-analytics": "^1.9.10",
+    "browserlist": "^1.0.1",
     "chokidar": "^3.0.0",
-    "vuepress": "^1.9.2",
-    "@vuepress/plugin-google-analytics": "^1.9"
+    "vuepress": "^1.9.10"
   }
 }
