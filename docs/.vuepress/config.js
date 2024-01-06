@@ -4,7 +4,7 @@ import { defaultTheme } from '@vuepress/theme-default'
 
 module.exports = {
 	title: 'Express DB',
-	base: '/expressdb-v2/',
+	base: '/',
 	theme: defaultTheme({
 		navbar: [
 			{ text: 'Home', link: '/' },
@@ -61,7 +61,7 @@ module.exports = {
 	lastUpdated: 'Last Updated',
 	sidebar: 'auto',
 	// Assumes GitHub. Can also be a full GitLab url.
-	repo: 'LowlyDBA/expressdb-v2',
+	repo: 'LowlyDBA/expressdb.io',
 	// Customising the header label
 	// Defaults to "GitHub"/"GitLab"/"Bitbucket" depending on `themeConfig.repo`
 	repoLabel: 'Contribute!',
@@ -72,7 +72,7 @@ module.exports = {
 	// if your docs are not at the root of the repo:
 	docsDir: '/',
 	// if your docs are in a specific branch (defaults to 'master'):
-	docsBranch: 'master',
+	docsBranch: 'main',
 	// defaults to false, set to true to enable
 	editLinks: true,
 	// custom text for edit link. Defaults to "Edit this page"
