@@ -10,9 +10,8 @@ install:
   - ps: Install-Product node 16
 
   - cmd: yarn install
-  - cmd: yarn upgrade
   - cmd: yarn global add vuepress
-  - cmd: set NODE_OPTIONS=--openssl-legacy-provider
+  # - cmd: set NODE_OPTIONS=--openssl-legacy-provider
 
 build_script:
   - cmd: vuepress build
