@@ -9,8 +9,8 @@ install:
   # Get the latest stable version of Node.js or io.js
   - ps: Install-Product node 16
 
-  - cmd: yarn install
   - cmd: yarn global add vuepress
+  - cmd: yarn install
   # - cmd: set NODE_OPTIONS=--openssl-legacy-provider
 
 build_script:

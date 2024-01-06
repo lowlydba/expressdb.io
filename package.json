@@ -4,9 +4,12 @@
   "description": "A Vue.js project",
   "main": "src/main.js",
   "private": true,
-  "devDependencies": {},
+  "devDependencies": {
+    "@vuepress/plugin-last-updated": "^1.9.10"
+  },
   "dependencies": {
     "@vuepress/plugin-google-analytics": "^1.9.10",
+    "@vuepress/plugin-nprogress": "^1.9.10",
     "browserlist": "^1.0.1",
     "chokidar": "^3.0.0",
     "vuepress": "^1.9.10"
