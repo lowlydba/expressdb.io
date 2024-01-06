@@ -1,17 +1,17 @@
 {
   "name": "expressdb",
   "version": "1.0.0",
-  "description": "A Vue.js project",
-  "main": "src/main.js",
-  "private": true,
-  "devDependencies": {
-    "@vuepress/plugin-last-updated": "^1.9.10"
+  "description": "expressdb.io",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "install": "npm install --no-audit --no-fund --loglevel=error --ignore-scripts"
   },
-  "dependencies": {
-    "@vuepress/plugin-google-analytics": "^1.9.10",
-    "@vuepress/plugin-nprogress": "^1.9.10",
-    "browserlist": "^1.0.1",
-    "chokidar": "^3.0.0",
-    "vuepress": "^1.9.10"
-  }
+  "devDependencies": {
+    "@vuepress/plugin-google-analytics": "^2.0.0-rc.0",
+    "vuepress": "^2.0.0-rc.0",
+    "@vuepress/shared-utils": "^1.0.0-rc.1",
+    "@vuepress/theme-default": "^2.0.0-rc.0"
+  },
+  "dependencies": {}
 }
