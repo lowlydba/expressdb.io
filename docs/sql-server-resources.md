@@ -2,19 +2,6 @@
 
 Most open source, all free. Scripts, tools, and resources pertinent to SQL Server and beyond.
 
-- [T-SQL Scripts](#t-sql-scripts)
-- [References](#references)
-- [SSMS Plugins](#ssms-plugins)
-- [Azure Data Studio Extensions](#azure-data-studio-extensions)
-- [Github Actions](#github-actions)
-- [Tools](#tools)
-- [Education](#education)
-- [Articles](#articles)
-  - [AlwaysOn](#alwayson)
-  - [Patterns / Anti-Patterns](#patterns--anti-patterns)
-  - [Misc](#misc)
-- [Other](#other)
-
 ## T-SQL Scripts
 
 - [Ola's Maintenance Scripts](https://github.com/olahallengren/sql-server-maintenance-solution)
