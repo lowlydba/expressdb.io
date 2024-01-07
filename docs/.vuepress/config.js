@@ -88,6 +88,7 @@ module.exports = {
 
 	head: [
 		["script", { src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5732216547676484" }],
+		["script", { src: "/userway.js" }],
 		['link', { rel: 'icon', href: '/favicon.png' }],
 		['meta', { property: 'og:locale', content: 'en_US' }],
 		['meta', { property: 'og:type', content: 'website' }],
