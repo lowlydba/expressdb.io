@@ -1,3 +1,4 @@
+# Unattended Install
 
 ## How Does Unattended Install Work
 
@@ -32,11 +33,11 @@ These examples take those factors into account by having all mandatory fields
 present and optional settings commented out to provide a generic template that can
 be customized as needed.
 
-* [SQL Server Express 2008, 2012, 2014 Unattended Install](#_2008-2012-2014-unattended-install) (Windows)
-* [SQL Server Express 2016, 2017, 2019, 2022 Unattended Install](#_2016-2017-2019-2022-unattended-install) (Windows)
-* [SQL Server Express 2017, 2019, 2022 Unattended Install](#_2017-2019-2022-unattended-install-linux) (Linux)
+* [SQL Server Express 2008, 2012, 2014 Unattended Install](#2008-2014-unattended-install) (Windows)
+* [SQL Server Express 2016, 2017, 2019, 2022 Unattended Install](#2016-2022-unattended-install) (Windows)
+* [SQL Server Express 2017, 2019, 2022 Unattended Install](#2017-2022-unattended-install-linux) (Linux)
 
-## 2008, 2012, 2014 Unattended Install
+## 2008-2014 Unattended Install
 
 The configuration parameters change very little over the years, mostly with
 new options being added and very few being modified or removed. Luckily, this
@@ -135,7 +136,7 @@ SQLSVCINSTANTFILEINIT="True"
 ; SQLSYSADMINACCOUNTS=""
 ```
 
-## 2016, 2017, 2019, 2022 Unattended Install
+## 2016-2022 Unattended Install
 
 The newest versions of SQL Server Express have a configuration file that is
 very similar to prior versions, with the addition of two new optional parameters:
@@ -252,7 +253,7 @@ SQLSVCINSTANTFILEINIT="True"
 ; SQLSYSADMINACCOUNTS=""
 ```
 
-## 2017, 2019, 2022 Unattended Install Linux
+## 2017-2022 Unattended Install Linux
 
 Microsoft has done an excellent job on documenting an unattended SQL Server installation for Ubuntu, SUSE, and Red Hat.
 
@@ -265,6 +266,3 @@ Microsoft has done an excellent job on documenting an unattended SQL Server inst
 * Microsoft's documentation [Install SQL Server from the Command Line](https://docs.microsoft.com/en-us/sql/database-engine/install-windows/install-sql-server-from-the-command-prompt?view=sql-server-2017)
 * Microsoft's [Install SQL Server 2014 using a Configuration File](https://msdn.microsoft.com/library/dd239405(v=sql.120).aspx)
 * SQL CAT Team's [Unattended install and configuration for SQL Server 2017 on Linux](https://blogs.msdn.microsoft.com/sqlcat/2017/10/03/unattended-install-and-configuration-for-sql-server-2017-on-linux/)
-
-<br/>
-<br/>

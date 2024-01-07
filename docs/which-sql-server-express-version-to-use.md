@@ -1,3 +1,4 @@
+# Express Versions
 
 ## Which Express Version to Use
 
@@ -82,6 +83,3 @@ It is highly advised to *not* provision any new instances that are already out o
 [express2022]: https://cloudblogs.microsoft.com/sqlserver/2022/11/16/sql-server-2022-is-now-generally-available
 [feature-comparison]: /sql-server-express-feature-comparison.html
 [sqlcollab]: https://sqlcollaborative.github.io/builds
-
-<br/>
-<br/>

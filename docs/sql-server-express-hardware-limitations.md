@@ -1,5 +1,4 @@
-
-## Hardware Limitations
+# Hardware Limitations
 
 Some of the major restrictions for SQL Server Express are the caps
 on processors and RAM that can be used by an instance. While most people
@@ -74,6 +73,3 @@ price these days.
 ## Further Reading
 
 * Microsoft's [Work with Multiple Versions and Instances of SQL Server](https://docs.microsoft.com/en-us/sql/sql-server/install/work-with-multiple-versions-and-instances-of-sql-server)
-
-<br/>
-<br/>

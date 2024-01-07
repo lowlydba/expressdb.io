@@ -1,5 +1,4 @@
-
-## SQL Server Edition Feature Comparison
+# SQL Server Edition Feature Comparison
 
 The most well known differences between SQL Express and other editions are the
 [caps on database size](/sql-server-express-database-size-limit.html) (10GB) and [lack of a SQL Agent feature](/sql-server-express-replace-sql-agent.html). There are many other
@@ -430,13 +429,5 @@ The complete listing for SQL Server 2008 R2 Express is available from on MSDN 's
 **What is the difference between Basic Auditing and Fine Grained Auditing?**
 
 These terms are only used in Microsoft feature comparison documents, but not SQL Server documentation, so their use is often unclear to many. Basic auditing refers to [server level audits](https://docs.microsoft.com/en-us/sql/t-sql/statements/create-server-audit-transact-sql?view=sql-server-2017) while fine grained auditing refers to [audits at the database level](https://docs.microsoft.com/en-us/sql/t-sql/statements/create-database-audit-specification-transact-sql?view=sql-server-2017).
-
-<br/>
-<br/>
-
-
-
-
-
 
 [PQP]: https://docs.microsoft.com/en-us/sql/relational-databases/query-processing-architecture-guide?view=sql-server-ver15#parallel-query-processing

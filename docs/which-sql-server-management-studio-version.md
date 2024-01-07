@@ -1,3 +1,4 @@
+# SQL Server Management Studio
 
 ## Which SQL Server Management Studio Version to Use
 
@@ -33,8 +34,5 @@ and boasts backwards compatibility with almost all features from versions 2008 t
 
 So even when working with older SQL Server versions, upgrading SQL Server Management Studio
 to the a 18.x version is both supported and recommended.
-
-<br/>
-<br/>
 
 [ssms]: https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms

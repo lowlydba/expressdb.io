@@ -11,13 +11,13 @@ Shoot me a message using the form below, and I'll get back to you as soon as pos
 <form action="https://send.pageclip.co/4VbMDoV02C8aN7vFEjebO1Wbwrl0wRny/Contact" class="pageclip-form" method="post">
 		<div class="form-group">
 			<label>Your Email</label>
-			<br />
+
 			<input required type="email" name="email" placeholder="" />
 		</div>
-		<br />
+
 		<div class="form-group">
 			<label>SQL Server Version</label>
-			<br />
+
 			<select name="version" required="">
 				<option value="complicated">It's complicated...</option>
 				<option value="2012">SQL Server 2012</option>
@@ -30,19 +30,19 @@ Shoot me a message using the form below, and I'll get back to you as soon as pos
 				<option value="Azure">SQL Server RDS</option>
 			</select>
 		</div>
-		<br />
+
 		<div class="form-group">
 			<label>Your problem(s)</label>
-			<br />
+
 			<textarea name="problem" required minlength="10" cols="55" rows="6" placeholder="I need help with..."></textarea>
 		</div>
-		<br />
+
 		<div class="form-group">
 			<label>6 less 3 is equal to what?</label>
-			<br />
+
 			<input type="text" id="human" name="human" value="4" required minlength="1" pattern="[3]{1}">
 		</div>
-	  <br />
+
 	  <button type="submit" class="pageclip-form__submit--dark-loader">
 		<span>Send</span>
 	  </button>

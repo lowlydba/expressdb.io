@@ -1,3 +1,4 @@
+# LocalDB
 
 ## What is LocalDB
 
@@ -49,6 +50,3 @@ done if the application's database needs will not grow over time.
 
  [1]: https://www.visualstudio.com/downloads/
  [sqlexpress]: https://www.microsoft.com/en-us/sql-server/sql-server-editions-express
-
-<br/>
-<br/>

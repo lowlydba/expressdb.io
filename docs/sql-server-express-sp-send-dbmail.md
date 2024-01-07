@@ -1,5 +1,5 @@
 
-## Mail without SQL Agent
+# Mail without SQL Agent
 
 While SQL Server Express is still 100% able to send mail using msdb's stored procedures,
 most people rely on Management Studio's GUI and the Database Mail feature to do the initial setup of profiles and accounts
@@ -97,6 +97,3 @@ EXECUTE msdb.dbo.sp_send_dbmail
 @subject = 'Test Mail from SQL Express',
 @body = 'Hello world!';
 ```
-
-<br/>
-<br/>

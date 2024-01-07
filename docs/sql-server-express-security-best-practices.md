@@ -1,5 +1,5 @@
 
-## Express vs Other Editions' Security
+# Express vs Other Editions' Security
 
 Conveniently, security best practices for SQL Server Express are almost
 the exact same as they are for any other more fully featured edition.
@@ -15,7 +15,7 @@ Otherwise, standard best practices apply. Since general security is out of the s
 of this site, see the [Further Reading](#further-reading) section at the bottom of this page
 for general security recommendations.
 
-### Enabling Network Connectivity
+## Enabling Network Connectivity
 
 If the Express instance needs to be available on a network, however, the following steps need
 to be completed:
@@ -53,6 +53,3 @@ to be completed:
 * Microsoft Documentation's [Securing SQL Server](https://docs.microsoft.com/en-us/sql/relational-databases/security/securing-sql-server)
 * MSSQLTips' [SQL Server Security Checklist](https://www.mssqltips.com/sqlservertip/3159/sql-server-security-checklist/)
 * Robert Sheldon's [How to Get SQL Server Security Horribly Wrong](https://www.red-gate.com/simple-talk/sql/database-administration/how-to-get-sql-server-security-horribly-wrong/)
-
-<br/>
-<br/>

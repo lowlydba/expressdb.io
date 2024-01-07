@@ -1,5 +1,4 @@
-
-## SQL Express = No Agent
+# SQL Express = No Agent
 
 One of the biggest feature limitations of SQL Server Express is the exclusion of
 the SQL Agent. Not only does SQL Agent work wonderfully for managing ETL, SSIS,
@@ -140,6 +139,3 @@ While it may be overkill to leverage Airflow *just* for simple backup or mainten
 * [FAQ on Ola Hallengren's Scripts](https://ola.hallengren.com/frequently-asked-questions.html)
 * Microsoft KB on [How to Schedule and Automate Backups of SQL Server Databases in SQL Server Express](https://support.microsoft.com/en-us/help/2019698/how-to-schedule-and-automate-backups-of-sql-server-databases-in-sql-se)
 * Microsoft Documentation on [sqlcmd](https://docs.microsoft.com/en-us/sql/tools/sqlcmd-utility?view=sql-server-2017)
-
-<br/>
-<br/>

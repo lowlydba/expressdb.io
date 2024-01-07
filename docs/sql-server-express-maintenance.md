@@ -1,4 +1,4 @@
-## What goes into a Maintenance Plan?
+# What goes into a Maintenance Plan?
 
 Unlike many other kinds of technology which generally stay static unless a
 change is intentionally applied, databases are always evolving and changing
@@ -111,6 +111,3 @@ reach out via the [contact page](/author/contact/) to get more one-on-one help.
 
 * Brent Ozar's [Tweaking the Defaults for Ola Hallengren’s Maintenance Scripts](https://www.brentozar.com/archive/2014/12/tweaking-defaults-ola-hallengrens-maintenance-scripts/)
 * RedGate's [Automate and Improve Your Database Maintennace Using Ola Hallengren's Free Script](https://www.red-gate.com/simple-talk/sql/database-administration/automate-and-improve-your-database-maintenance-using-ola-hallengrens-free-script/)
-
-<br/>
-<br/>

@@ -12,7 +12,6 @@ Most open source, all free. Scripts, tools, and resources pertinent to SQL Serve
 | [Articles](#articles) |
 | [Other](#other) |
 
-
 ## T-SQL Scripts
 
 - [Ola's Maintenance Scripts](https://github.com/olahallengren/sql-server-maintenance-solution)
@@ -61,19 +60,19 @@ Micosoft curates a list of first and third party extensions [here][ads-extension
 | [DLM Dashboard](http://www.red-gate.com/products/dlm/dlm-dashboard/) | Devops | | [Redgate](https://www.red-gate.com/) |
 | [DBOps](https://github.com/sqlcollaborative/dbops) | Migrations | 👍 | [SQL Collaborative](https://dbatools.io/team/) |
 | [Flyway](https://flywaydb.org/) | Migrations | 👍 | [Axel Fontaine](https://axelfontaine.com/) |
-| [Is It SQL?](http://www.scalesql.com/isitsql/) | Monitoring | | [Bill Graziano](http://www.scalesql.com/about.html) |
+| [Is It SQL?][isitsql] | Monitoring | | [Bill Graziano](http://www.scalesql.com/about.html) |
 | [lowlydba.sqlserver](https://github.com/lowlydba/lowlydba.sqlserver) Ansible collection | Admin | 👍 | [John McCall](https://github.com/lowlydba)
 | [OpServer](https://github.com/opserver/Opserver) | Monitoring | 👍 | [Stack Exchange](https://opserver.github.io/Opserver/) |
 | [Spotlight Cloud Basic](https://www.spotlightcloud.io/pricing) | Monitoring | | [Quest](https://www.quest.com/) |
 | [SQLTop](https://github.com/channeladvisor/sqltop) | Monitoring | 👍 | [Channel Advisor](https://www.channeladvisor.com/)
 | [SQL Watch](https://sqlwatch.io/) | Monitoring | 👍 | [Marcin Gminski](https://marcin.gminski.net/) |
-| [SchemaZen](https://github.com/sethreno/schemazen#schemazen---script-and-create-sql-server-objects-quickly) | Scripting | 👍 | [Seth Reno](https://github.com/sethreno) |
+| [SchemaZen][schemazen] | Scripting | 👍 | [Seth Reno](https://github.com/sethreno) |
 | [mssql-scripter](https://github.com/Microsoft/sql-xplat-cli/) (may be dead) | Scripting | 👍 | Microsoft |
 | [DBDiagram.io](https://dbdiagram.io/) | Sharing | | [holistics.io](https://www.holistics.io) |
 | [Format Text as Table](https://senseful.github.io/text-table/) | Sharing | | [Senseful Solutions](https://senseful.github.io/) |
-| [DBFit](http://www.methodsandtools.com/tools/dbfit.php) | Testing | | [Yavor Nikolov](https://javornikolov.wordpress.com/) |
+| [DBFit][dbfit] | Testing | | [Yavor Nikolov](https://javornikolov.wordpress.com/) |
 | [DB Fiddle](https://dbfiddle.uk/) | Testing/Sharing | | [Jack Douglas](https://douglastechnology.co.uk/) |
-| [SQL Fiddle](http://sqlfiddle.com/) | Testing/Sharing | | [Jake Feasel](http://stackoverflow.com/users/808921/jake-feasel) |
+| [SQL Fiddle][fiddle] | Testing/Sharing | | [Jake Feasel](http://stackoverflow.com/users/808921/jake-feasel) |
 | [SQL Query Stress](https://github.com/ErikEJ/SqlQueryStress) | Testing | 👍 | [Erik Ejlskov Jensen](https://erikej.github.io/)
 | [Paste The Plan](https://pastetheplan.com/) | Tuning/Sharing | | [Brent Ozar Unlimited](https://www.brentozar.com/)
 
@@ -98,7 +97,6 @@ Micosoft curates a list of first and third party extensions [here][ads-extension
 - [T-SQL Code Smells][smelly] by [Phil Factor][phil]
 - [Fighting Evil in Your Code: Comments on Comments](https://www.red-gate.com/simple-talk/opinion/opinion-pieces/fighting-evil-code-comments-comments/) by [Michael Sorens](https://www.red-gate.com/simple-talk/author/michael-sorens/)
 - [The Data Loading Performance Guide][dlpg]
-
 
 ### Misc
 

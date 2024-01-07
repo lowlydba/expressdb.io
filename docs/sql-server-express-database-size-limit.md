@@ -1,3 +1,4 @@
+# Database Limitations
 
 ## Size Limitations
 
@@ -114,6 +115,3 @@ Proper normalization data can greatly reduce the redundancy of data. Often the m
 Since there are always exceptions as to when normalized data or denormalized data is most beneficial, it will depend on the case at hand, but defaulting to normalizing data is generally a good strategy.
 
 [tnf]: https://en.wikipedia.org/wiki/Third_normal_form
-
-<br/>
-<br/>

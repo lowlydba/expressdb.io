@@ -1,3 +1,4 @@
+# Backups
 
 ## What Are the Requirements
 
@@ -148,6 +149,3 @@ EXECUTE dbo.DatabaseBackup
 ## Scheduling
 
 Wondering how to automate these backups? Check out the [Replacing SQL Agent on SQL Server Express](/sql-server-express-replace-sql-agent.html) article for methods to schedule jobs without the SQL Agent.
-
-<br/>
-<br/>

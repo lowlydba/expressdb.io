@@ -1,3 +1,4 @@
+# Express Edition
 
 ## What is SQL Server Express Edition
 
@@ -43,6 +44,3 @@ Here are a few reasons many choose Express over open source alternatives:
 * The option to easily upgrade to a more robust version is always available
 * With every new version, Microsoft adds more features to SQL Express that were previously unavailable
 * SQL Server Management Studio is a top of the line client and is also free
-
-<br/>
-<br/>
