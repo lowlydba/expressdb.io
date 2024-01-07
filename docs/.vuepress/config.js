@@ -88,8 +88,9 @@ module.exports = {
 	],
 
 	head: [
-		["script", { src: "https://cdn.userway.org/widget.js?data-account=GEbanlpDaE" }],
-		["script", { src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5732216547676484" }],
+		"script",
+		["script", { src: "https://cdn.userway.org/widget.js", async: true, "data-account": "GEbanlpDaE" }],
+		["script", { src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5732216547676484", async: true }],
 		['link', { rel: 'icon', href: '/favicon.png' }],
 		['meta', { property: 'og:locale', content: 'en_US' }],
 		['meta', { property: 'og:type', content: 'website' }],
