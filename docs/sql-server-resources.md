@@ -43,14 +43,14 @@ Micosoft curates a list of first and third party extensions [here][ads-extension
 ## Github Actions
 
 | Name | Type | Open Source | Author |
-| ---- | ---- | ----------- | ------ |
+| ---- | ---- | :---------: | ------ |
 | [tsqlt-installer][tsqlt-installer] | Testing | ✅ | [John McCall](https://github.com/lowlydba) |
 | [tsqllint-action][tsqllint-action] | Testing | ✅ | [John McCall](https://github.com/lowlydba) |
 
 ## Tools
 
 | Name | Type | Open Source | Author |
-| ---- | ---- | ----------- | ------ |
+| ---- | ---- | :---------: | ------ |
 | [DBA Tools](https://dbatools.io) | Admin | ✅ | [SQL Collaborative](https://dbatools.io/team/) |
 | [DBA Checks](https://dbachecks.io) | Admin | ✅ | [SQL Collaborative](https://dbatools.io/team/) |
 | [MinionWare](http://www.minionware.net/) | Admin | ❌ | [MinionWare](http://www.minionware.net/meet-the-team/)|
