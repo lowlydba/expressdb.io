@@ -50,6 +50,13 @@ Most open source, all free. Scripts, tools, and resources pertinent to SQL Serve
 
 Micosoft curates a list of first and third party extensions [here][ads-extensions].
 
+## Github Actions
+
+| Name | Type | Open Source | Author |
+| ---- | ---- | ----------- | ------ |
+| [tsqlt-installer][tsqlt-installer] | Testing | 👍 | [John McCall](https://github.com/lowlydba) |
+| [tsqllint-action][tsqllint-action] | Testing | 👍 | [John McCall](https://github.com/lowlydba) |
+
 ## Tools
 
 | Name | Type | Open Source | Author |
@@ -71,6 +78,7 @@ Micosoft curates a list of first and third party extensions [here][ads-extension
 | [DBDiagram.io](https://dbdiagram.io/) | Sharing | | [holistics.io](https://www.holistics.io) |
 | [Format Text as Table](https://senseful.github.io/text-table/) | Sharing | | [Senseful Solutions](https://senseful.github.io/) |
 | [DBFit][dbfit] | Testing | | [Yavor Nikolov](https://javornikolov.wordpress.com/) |
+| [tSQLt][tsqlt] | Testing | 👍 | [SQLity.net](https://sqlity.net/) |
 | [DB Fiddle](https://dbfiddle.uk/) | Testing/Sharing | | [Jack Douglas](https://douglastechnology.co.uk/) |
 | [SQL Fiddle][fiddle] | Testing/Sharing | | [Jake Feasel](http://stackoverflow.com/users/808921/jake-feasel) |
 | [SQL Query Stress](https://github.com/ErikEJ/SqlQueryStress) | Testing | 👍 | [Erik Ejlskov Jensen](https://erikej.github.io/)
@@ -136,6 +144,9 @@ Micosoft curates a list of first and third party extensions [here][ads-extension
 [ssk]: https://github.com/ktaranov/sqlserver-kit
 [swart]: https://michaeljswart.com/about/
 [tal]: https://twitter.com/TalAter
+[tsqllint-action]: https://github.com/lowlydba/tsqllint-action
+[tsqlt]: https://tsqlt.org/
+[tsqlt-installer]: https://github.com/lowlydba/tsqlt-installer
 [upsert]: https://michaeljswart.com/2017/07/sql-server-upsert-patterns-and-antipatterns/
 [phil]: https://www.red-gate.com/simple-talk/author/phil-factor/
 [wwi]: https://github.com/Microsoft/sql-server-samples
