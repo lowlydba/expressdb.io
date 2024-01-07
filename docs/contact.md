@@ -2,48 +2,15 @@
 editLink: false # Will overwrite 'editLinks' from themeConfig
 ---
 
-# Send a SQL SOS
+# Send a SQL S-O-S
 
-::: tip Need more help?
-Shoot me a message using the form below, and I'll get back to you as soon as possible. I offer extremely flexible consulting packages and rates.
-:::
+Send me a message at
 
-<form action="https://send.pageclip.co/4VbMDoV02C8aN7vFEjebO1Wbwrl0wRny/Contact" class="pageclip-form" method="post">
-		<div class="form-group">
-			<label>Your Email</label>
+<!-- markdownlint-disable MD033 -->
+> john<span style="display:none">bloop</span> at expressdb dot io
+<!-- markdownlint-enable MD033 -->
 
-			<input required type="email" name="email" placeholder="" />
-		</div>
+or DM `@lowlydba` on the [SQL Server Community Slack][slack] if you're in need of consulting or further advice. See my [GitHub profile][github] for other contact methods.
 
-		<div class="form-group">
-			<label>SQL Server Version</label>
-
-			<select name="version" required="">
-				<option value="complicated">It's complicated...</option>
-				<option value="2012">SQL Server 2012</option>
-				<option value="2014">SQL Server 2014</option>
-				<option value="2016">SQL Server 2016</option>
-				<option value="2017">SQL Server 2017</option>
-				<option value="2019">SQL Server 2019</option>
-				<option value="2022">SQL Server 2022</option>
-				<option value="Azure">Azure SQL</option>
-				<option value="Azure">SQL Server RDS</option>
-			</select>
-		</div>
-
-		<div class="form-group">
-			<label>Your problem(s)</label>
-
-			<textarea name="problem" required minlength="10" cols="55" rows="6" placeholder="I need help with..."></textarea>
-		</div>
-
-		<div class="form-group">
-			<label>6 less 3 is equal to what?</label>
-
-			<input type="text" id="human" name="human" value="4" required minlength="1" pattern="[3]{1}">
-		</div>
-
-	  <button type="submit" class="pageclip-form__submit--dark-loader">
-		<span>Send</span>
-	  </button>
-	</form>
+[slack]: https://sqlcommunity.slack.com/
+[github]: https://github.com/lowlydba
