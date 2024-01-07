@@ -38,17 +38,17 @@ module.exports = {
       {
         text: 'Automation',
         children: [
-          { text: 'Replacing SQL Agent', link: '/sql-server-express-replace-sql-agent' },
-          { text: 'Unattended Installation', link: '/sql-server-express-unattended-install' }
+          { text: 'Replacing SQL Agent', link: '/sql-server-express-replace-sql-agent.html' },
+          { text: 'Unattended Installation', link: '/sql-server-express-unattended-install.html' }
         ]
       },
       {
         text: 'Tools & Resources',
         children: [
-          { text: 'Scripts, Apps, and Resources', link: '/sql-server-resources' },
+          { text: 'Scripts, Apps, and Resources', link: '/sql-server-resources.html' },
           { text: 'DBA MultiTool', link: 'https://dba-multitool.org' },
-          { text: 'Azure Data Studio', link: '/azure-data-studio.' },
-          { text: 'SQL Server Management Studio', link: '/which-sql-server-management-studio-version' }
+          { text: 'Azure Data Studio', link: '/azure-data-studio.html' },
+          { text: 'SQL Server Management Studio', link: '/which-sql-server-management-studio-version.html' }
         ]
       },
       {
