@@ -1,16 +1,19 @@
-# Tools and Scripts
+# Tools and Scripts <!-- omit from toc -->
 
 Most open source, all free. Scripts, tools, and resources pertinent to SQL Server and beyond.
 
-| **Table of Contents** |
-| --------------------- |
-| [T-SQL Scripts](#t-sql-scripts) |
-| [References](#references) |
-| [SSMS Plugins](#ssms-plugins) |
-| [Tools](#tools) |
-| [Education](#education) |
-| [Articles](#articles) |
-| [Other](#other) |
+- [T-SQL Scripts](#t-sql-scripts)
+- [References](#references)
+- [SSMS Plugins](#ssms-plugins)
+- [Azure Data Studio Extensions](#azure-data-studio-extensions)
+- [Github Actions](#github-actions)
+- [Tools](#tools)
+- [Education](#education)
+- [Articles](#articles)
+  - [AlwaysOn](#alwayson)
+  - [Patterns / Anti-Patterns](#patterns--anti-patterns)
+  - [Misc](#misc)
+- [Other](#other)
 
 ## T-SQL Scripts
 

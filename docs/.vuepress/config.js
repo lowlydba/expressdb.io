@@ -46,7 +46,8 @@ module.exports = {
 				children: [
 					{ text: 'Scripts, Apps, and Resources', link: '/sql-server-resources.html' },
 					{ text: 'DBA MultiTool', link: 'https://dba-multitool.org' },
-					{ text: 'Azure Data Studio', link: '/azure-data-studio.html' }
+					{ text: 'Azure Data Studio', link: '/azure-data-studio.html' },
+					{ text: 'SQL Server Management Studio', link: '/which-sql-server-management-studio-version.html' }
 				]
 			},
 			{
@@ -87,8 +88,8 @@ module.exports = {
 	],
 
 	head: [
+		["script", { src: "https://cdn.userway.org/widget.js?data-account=GEbanlpDaE" }],
 		["script", { src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5732216547676484" }],
-		["script", { src: "/userway.js" }],
 		['link', { rel: 'icon', href: '/favicon.png' }],
 		['meta', { property: 'og:locale', content: 'en_US' }],
 		['meta', { property: 'og:type', content: 'website' }],
