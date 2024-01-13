@@ -47,8 +47,7 @@ module.exports = {
         children: [
           { text: 'Scripts, Apps, and Resources', link: '/sql-server-resources.html' },
           { text: 'DBA MultiTool', link: 'https://dba-multitool.org' },
-          { text: 'Azure Data Studio', link: '/azure-data-studio.html' },
-          { text: 'SQL Server Management Studio', link: '/which-sql-server-management-studio-version.html' }
+          { text: 'Azure Data Studio', link: '/azure-data-studio.html' }
         ]
       },
       {
